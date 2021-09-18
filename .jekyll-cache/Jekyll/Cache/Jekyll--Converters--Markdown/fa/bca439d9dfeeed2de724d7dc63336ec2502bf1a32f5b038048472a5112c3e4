@@ -1,0 +1,11 @@
+I"3<p>Summary of alterations:</p>
+<ul>
+  <li>Content objects re-termed content items.</li>
+  <li>The tagging system is not applied to layers but rather to links.
+    <ul>
+      <li>Additionally, layers and tag links can be untitled.</li>
+    </ul>
+  </li>
+  <li>Stack view is not three-dimensional.</li>
+</ul>
+:ET

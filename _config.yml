@@ -1,0 +1,57 @@
+site: MSc Project Weblog
+url:
+title: A Construct for Tinkering With Digital Text
+author: Rebecca Rui
+description:
+permalink: /:slug
+author:
+  name: Rebecca Rui
+  email: #youremail
+  url: rebeccarui.crypto
+
+baseurl: "/msc_project_weblog"
+
+# highlighter: none
+
+exclude:
+  - .jekyll-cache
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
