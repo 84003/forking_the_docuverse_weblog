@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-09-18T10:50:47+02:00</updated>
+ <updated>2021-09-22T20:33:12+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -101,7 +101,7 @@
 
 &lt;p&gt;&lt;strong&gt;Link&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The length of a link reflects the number of links between the content objects across documents. Those documents that have the most links between them therefore form clusters.&lt;/p&gt;
+&lt;p&gt;The thickness of a link reflects the number of links between the content objects across documents.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/BP_03.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
