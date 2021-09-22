@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-09-22T20:33:12+02:00</updated>
+ <updated>2021-09-22T20:39:18+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -131,7 +131,7 @@
 
 &lt;p&gt;In the image below there are several links between the layers. As defined in the &lt;a href=&quot;boundaries-of-documents-and-reflecting-interconnection&quot;&gt;previous entry&lt;/a&gt;, there are two general types of connections that cross the boundaries of documents: those that are transclusions (identical extracts in separate documents), and those that are not. In the image below, these two types are visually distinguished by dot-line-dot links and side-surface links.&lt;/p&gt;
 
-&lt;p&gt;*Note: it is important that these are visually distinguished but the visualization is subject to change.&lt;/p&gt;
+&lt;p&gt;✱ it is important that these are visually distinguished but the visualization is subject to change.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/BP_C.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
