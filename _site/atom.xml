@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-09-22T20:39:18+02:00</updated>
+ <updated>2021-09-26T21:19:17+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -13,11 +13,11 @@
 
  
  <entry>
-   <title>Alterations to the Design</title>
+   <title>Designing the Construct: Content Items and Link Types</title>
    <link href="/msc_project_weblog/05"/>
    <updated>2021-09-16T00:00:00+02:00</updated>
    <id>/05</id>
-   <content type="html">&lt;p&gt;Summary of alterations:&lt;/p&gt;
+   <content type="html">&lt;p&gt;Summary of alterations to the design:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Content objects re-termed content items.&lt;/li&gt;
   &lt;li&gt;The tagging system is not applied to layers but rather to links.
@@ -25,7 +25,7 @@
       &lt;li&gt;Additionally, layers and tag links can be untitled.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Stack view is not three-dimensional.&lt;/li&gt;
+  &lt;li&gt;Stack view is to be redesigned.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;content-items-and-link-types&quot;&gt;Content Items and Link Types&lt;/h2&gt;
@@ -44,7 +44,7 @@
 &lt;h3 id=&quot;1-transclusions&quot;&gt;1. Transclusions&lt;/h3&gt;
 &lt;p&gt;Transclusion links are created when extracting a text segment from one document and inserting it into another document. Traditionally these are called excerpts and typographically classified as block quotes or inline quotes, and the link between the “copied” and the “pasted” is usually embedded as a citation.&lt;/p&gt;
 
-&lt;p&gt;Similar to how Ted Nelson envisioned links in his hypertext system Xanadu, within the construct a transclusion link is visualized as a line between documents. The image below shows the concept of transclusion; how transcluded content items are encoded and rendered.&lt;/p&gt;
+&lt;p&gt;Similar to how Ted Nelson envisioned links in his hypertext system Xanadu, within the construct, a transclusion link is visualized as a line between documents. The image below shows the concept of transclusion on a technical level.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/link_types_02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -55,13 +55,11 @@
  </entry>
  
  <entry>
-   <title>Designing the Construct</title>
+   <title>Designing the Construct: Components and View Modes</title>
    <link href="/msc_project_weblog/04"/>
    <updated>2021-08-18T00:00:00+02:00</updated>
    <id>/04</id>
-   <content type="html">&lt;h2 id=&quot;components-and-view-modes&quot;&gt;Components and View Modes&lt;/h2&gt;
-
-&lt;p&gt;View modes are different levels of perspective on documents. In addition, the two view modes differ in the components used for representing the concept of a document.&lt;/p&gt;
+   <content type="html">&lt;p&gt;View modes are different levels of perspective on documents. In addition, the two view modes differ in the components used for representing the concept of a document.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;Inventory View&lt;/strong&gt;
@@ -87,7 +85,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;1-inventory-view&quot;&gt;1. Inventory View&lt;/h3&gt;
+&lt;h2 id=&quot;1-inventory-view&quot;&gt;1. Inventory View&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/BP_01.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -107,7 +105,7 @@
 
 &lt;p&gt;As seen in the image above, from Inventory View it is possible to select nodes to create a stack and enter Stack View.&lt;/p&gt;
 
-&lt;h3 id=&quot;2-stack-view&quot;&gt;2. Stack View&lt;/h3&gt;
+&lt;h2 id=&quot;2-stack-view&quot;&gt;2. Stack View&lt;/h2&gt;
 
 &lt;p&gt;A &lt;strong&gt;stack&lt;/strong&gt; is made up of a set of documents represented as &lt;strong&gt;layers&lt;/strong&gt; that contain &lt;strong&gt;content objects&lt;/strong&gt;.&lt;/p&gt;
 
@@ -147,7 +145,7 @@
 
 &lt;p&gt;While in Stack View it is possible to merge all or a selection of layers. The arrangement of the stack will determine how the layers are merged.&lt;/p&gt;
 
-&lt;h3 id=&quot;3-merge-mode&quot;&gt;3. Merge Mode&lt;/h3&gt;
+&lt;h2 id=&quot;3-merge-mode&quot;&gt;3. Merge Mode&lt;/h2&gt;
 
 &lt;p&gt;In the image below, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#MAIN&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#COMMENTS&lt;/code&gt; are merged side by side.&lt;/p&gt;
 

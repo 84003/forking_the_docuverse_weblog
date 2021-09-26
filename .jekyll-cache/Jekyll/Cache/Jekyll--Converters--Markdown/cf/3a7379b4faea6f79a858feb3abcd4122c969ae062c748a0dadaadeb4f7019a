@@ -1,4 +1,4 @@
-I"�<p>Summary of alterations:</p>
+I"�<p>Summary of alterations to the design:</p>
 <ul>
   <li>Content objects re-termed content items.</li>
   <li>The tagging system is not applied to layers but rather to links.
@@ -6,7 +6,7 @@
       <li>Additionally, layers and tag links can be untitled.</li>
     </ul>
   </li>
-  <li>Stack view is not three-dimensional.</li>
+  <li>Stack view is to be redesigned.</li>
 </ul>
 
 <h2 id="content-items-and-link-types">Content Items and Link Types</h2>
@@ -25,7 +25,7 @@
 <h3 id="1-transclusions">1. Transclusions</h3>
 <p>Transclusion links are created when extracting a text segment from one document and inserting it into another document. Traditionally these are called excerpts and typographically classified as block quotes or inline quotes, and the link between the “copied” and the “pasted” is usually embedded as a citation.</p>
 
-<p>Similar to how Ted Nelson envisioned links in his hypertext system Xanadu, within the construct a transclusion link is visualized as a line between documents. The image below shows the concept of transclusion; how transcluded content items are encoded and rendered.</p>
+<p>Similar to how Ted Nelson envisioned links in his hypertext system Xanadu, within the construct, a transclusion link is visualized as a line between documents. The image below shows the concept of transclusion on a technical level.</p>
 
 <p><img src="assets/link_types_02.png" alt="" /></p>
 

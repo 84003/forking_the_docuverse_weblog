@@ -1,4 +1,4 @@
-I"3<p>Summary of alterations:</p>
+I"<<p>Summary of alterations to the design:</p>
 <ul>
   <li>Content objects re-termed content items.</li>
   <li>The tagging system is not applied to layers but rather to links.
@@ -6,6 +6,6 @@
       <li>Additionally, layers and tag links can be untitled.</li>
     </ul>
   </li>
-  <li>Stack view is not three-dimensional.</li>
+  <li>Stack view is to be redesigned.</li>
 </ul>
 :ET

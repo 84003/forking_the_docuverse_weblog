@@ -1,6 +1,4 @@
-I".<h2 id="components-and-view-modes">Components and View Modes</h2>
-
-<p>View modes are different levels of perspective on documents. In addition, the two view modes differ in the components used for representing the concept of a document.</p>
+I"ë<p>View modes are different levels of perspective on documents. In addition, the two view modes differ in the components used for representing the concept of a document.</p>
 
 <ol>
   <li><strong>Inventory View</strong>
@@ -26,7 +24,7 @@
   </li>
 </ol>
 
-<h3 id="1-inventory-view">1. Inventory View</h3>
+<h2 id="1-inventory-view">1. Inventory View</h2>
 
 <p><img src="assets/BP_01.png" alt="" /></p>
 
@@ -46,7 +44,7 @@
 
 <p>As seen in the image above, from Inventory View it is possible to select nodes to create a stack and enter Stack View.</p>
 
-<h3 id="2-stack-view">2. Stack View</h3>
+<h2 id="2-stack-view">2. Stack View</h2>
 
 <p>A <strong>stack</strong> is made up of a set of documents represented as <strong>layers</strong> that contain <strong>content objects</strong>.</p>
 
@@ -86,7 +84,7 @@
 
 <p>While in Stack View it is possible to merge all or a selection of layers. The arrangement of the stack will determine how the layers are merged.</p>
 
-<h3 id="3-merge-mode">3. Merge Mode</h3>
+<h2 id="3-merge-mode">3. Merge Mode</h2>
 
 <p>In the image below, <code class="language-plaintext highlighter-rouge">#MAIN</code> and <code class="language-plaintext highlighter-rouge">#COMMENTS</code> are merged side by side.</p>
 
