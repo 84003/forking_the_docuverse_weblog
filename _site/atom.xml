@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-09-26T21:19:17+02:00</updated>
+ <updated>2021-09-26T21:23:38+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -20,7 +20,7 @@
    <content type="html">&lt;p&gt;Summary of alterations to the design:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Content objects re-termed content items.&lt;/li&gt;
-  &lt;li&gt;The tagging system is not applied to layers but rather to links.
+  &lt;li&gt;The tagging system is also applied to links (called Tag Links)
     &lt;ul&gt;
       &lt;li&gt;Additionally, layers and tag links can be untitled.&lt;/li&gt;
     &lt;/ul&gt;
