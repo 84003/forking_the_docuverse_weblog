@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-09-26T21:23:38+02:00</updated>
+ <updated>2021-09-26T21:54:33+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -162,11 +162,35 @@
  </entry>
  
  <entry>
-   <title>On the Boundaries of Documents and Reflecting Interconnection</title>
+   <title>On Interconnection and the Boundary of Documents</title>
    <link href="/msc_project_weblog/03"/>
    <updated>2021-08-13T00:00:00+02:00</updated>
    <id>/03</id>
    <content type="html">&lt;p&gt;✱ This entry is the background research for the design of the construct. It will cover historical examples of dealing with interconnection, both paper and digital media.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-concept-of-a-document-and-its-many-forms&quot;&gt;The Concept of a Document and Its Many Forms&lt;/h3&gt;
+
+&lt;!-- ![[MSc Document 04 – Drafting the Main Text#What is a document]] --&gt;
+
+&lt;h3 id=&quot;interconnection-crisscrossing-document-boundaries&quot;&gt;Interconnection: Crisscrossing Document Boundaries&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Encyclopédie by Denis Diderot and Jean d’Alembert
+    &lt;ul&gt;
+      &lt;li&gt;18th&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The concepts and (the metaphorical visualizations of) information technologies of Paul Otlet
+    &lt;ul&gt;
+      &lt;li&gt;mid-19th to mid-20th&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The main ideas of Xanadu by Ted Nelson
+    &lt;ul&gt;
+      &lt;li&gt;mid-20th to present&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 </content>
  </entry>
  
