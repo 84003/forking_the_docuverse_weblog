@@ -1,4 +1,4 @@
-I"ë<p>View modes are different levels of perspective on documents. In addition, the two view modes differ in the components used for representing the concept of a document.</p>
+I"½<p>View modes are different levels of perspective on documents. In addition, the two view modes differ in the components used for representing the concept of a document.</p>
 
 <ol>
   <li><strong>Inventory View</strong>
@@ -30,8 +30,6 @@
 
 <p>In this view mode the entire inventory is visible and represented as a diagram in which a <strong>node</strong> denotes a document and a <strong>link</strong> denotes connections of varying types (specified below).</p>
 
-<p><img src="assets/BP_02.png" alt="" /></p>
-
 <p><strong>Node</strong></p>
 
 <p>The size of a node reflects the number of content objects it contains (i.e. the size of the document).</p>
@@ -40,7 +38,7 @@
 
 <p>The thickness of a link reflects the number of links between the content objects across documents.</p>
 
-<p><img src="assets/BP_03.png" alt="" /></p>
+<p><img src="assets/BP_02.png" alt="" /></p>
 
 <p>As seen in the image above, from Inventory View it is possible to select nodes to create a stack and enter Stack View.</p>
 

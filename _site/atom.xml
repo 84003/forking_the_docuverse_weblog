@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-09-26T21:54:33+02:00</updated>
+ <updated>2021-09-28T09:17:17+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -91,8 +91,6 @@
 
 &lt;p&gt;In this view mode the entire inventory is visible and represented as a diagram in which a &lt;strong&gt;node&lt;/strong&gt; denotes a document and a &lt;strong&gt;link&lt;/strong&gt; denotes connections of varying types (specified below).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/BP_02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;Node&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;The size of a node reflects the number of content objects it contains (i.e. the size of the document).&lt;/p&gt;
@@ -101,7 +99,7 @@
 
 &lt;p&gt;The thickness of a link reflects the number of links between the content objects across documents.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/BP_03.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/BP_02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As seen in the image above, from Inventory View it is possible to select nodes to create a stack and enter Stack View.&lt;/p&gt;
 
