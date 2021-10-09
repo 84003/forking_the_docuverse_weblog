@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-01T20:44:27+02:00</updated>
+ <updated>2021-10-09T11:13:09+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -125,7 +125,7 @@
 
 &lt;p&gt;&lt;strong&gt;Link Types&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In the image below there are several links between the layers. As defined in the &lt;a href=&quot;boundaries-of-documents-and-reflecting-interconnection&quot;&gt;previous entry&lt;/a&gt;, there are two general types of connections that cross the boundaries of documents: those that are transclusions (identical extracts in separate documents), and those that are not. In the image below, these two types are visually distinguished by dot-line-dot links and side-surface links.&lt;/p&gt;
+&lt;p&gt;In the image below there are several links between the layers. As defined in the &lt;a href=&quot;3&quot;&gt;previous entry&lt;/a&gt;, there are two general types of connections that cross the boundaries of documents: those that are transclusions (identical extracts in separate documents), and those that are not. In the image below, these two types are visually distinguished by dot-line-dot links and side-surface links.&lt;/p&gt;
 
 &lt;p&gt;✱ it is important that these are visually distinguished but the visualization is subject to change.&lt;/p&gt;
 
@@ -267,7 +267,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Otlet conceptualized text as modular — made up of parts connected to other parts (internal and external to a document). An appropriate system, according to Otlet, must therefore allow and facilitate establishing links between these &lt;em&gt;parts&lt;/em&gt; (content objects). In designing such a system, Otlet explored the re-conceptualization of the Book as a global system of documents. As told by Van den Heuvel and Rayward (2011):&lt;/p&gt;
+&lt;p&gt;Otlet conceptualized text as modular — made up of parts connected to other parts (internal and external to a document). An appropriate system, according to Otlet, must therefore allow and facilitate establishing links between these &lt;em&gt;parts&lt;/em&gt; (content objects). In designing such a system, Otlet explored the re-conceptualization of the Book as a global system of documents. As told by Heuvel and Rayward (2011):&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;In a 1911 lecture on the future of the book and of bibliography, Otlet came back to the idea he had first expressed in 1892 and in subsequent publications: ‘The arbitrary division into lines and pages of the book in its present format, does not at all correspond all with the presentation of ideas’ (p. 291). He envisioned the emergence of a future format of the book in which ‘each intellectual element, in corresponding to a physical element, will create a structure such that any combination of ideas, notions, and facts will be possible.’ He suggested that this process can operate in so mechanical a fashion that in the future, the book will truly become a machine to think with (“machine à penser;” Otlet, 1911, p. 291).&lt;/p&gt;
@@ -281,7 +281,7 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/the-book-in-connection-with-the-library-the-bibliographic-repertory-and-encyclopedia.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Global Network of Universal Documentation (transcluded from Van den Heuvel and Rayward (2011))&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Global Network of Universal Documentation (transcluded from Heuvel and Rayward (2011))&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_raite_de_documentation.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -289,15 +289,15 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_card_experiments.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Multidimensional card system  (transcluded from Van den Heuvel and Rayward (2011))&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Multidimensional card system  (transcluded from Heuvel and Rayward (2011))&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;As Otlet writes:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;To increase the number of sides, one might well abandon the rectangular form of the card and adopt a polygonal form, an octagon for example. For sorting and systematically selecting the ideas that have been classified hierarchically, the cards are suspended from their centre. The Book as a structure of cards thus takes a quasi-circular form and can rotate. [I]ts structure […] constitutes a Book—for it is still a book—that has abandoned the traditional form of linear text arranged according to a unique plan. It has been transformed in some way into a body with several dimensions, as many dimensions as headings such that different searches using the same graphic elements on the cards are possible. (Otlet transcluded from Van den Heuvel and Rayward (2011))&lt;/p&gt;
+  &lt;p&gt;To increase the number of sides, one might well abandon the rectangular form of the card and adopt a polygonal form, an octagon for example. For sorting and systematically selecting the ideas that have been classified hierarchically, the cards are suspended from their centre. The Book as a structure of cards thus takes a quasi-circular form and can rotate. [I]ts structure […] constitutes a Book—for it is still a book—that has abandoned the traditional form of linear text arranged according to a unique plan. It has been transformed in some way into a body with several dimensions, as many dimensions as headings such that different searches using the same graphic elements on the cards are possible. (Otlet transcluded from Heuvel and Rayward (2011))&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;As Van den Heuvel and Rayward (2011) point out, though the material manifestation of such a paper card system is “impractical for many reasons,” what Otlet is describing is an open system for mapping and accessing content based on the interconnection of subjects. Beyond these experiments with paper cards, Otlet envisioned new approaches to accessing content and new visual representations. For example, in the image below, “Otlet uses the architectural metaphor of the factory to visualize this process” (Van den Heuvel 2017).&lt;/p&gt;
+&lt;p&gt;As Heuvel and Rayward (2011) point out, though the material manifestation of such a paper card system is “impractical for many reasons,” what Otlet is describing is an open system for mapping and accessing content based on the interconnection of subjects. Beyond these experiments with paper cards, Otlet envisioned new approaches to accessing content and new visual representations. For example, in the image below, “Otlet uses the architectural metaphor of the factory to visualize this process” (Heuvel 2017).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_mundaneum.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -322,9 +322,9 @@
 
 &lt;p&gt;Le Deuff O, Perret A. Hyperdocumentation: origin and evolution of a concept. JD. 2019;75(6):1463–74.&lt;/p&gt;
 
-&lt;p&gt;Van den Heuvel C. Building Society, Constructing Knowledge, Weaving the Web: Otlet’s Visualizations of a Global Information Society and His Concept of a Universal Civilization. In: Rayward WB, editor. European Modernism and the Information Society: Informing the Present, Understanding the Past. 1st ed. Routledge; 2017&lt;/p&gt;
+&lt;p&gt;Heuvel C van den. Building Society, Constructing Knowledge, Weaving the Web: Otlet’s Visualizations of a Global Information Society and His Concept of a Universal Civilization. In: Rayward WB, editor. European Modernism and the Information Society: Informing the Present, Understanding the Past. 1st ed. Routledge; 2017&lt;/p&gt;
 
-&lt;p&gt;Van den Heuvel C, Rayward WB. Facing interfaces: Paul Otlet’s visualizations of data integration. J. Am. Soc. Inf. Sci. 2011;62(12):2313–26.&lt;/p&gt;
+&lt;p&gt;Heuvel C van den, Rayward WB. Facing interfaces: Paul Otlet’s visualizations of data integration. J. Am. Soc. Inf. Sci. 2011 Dec;62(12):2313–26.&lt;/p&gt;
 
 &lt;p&gt;Manfroid S, Gillen J, Phillips-Batoma PM. The Archives of Paul Otlet: Between Appreciation and Rediscovery, 1944–2013. Library Trends. 2013;62(2):311–28.&lt;/p&gt;
 
@@ -340,7 +340,7 @@
 
 &lt;p&gt;Rosenberg D. History Debugged. In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 91–103.&lt;/p&gt;
 
-&lt;p&gt;Van der Weel A. Changing Our Textual Minds: Towards a Digital Order of Knowledge. Manchester University Press; 2012.&lt;/p&gt;
+&lt;p&gt;Weel A van der. Changing Our Textual Minds: Towards a Digital Order of Knowledge. Manchester University Press; 2012.&lt;/p&gt;
 </content>
  </entry>
  
@@ -369,7 +369,7 @@
   &lt;p&gt;the use of spaces between words. Classical Greek and Roman texts were written in what is called ‘continuous script’, without spaces […] Gradually, an increasing number of design and layout aids were introduced: […] capital letters at the beginning of sentences, line breaks, and a variety of punctuation marks such as commas, semicolons, colons and periods. Also, concepts such as paragraphs and chapters developed into a standardized system that allowed the structure intended by the authors to be transmitted to readers familiar with these standards. (Bruijn 2015)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Conventions particular to paper text are those derived from what Van der Weel calls &lt;em&gt;Order of the Book&lt;/em&gt; — that is, presentation and structure of text based on the form of books and defined by the format of manuscript and print (Weel 2012). Engaging with paper text thus require a familiarity with concepts such as a table of contents, chapters, running headers, page numbers, and the interplay between them. Some such conventions were inherited by digital text.&lt;/p&gt;
+&lt;p&gt;Conventions particular to paper text are those derived from what Weel calls &lt;em&gt;Order of the Book&lt;/em&gt; — that is, presentation and structure of text based on the form of books and defined by the format of manuscript and print (Weel 2012). Engaging with paper text thus require a familiarity with concepts such as a table of contents, chapters, running headers, page numbers, and the interplay between them. Some such conventions were inherited by digital text.&lt;/p&gt;
 
 &lt;h3 id=&quot;so-what-is-meant-by-digital-text&quot;&gt;So what is meant by &lt;em&gt;digital text&lt;/em&gt;?&lt;/h3&gt;
 
@@ -390,6 +390,20 @@
 &lt;p&gt;When engaging with paper text any action is direct. That is, actions such as writing, underlining, erasing, cutting out, pasting in, folding, sorting and resorting, are in a direct relationship between the action, the operations involved in that action, and the perception of that action. In the digital realm, a command — which can be a key stroke, a tap on a touchscreen, a verbal utterance, and so on — can equate a near infinite set of (opaque) operations.&lt;/p&gt;
 
 &lt;p&gt;Given these distinguishing properties, digital text invites tinkering with its parts in ways that are infeasible with text on the paper page. Exploring the potential of these properties of digital text, based on the premise that all texts are interconnected, is the aim of this project.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;Bruijn M de. From Print to Ebooks: A Hybrid Publishing Toolkit for the Arts. 2015.&lt;/p&gt;
+
+&lt;p&gt;Olson DR. Awakening: Reading and Consciousness. The Mind on Paper: Reading, Consciousness and Rationality. Cambridge: Cambridge University Press; 2017.&lt;/p&gt;
+
+&lt;p&gt;Weel A van der. Changing Our Textual Minds: Towards a Digital Order of Knowledge. Manchester University Press; 2012.&lt;/p&gt;
+
+&lt;p&gt;Pea RD. Beyond Amplification: Using the Computer to Reorganize Mental Functioning. Educational Psychologist. 1985;20(4):167–82.&lt;/p&gt;
+
+&lt;p&gt;Sinclair S, Rockwell G. Text Analysis and Visualization: Making Meaning Count. A New Companion to Digital Humanities. 2016. p. 17.&lt;/p&gt;
+
+&lt;p&gt;Zahn C. Digital Design and Learning: Cognitive-Constructivist Perspectives. In: Schwan S, Cress U, editors. The Psychology of Digital Learning. Cham: Springer International Publishing; 2017. p. 147–70.&lt;/p&gt;
 </content>
  </entry>
  
@@ -458,7 +472,7 @@
 &lt;ul&gt;
   &lt;li&gt;Does the construct enable tinkering with the hierarchical presentation of the main text?&lt;/li&gt;
   &lt;li&gt;Does accessing those different structures reflect switching between perspectives on the main text?&lt;/li&gt;
-  &lt;li&gt;Are there potential advantages to how switching between perspectives is implemented?&lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;Are there potential advantages to how switching between perspectives is implemented?&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The evaluation thus contends whether or not the construct demonstrates the above points. Functioning as a preliminary list, additions and modifications are expected throughout the process.&lt;/p&gt;

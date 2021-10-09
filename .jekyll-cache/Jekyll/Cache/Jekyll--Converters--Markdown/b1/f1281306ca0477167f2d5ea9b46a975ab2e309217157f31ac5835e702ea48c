@@ -1,4 +1,4 @@
-I"�<p>The attempt here is to elaborate on the terms used in the <a href="01">previous entry</a>.</p>
+I"H <p>The attempt here is to elaborate on the terms used in the <a href="01">previous entry</a>.</p>
 
 <h3 id="what-is-meant-by-paper-text">What is meant by <em>paper text</em>?</h3>
 
@@ -18,7 +18,7 @@
   <p>the use of spaces between words. Classical Greek and Roman texts were written in what is called ‘continuous script’, without spaces […] Gradually, an increasing number of design and layout aids were introduced: […] capital letters at the beginning of sentences, line breaks, and a variety of punctuation marks such as commas, semicolons, colons and periods. Also, concepts such as paragraphs and chapters developed into a standardized system that allowed the structure intended by the authors to be transmitted to readers familiar with these standards. (Bruijn 2015)</p>
 </blockquote>
 
-<p>Conventions particular to paper text are those derived from what Van der Weel calls <em>Order of the Book</em> — that is, presentation and structure of text based on the form of books and defined by the format of manuscript and print (Weel 2012). Engaging with paper text thus require a familiarity with concepts such as a table of contents, chapters, running headers, page numbers, and the interplay between them. Some such conventions were inherited by digital text.</p>
+<p>Conventions particular to paper text are those derived from what Weel calls <em>Order of the Book</em> — that is, presentation and structure of text based on the form of books and defined by the format of manuscript and print (Weel 2012). Engaging with paper text thus require a familiarity with concepts such as a table of contents, chapters, running headers, page numbers, and the interplay between them. Some such conventions were inherited by digital text.</p>
 
 <h3 id="so-what-is-meant-by-digital-text">So what is meant by <em>digital text</em>?</h3>
 
@@ -39,4 +39,18 @@
 <p>When engaging with paper text any action is direct. That is, actions such as writing, underlining, erasing, cutting out, pasting in, folding, sorting and resorting, are in a direct relationship between the action, the operations involved in that action, and the perception of that action. In the digital realm, a command — which can be a key stroke, a tap on a touchscreen, a verbal utterance, and so on — can equate a near infinite set of (opaque) operations.</p>
 
 <p>Given these distinguishing properties, digital text invites tinkering with its parts in ways that are infeasible with text on the paper page. Exploring the potential of these properties of digital text, based on the premise that all texts are interconnected, is the aim of this project.</p>
+
+<h3 id="references">References</h3>
+
+<p>Bruijn M de. From Print to Ebooks: A Hybrid Publishing Toolkit for the Arts. 2015.</p>
+
+<p>Olson DR. Awakening: Reading and Consciousness. The Mind on Paper: Reading, Consciousness and Rationality. Cambridge: Cambridge University Press; 2017.</p>
+
+<p>Weel A van der. Changing Our Textual Minds: Towards a Digital Order of Knowledge. Manchester University Press; 2012.</p>
+
+<p>Pea RD. Beyond Amplification: Using the Computer to Reorganize Mental Functioning. Educational Psychologist. 1985;20(4):167–82.</p>
+
+<p>Sinclair S, Rockwell G. Text Analysis and Visualization: Making Meaning Count. A New Companion to Digital Humanities. 2016. p. 17.</p>
+
+<p>Zahn C. Digital Design and Learning: Cognitive-Constructivist Perspectives. In: Schwan S, Cress U, editors. The Psychology of Digital Learning. Cham: Springer International Publishing; 2017. p. 147–70.</p>
 :ET
