@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-18T11:24:48+02:00</updated>
+ <updated>2021-10-18T12:37:01+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -21,11 +21,11 @@
 
 &lt;h2 id=&quot;inventory-view-and-vertical-and-lateral-modes&quot;&gt;Inventory View and Vertical and Lateral Modes&lt;/h2&gt;
 
-&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. This is similar to how clicking a bookmarked url in a web browser opens a page, if another bookmarked url is clicked, it replaces that page. It is also possible to open a new tab, but the difference here is that the documents are opened on the same plane and the links are visualized.&lt;/p&gt;
+&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. This is similar to how selecting a bookmarked url in a web browser opens a website, if another bookmarked url is selected, it replaces the displayed website. It is also possible to open a new tab, but the difference here is that the documents are opened on the same plane and the links are visualized.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_select_expand.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In the image above the linked documents are always visible and join in the middle of the open document. The image below shows an alternate version in which the linked documents are only visible when hovering on a specific link in the open document (called Vertical View).&lt;/p&gt;
+&lt;p&gt;In the image above, the linked documents are always visible and join in the middle of the open document. The image below shows an alternate version in which the linked documents are only visible when hovering on a specific link in the open document (called Vertical View).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_inventory_vertical_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -33,7 +33,7 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_inventory_to_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Lateral Mode (taken from what is called the lateral reading strategy) enables checking the original context of a transcluded content item. Through tag links it is possible to sort which link types are to be displayed. This means it is also possible to travel by a link-path.&lt;/p&gt;
+&lt;p&gt;Lateral Mode (taken from what is called lateral reading strategy) enables checking the original context of a transcluded content item. Through tag links it is possible to sort which link types are to be displayed. This means it is also possible to travel by a link-path.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_travel_by_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
