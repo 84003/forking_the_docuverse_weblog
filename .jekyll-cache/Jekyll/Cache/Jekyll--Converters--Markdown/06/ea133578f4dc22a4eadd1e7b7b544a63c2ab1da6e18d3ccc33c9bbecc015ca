@@ -1,0 +1,22 @@
+I"x<h2 id="inventory-to-lateral-view">Inventory to Lateral View</h2>
+
+<p>While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. This is similar to how clicking a bookmarked url in a web browser opens a page, if another bookmarked url is clicked, it replaces that page. It is also possible to open a new tab, but the difference here is that the documents are opened on the same plane and the links are visualized.</p>
+
+<p><img src="assets/bp_select_expand.png" alt="" /></p>
+
+<p>If a link is selected from within an open document, the linked document opens and the content items align.</p>
+
+<p><img src="assets/bp_inventory_to_lateral.png" alt="" /></p>
+
+<p>Lateral View (taken from what is called the lateral reading method) enables checking the original context of a transcluded content item. Through tag links it is possible to sort which link types are to be displayed. This means it is also possible to travel by a link-path.</p>
+
+<p><img src="assets/bp_travel_by_links.png" alt="" /></p>
+
+<p>Below is a video demonstration of switching between Inventory View to Lateral View.</p>
+
+<iframe src="https://www.youtube.com/embed/GLRhaRRR_cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="notes">Notes</h2>
+
+<p>The visual appearance will only be the default. In other words, it should be modifiable. Similar to other text editors that allow people to change or make their own theme by editing the css, that should also be possible here.</p>
+:ET

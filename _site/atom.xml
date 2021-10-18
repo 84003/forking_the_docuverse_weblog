@@ -4,13 +4,42 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-09T11:13:09+02:00</updated>
+ <updated>2021-10-18T09:12:43+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Designing the Construct: Switching View Modes and Traveling By Links</title>
+   <link href="/msc_project_weblog/06"/>
+   <updated>2021-10-17T00:00:00+02:00</updated>
+   <id>/06</id>
+   <content type="html">&lt;p&gt;✱ It’s a draft.&lt;/p&gt;
+
+&lt;h2 id=&quot;inventory-to-lateral-view&quot;&gt;Inventory to Lateral View&lt;/h2&gt;
+
+&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. This is similar to how clicking a bookmarked url in a web browser opens a page, if another bookmarked url is clicked, it replaces that page. It is also possible to open a new tab, but the difference here is that the documents are opened on the same plane and the links are visualized.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/bp_select_expand.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If a link is selected from within an open document, the linked document opens and the content items align.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/bp_inventory_to_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lateral View (taken from what is called the lateral reading method) enables checking the original context of a transcluded content item. Through tag links it is possible to sort which link types are to be displayed. This means it is also possible to travel by a link-path.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/bp_travel_by_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a video demonstration of switching between Inventory View to Lateral View.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GLRhaRRR_cM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;!-- The visual appearance will only be the default. In other words, it should be modifiable. Similar to other text editors that allow people to change or make their own theme by editing the css, that should also be possible here. --&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Designing the Construct: Content Items and Link Types</title>
