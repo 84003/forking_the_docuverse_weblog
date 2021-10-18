@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-18T09:12:43+02:00</updated>
+ <updated>2021-10-18T11:20:42+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -19,13 +19,15 @@
    <id>/06</id>
    <content type="html">&lt;p&gt;✱ It’s a draft.&lt;/p&gt;
 
-&lt;h2 id=&quot;inventory-to-lateral-view&quot;&gt;Inventory to Lateral View&lt;/h2&gt;
+&lt;h2 id=&quot;inventory-vertical-and-lateral-view&quot;&gt;Inventory, Vertical, and Lateral View&lt;/h2&gt;
 
 &lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. This is similar to how clicking a bookmarked url in a web browser opens a page, if another bookmarked url is clicked, it replaces that page. It is also possible to open a new tab, but the difference here is that the documents are opened on the same plane and the links are visualized.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_select_expand.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If a link is selected from within an open document, the linked document opens and the content items align.&lt;/p&gt;
+&lt;p&gt;In the image above the linked documents are always visible and join in the middle of the open document. The image below shows an alternate version in which the linked documents are only visible when hovering on a specific link in the open document. In both versions, if a link is selected from within an open document, the linked document opens and the content items align in Lateral View.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/bp_inventory_vertical_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_inventory_to_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
