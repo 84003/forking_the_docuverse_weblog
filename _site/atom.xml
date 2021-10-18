@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-18T12:37:01+02:00</updated>
+ <updated>2021-10-18T14:37:19+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -41,7 +41,19 @@
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GLRhaRRR_cM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;!-- The visual appearance will only be the default. In other words, it should be modifiable. Similar to other text editors that allow people to change or make their own theme by editing the css, that should also be possible here. --&gt;
+&lt;h2 id=&quot;other-attempts&quot;&gt;Other Attempts&lt;/h2&gt;
+
+&lt;h3 id=&quot;01-bounce-transition-and-vertical-links&quot;&gt;01 Bounce Transition and Vertical Links&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mS90u173WOY?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;02-slow-transition-and-hover-link-to-scale-node&quot;&gt;02 Slow Transition and Hover Link to Scale Node&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-fDsP9OiBDU?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;03-slow-transition-and-fadeout-links&quot;&gt;03 Slow Transition and Fadeout Links&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5ClUV5wzWxc?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </content>
  </entry>
  
