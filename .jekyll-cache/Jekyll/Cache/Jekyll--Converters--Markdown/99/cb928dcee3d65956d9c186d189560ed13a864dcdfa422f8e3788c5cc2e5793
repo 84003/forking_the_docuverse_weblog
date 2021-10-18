@@ -1,0 +1,42 @@
+I"�<p>✱ It’s a draft.</p>
+
+<h2 id="inventory-view-and-vertical-and-lateral-modes">Inventory View and Vertical and Lateral Modes</h2>
+
+<p>While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. This is similar to how selecting a bookmarked url in a web browser opens a website, if another bookmarked url is selected, it replaces the displayed website. It is also possible to open a new tab, but the difference here is that the documents are opened on the same plane and the links are visualized.</p>
+
+<p><img src="assets/bp_select_expand.png" alt="" /></p>
+
+<p>In the image above, the linked documents are always visible and join in the middle of the open document. The image below shows an alternate version in which the linked documents are only visible when hovering on a specific link in the open document (called Vertical View).</p>
+
+<p><img src="assets/bp_inventory_vertical_lateral.png" alt="" /></p>
+
+<p>In both versions, if a link is selected from within an open document, the linked document opens and the content items align in Lateral Mode.</p>
+
+<p><img src="assets/bp_inventory_to_lateral.png" alt="" /></p>
+
+<p>If another link is selected, then the other document closes and the connected document opens. In the image below the closing and opening mechanism is shown.</p>
+
+<p><img src="assets/bp_vertical_to_lateral.png" alt="" /></p>
+
+<p>Lateral View (taken from what is called the lateral reading method) enables checking the original context of a transcluded content item through deliberate action. Through the use of tag links, it is also possible to sort which link types should be displayed. This means it is possible to travel by a link-path.</p>
+
+<p><img src="assets/bp_travel_by_links.png" alt="" /></p>
+
+<p>The video below demonstrates switching from Inventory View to Lateral Mode.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GLRhaRRR_cM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="other-attempts">Other Attempts</h2>
+
+<h3 id="01-bounce-transition-and-vertical-links">01 Bounce Transition and Vertical Links</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mS90u173WOY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="02-slow-transition-and-hover-link-to-scale-node">02 Slow Transition and Hover Link to Scale Node</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fDsP9OiBDU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="03-slow-transition-and-fadeout-links">03 Slow Transition and Fadeout Links</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ClUV5wzWxc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET
