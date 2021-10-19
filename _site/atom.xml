@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-19T15:05:52+02:00</updated>
+ <updated>2021-10-19T15:08:59+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -311,20 +311,14 @@
   &lt;p&gt;network diagram would not have been familiar to the generation of the Encyclopedists, the concepts behind it were. They too were thinking about intellectual phenomena in terms of underlying structures and aggregate relationships. (Rosenberg 2015)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In sum:&lt;/p&gt;
+&lt;p&gt;In sum, significant to the design of the Encyclopédie:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Significant to the design of the Encyclopédie:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;A system of intraconnections typographically embedded as links.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Multiple (non-)hierarchical structures are mapped, both textual and diagrammatic in form, offering multiple ways of accessing content.&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;p&gt;A system of intraconnections typographically embedded as links.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Multiple (non-)hierarchical structures are mapped, both textual and diagrammatic in form, offering multiple ways of accessing content.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
