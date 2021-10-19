@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-19T12:30:46+02:00</updated>
+ <updated>2021-10-19T15:05:52+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -312,11 +312,18 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;In sum:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Significant to the design of the Encyclopédie:
+  &lt;li&gt;
+    &lt;p&gt;Significant to the design of the Encyclopédie:&lt;/p&gt;
+
     &lt;ul&gt;
-      &lt;li&gt;A system of intraconnections typographically embedded as links.&lt;/li&gt;
-      &lt;li&gt;Multiple (non-)hierarchical structures are mapped, both textual and diagrammatic in form, offering multiple ways of accessing content.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;A system of intraconnections typographically embedded as links.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Multiple (non-)hierarchical structures are mapped, both textual and diagrammatic in form, offering multiple ways of accessing content.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -381,10 +388,19 @@
 
 &lt;p&gt;Though Otlet was inhibited by the constraints of working with paper-based technologies (e.g., books, paper cards, shelves, cabinets, and desks), he envisioned new ways of organizing and accessing information beyond what Van der Weel (2012) calls &lt;em&gt;the order of the book&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;In sum, significant to the work of Otlet:
-	- Conceptualization of text as modular; made up of content objects.
-	- Developed a system based on interconnections; networked information organization based on emergent structure and new ways of linking those content objects.
-	- Explored ways of storing and accessing content objects through experiments with cards and metaphorical visualizations.&lt;/p&gt;
+&lt;p&gt;In sum, significant to the work of Otlet:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Conceptualization of text as modular; made up of content objects.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Developed a system based on interconnections; networked information organization based on emergent structure and new ways of linking those content objects.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Explored ways of storing and accessing content objects through experiments with cards and metaphorical visualizations.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h4 id=&quot;3-xanadu-by-ted-nelson&quot;&gt;3 Xanadu by Ted Nelson&lt;/h4&gt;
 
