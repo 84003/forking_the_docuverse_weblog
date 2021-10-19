@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-18T14:58:14+02:00</updated>
+ <updated>2021-10-19T12:30:46+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -14,50 +14,77 @@
  
  <entry>
    <title>Designing the Construct: Switching View Modes and Traveling By Links</title>
-   <link href="/msc_project_weblog/06"/>
+   <link href="/msc_project_weblog/07"/>
    <updated>2021-10-17T00:00:00+02:00</updated>
-   <id>/06</id>
-   <content type="html">&lt;p&gt;✱ It’s a draft.&lt;/p&gt;
+   <id>/07</id>
+   <content type="html">&lt;h2 id=&quot;from-inventory-view-to-vertical-and-lateral-mode&quot;&gt;From Inventory View to Vertical and Lateral Mode&lt;/h2&gt;
 
-&lt;h2 id=&quot;inventory-view-and-vertical-and-lateral-modes&quot;&gt;Inventory View and Vertical and Lateral Modes&lt;/h2&gt;
+&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. Similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened on the same plane, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls &lt;a href=&quot;https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html&quot;&gt;Transpointing Windows in his Xanadu system&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. This is similar to how selecting a bookmarked url in a web browser opens a website, if another bookmarked url is selected, it replaces the displayed website. It is also possible to open a new tab, but the difference here is that the documents are opened on the same plane and the links are visualized.&lt;/p&gt;
+&lt;h3 id=&quot;version-1&quot;&gt;Version 1&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_select_expand.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In the image above, the linked documents are always visible and join in the middle of the open document. The image below shows an alternate version in which the linked documents are only visible when hovering on a specific link in the open document (called Vertical View).&lt;/p&gt;
+&lt;p&gt;In the image above, the linked documents are always visible and join in the middle of the open document.&lt;/p&gt;
+
+&lt;h3 id=&quot;version-2&quot;&gt;Version 2&lt;/h3&gt;
+&lt;p&gt;The image below shows an alternate version in which the linked documents are only visible when hovering on a link in the open document (called Vertical View).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_inventory_vertical_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In both versions, if a link is selected from within an open document, the linked document opens and the content items align in Lateral Mode.&lt;/p&gt;
+&lt;p&gt;In both versions, if a link is selected within an open document, the corresponding document is opened, and the linked content items align (in Lateral Mode).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_inventory_to_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If another link is selected, then the other document closes and the connected document opens. In the image below the closing and opening mechanism is shown.&lt;/p&gt;
+&lt;h2 id=&quot;openclose-mechanism&quot;&gt;Open/Close Mechanism&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/bp_vertical_to_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;While in Lateral Mode, if another link within one of the two open documents is selected, the other document closes, and the corresponding document opens. This open/close mechanism allows traveling by links while retaining one document as the main document. The main document is always the document from which a link is selected. In the image below, the open/close mechanism is shown.&lt;/p&gt;
 
-&lt;p&gt;Lateral View (taken from what is called the lateral reading method) enables checking the original context of a transcluded content item through deliberate action. Through the use of tag links, it is also possible to sort which link types should be displayed. This means it is possible to travel by a link-path.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/bp_vertical_to_lateral.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;assets/bp_lateral_open_close.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that only the first-level linked nodes of an open document are visible in Lateral Mode. As indicated in the last step in the image above, closing a document will hide its linked nodes unless linked to one of the open documents.&lt;/p&gt;
+
+&lt;p&gt;Lateral Mode (as in the lateral reading strategy) enables checking the original context of a transcluded content item through deliberate action. Through the use of tag links, it is also possible to sort which link types should be displayed. This means it is possible to travel by a link path according to a selected tag (e.g., #comment, #elaboration, #definition).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_travel_by_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The video below demonstrates switching from Inventory View to Lateral Mode.&lt;/p&gt;
+&lt;h2 id=&quot;video-demonstration&quot;&gt;Video Demonstration&lt;/h2&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GLRhaRRR_cM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;The video below demonstrates switching from Inventory View to Vertical Mode and Lateral Mode.&lt;/p&gt;
 
-&lt;h2 id=&quot;other-attempts&quot;&gt;Other Attempts&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GLRhaRRR_cM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;01-bounce-transition-and-vertical-links&quot;&gt;01 Bounce Transition and Vertical Links&lt;/h3&gt;
+&lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mS90u173WOY?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;h3 id=&quot;attempts-at-visualizing-opening-a-document-in-inventory-view&quot;&gt;Attempts at Visualizing Opening a Document in Inventory View&lt;/h3&gt;
 
-&lt;h3 id=&quot;02-slow-transition-and-hover-link-to-scale-node&quot;&gt;02 Slow Transition and Hover Link to Scale Node&lt;/h3&gt;
+&lt;p&gt;In the video below, the links are visualized as vertical lines on each side of the document. The thickness of the lines corresponds with the number of linked content items. One of the drawbacks here is that there is too much information visualized simultaneously.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-fDsP9OiBDU?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mS90u173WOY&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;03-slow-transition-and-fadeout-links&quot;&gt;03 Slow Transition and Fadeout Links&lt;/h3&gt;
+&lt;p&gt;The video below demonstrates a slow transition from Inventory View to Vertical Mode. The question here is, what is the best way to animate a link within an open document to a closed document (node). In this example, hovering on a link has the effect of extending the line to the content item within the open document, and the closed document (node) scales up. A drawback is that the scaling effect does not immediately capture attention.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5ClUV5wzWxc?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-fDsP9OiBDU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;attempts-at-visualizing-opening-a-document-in-vertical-mode&quot;&gt;Attempts at Visualizing Opening a Document in Vertical Mode&lt;/h3&gt;
+
+&lt;p&gt;Once in Vertical Mode, the selected link opens the corresponding document. The question here is, how should the linked content objects interact. In this example, upon opening a document by selecting a link, the linked content objects align, and the links fade out. The alignment of the content items may suffice.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5ClUV5wzWxc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why Tinkering?</title>
+   <link href="/msc_project_weblog/06"/>
+   <updated>2021-10-15T00:00:00+02:00</updated>
+   <id>/06</id>
+   <content type="html">&lt;p&gt;✱ Still working on it.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-tinkering&quot;&gt;Why Tinkering?&lt;/h1&gt;
+
+&lt;p&gt;By tinkering with digital text, I mean engaging with text as a process involving analysis/decomposition and synthesis/recomposition. In line with the historical examples given in &lt;a href=&quot;3&quot;&gt;On Interconnection and the Boundary of Documents&lt;/a&gt;, that means breaking a text into parts to create something new, based on an epistemological position about the notion of ideas as being interconnected.&lt;/p&gt;
 </content>
  </entry>
  
