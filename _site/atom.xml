@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-19T15:08:59+02:00</updated>
+ <updated>2021-10-20T16:32:40+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -511,11 +511,11 @@
 
 &lt;h2 id=&quot;1-title&quot;&gt;1. Title&lt;/h2&gt;
 
-&lt;p&gt;&lt;del&gt;Tinkering with Textual Structures: A Digital Construct&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;[1]&lt;del&gt;Tinkering with Textual Structures: A Digital Construct&lt;/del&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;del&gt;A Digital Construct for Tinkering With Text Structure&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;[2]&lt;del&gt;A Digital Construct for Tinkering With Text Structure&lt;/del&gt;&lt;/p&gt;
 
-&lt;p&gt;A Construct for Tinkering With Digital Text&lt;/p&gt;
+&lt;p&gt;[3]A Construct for Tinkering With Digital Text&lt;/p&gt;
 
 &lt;h2 id=&quot;2-question&quot;&gt;2. Question&lt;/h2&gt;
 
@@ -525,11 +525,11 @@
 
 &lt;p&gt;The implication of interconnection is that every text has multiple potential structures, which a construct in the digital realm can be created to reflect. To that end, the construct must support activities for mapping, visualizing, and accessing different structures.&lt;/p&gt;
 
-&lt;p&gt;Paper text has always been confined by the media object used, be it a book, folder, pamphlet, or journal. Thus, conventions developed for mapping and visualizing interconnection entailed embedding different categories of information in the form of such concepts as footnotes and marginal annotations. Instead of embedding connections, a construct in the digital realm can represent such connections in ways that are not feasible with paper text. With that as a point of departure, this project entails creating a construct for digital text with the aim of re-imagining how interconnection can be represented. Mapping and visualizing interconnection within and between texts results in complex layers of information. These complex layers of information are conceptualized and visually implemented as components in a three-dimensional space that can be made visible or hidden through deliberate action. In the three-dimensional space, it is possible to access both the hierarchical and non-hierarchical structures of the main text that have been mapped. By accessing the hierarchical structure—comprising content objects such as a title, subtitles, and paragraphs, without any other types of content objects visible—people can obtain the main points in a conventional manner (e.g. introduction, main body, and conclusion). People may tinker with that structure by making other content objects visible. In effect, people switch between perspectives on the main text, which shapes their understanding. In re-imagining how interconnection can be mapped, visualized, and accessed within and across texts, the final version of the construct enables a tinkering approach to engaging with text.&lt;/p&gt;
+&lt;p&gt;[1]&lt;del&gt;Paper text has always been confined by the media object used, be it a book, folder, pamphlet, or journal. Thus, c&lt;/del&gt; [2]Text has always been confined by the material properties of the medium used for its transmission, whether that be inscribed tablets of gold or clay, or be it handwritten or printed ink on paper. Bound by the material properties of books and other paper documents, conventions developed for mapping and visualizing interconnection in the ages of manuscript and print thus entailed embedding categories of information in the form of such concepts as footnotes and marginal annotations. Some such conventions have been transferred to the digital realm. Instead of embedding connections, a construct in the digital realm can represent such connections in ways that are not feasible with paper text. With that as a point of departure, this project entails creating a construct for digital text with the aim to re-imagine how interconnection can be represented. Mapping and visualizing interconnection within and between texts can result in complex layers of information. These complex layers of information are conceptualized and visually implemented as components in a three-dimensional space that can be made visible or hidden through deliberate action. In the three-dimensional space, it is possible to access both the hierarchical and non-hierarchical structures of the main text that have been mapped. By accessing the hierarchical structure—comprising content objects such as a title, subtitles, and paragraphs, without any other types of content objects visible—people can conventionally obtain the main points (e.g., introduction, main body, and conclusion). People may tinker with that structure by making other content objects visible. In effect, people switch between perspectives on the main text, which shapes their understanding. In re-imagining how interconnection can be mapped, visualized, and accessed within and across texts, the final version of the construct enables a tinkering approach to engaging with text.&lt;/p&gt;
 
 &lt;h2 id=&quot;4-method&quot;&gt;4. Method&lt;/h2&gt;
 
-&lt;p&gt;The purpose of the construct is to aid thinking with text by supporting activities for mapping, visualizing, and accessing different structures. Within the bounds of feasibility, this project entails writing a text on the topic of interconnection, which is mapped and visualized in the construct. The end result will allow people to access what has been mapped. The following is a tentative outline of the process.&lt;/p&gt;
+&lt;p&gt;The purpose of the construct is to aid [1]&lt;del&gt;thinking&lt;/del&gt; [2]working with text by supporting activities for mapping, visualizing, and accessing different structures. Within the bounds of feasibility, this project entails writing a text on the topic of interconnection, which is mapped and visualized in the construct. The end result will allow people to access what has been mapped. The following is a tentative outline of the process.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-1-conceptualize-the-construct&quot;&gt;Step 1: Conceptualize the construct&lt;/h3&gt;
 
@@ -549,7 +549,7 @@
 
 &lt;h2 id=&quot;5-documentation&quot;&gt;5. Documentation&lt;/h2&gt;
 
-&lt;p&gt;For each iteration of steps 2-3, the resulting interactive visual tests are documented and published on this weblog. Each entry contains the current version of the main text and the construct (i.e. the interactive visual tests described in step 3). A written reflection is included, serving to inform modifications for improvement. The final version of the construct (which includes the final version of the main text) is to be developed in Unity and published online. To that end, there are two workflows. The workflow for publishing the construct entails (1) exporting the project from Unity, which is (2) uploaded on Github for continuous deployment, then (3) pinned on IPFS via Fleek, and (4) accessed via a website URL. Hence the process of creating the construct is documented and publicly accessible. The workflow for writing the texts is designed so that a single editorial file can be converted to various formats. Thus, the texts intended for the weblog entries and the main text intended for the construct are all written in an extended version of the Markdown format, which can be exported into various output formats (e.g. HTML, TXT, XML) using digital tools.&lt;/p&gt;
+&lt;p&gt;For each iteration of steps 2-3, the resulting interactive visual tests are documented and published on this weblog. Each entry contains the current version of the main text and the construct (i.e. the interactive visual tests described in step 3). A written reflection is included, serving to inform modifications for improvement. The final version of the construct (which includes the final version of the main text) is to be developed in [1]&lt;del&gt;Unity&lt;/del&gt; [2]a prototyping software and published online. To that end, there are two workflows. The workflow for publishing the construct entails (1) exporting the project from [1]&lt;del&gt;Unity&lt;/del&gt; [2]the prototyping software, which is (2) uploaded on Github for continuous deployment, then (3) pinned on IPFS via Fleek, and (4) accessed via a website URL. Hence the process of creating the construct is documented and publicly accessible. The workflow for writing the texts is designed so that a single editorial file can be converted to various formats. Thus, the texts intended for the weblog entries and the main text intended for the construct are all written in an extended version of the Markdown format, which can be exported into various output formats (e.g. HTML, TXT, XML) using digital tools.&lt;/p&gt;
 
 &lt;h2 id=&quot;6-evaluation&quot;&gt;6. Evaluation&lt;/h2&gt;
 
