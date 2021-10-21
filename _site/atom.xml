@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-20T16:32:40+02:00</updated>
+ <updated>2021-10-21T21:56:39+02:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -242,13 +242,13 @@
    <id>/03</id>
    <content type="html">&lt;p&gt;✱ It’s a draft.&lt;/p&gt;
 
-&lt;p&gt;A document is a container of content objects, which can vary in modality (text, images). Originating with the text &lt;em&gt;What is Text, Really?&lt;/em&gt; by Steven DeRose (1990), content objects are what Daniel Rosenberg (2015) calls “information chunks” and what Ted Nelson (1999) calls “content items.” In traditional terms, a paragraph is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality but are distinguished by type.&lt;/p&gt;
+&lt;p&gt;A document is a container of content objects, which can vary in modality (text, images). Taken from the text &lt;em&gt;What is Text, Really?&lt;/em&gt; by Steven DeRose (1990), content objects are what Charles van den Heuvel and W. Boyd Rayward (2011) calls “information chunks” and what Ted Nelson (1999) calls “content items.” In traditional terms, a paragraph is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality but are distinguished by type.&lt;/p&gt;
 
-&lt;p&gt;The concept of interconnection, on which this project is based, denotes the various connections among the content objects of documents. As explained by Nelson (X) connections can be internal or external to a document, stated implicitly or explicitly. For example, phrases such as &lt;em&gt;the example given above&lt;/em&gt; or &lt;em&gt;as demonstrated in the image below&lt;/em&gt; or &lt;em&gt;as stated previously&lt;/em&gt; establish implicit internal connections. Explicit internal connections are content objects that by convention take the form of a footnote or marginal annotations, the content of which can be an elaboration of a term used, an example of something, or a tangent or comment on something. Explicit external connections are inclusions of one document segment into another (what Nelson (1980) coined transclusions) or some other direct connection by way of reference.&lt;/p&gt;
+&lt;p&gt;The concept of interconnection, on which this project is based, denotes the various connections among the content objects of documents. As Nelson (1987) explains, connections can be internal or external to a document, stated implicitly or explicitly. For example, phrases such as “in the example given below,” “demonstrated in the image above,” or “stated previously” establish implicit internal connections. Explicit internal connections are content objects that by convention take the form of a footnote or marginal annotations, the content of which can be an elaboration of a term used, an example of something, or a tangent or comment on something. Explicit external connections are inclusions of one document segment into another (what Nelson (1980) coined transclusions) or some other direct connection by way of reference.&lt;/p&gt;
 
-&lt;p&gt;There are various terms used to express the idea of interconnection. As Christine Borgman (2015) writes, “[t]he body of relationships among documents is sometimes known as &lt;em&gt;hypertextuality&lt;/em&gt;, and in semiotics and literary studies, it is called &lt;em&gt;intertextuality&lt;/em&gt;, which are abstract connections, “as in the influence of one text on the meaning of another.” Nelson (2015) calls it &lt;em&gt;intertwingularity&lt;/em&gt; which “expresses a philosophical position about cross-connection,” namely that “all subjects and issues are intertwined and intermingled.” Lastly, by example, a data model based on interconnection is one that allows a many-to-many relationship among entities. Entities with many many-to-many relationships form clusters, and clusters can also form many-to-many relationships to other clusters. Further, the connections can be based on (or describe, or establish, or map) various relationship types.&lt;/p&gt;
+&lt;p&gt;There are various terms used to express the idea of interconnection. As Christine Borgman (2015) writes, “[t]he body of relationships among documents is sometimes known as &lt;em&gt;hypertextuality&lt;/em&gt;, and in semiotics and literary studies, it is called &lt;em&gt;intertextuality&lt;/em&gt;, which is abstract connections, “as in the influence of one text on the meaning of another.” Nelson (2015) calls it &lt;em&gt;intertwingularity&lt;/em&gt; which “expresses a philosophical position about cross-connection,” namely that “all subjects and issues are intertwined and intermingled.” Lastly, by example, a data model based on interconnection is one that allows a many-to-many relationship among entities. Entities with many many-to-many relationships form clusters, and clusters can also form many-to-many relationships to other clusters. Further, the connections can be based on (or describe, or establish, or map) various relationship types.&lt;/p&gt;
 
-&lt;p&gt;So interconnection here means &lt;em&gt;connected on multiple levels&lt;/em&gt; and is used to describe the various relationships among the contents of documents, some of which go beyond the boundary of documents. Mapping these connections creates complex multidimensional structures, and how exactly these are mapped and visualized is shaped by the medium of the document. In what follows, analog and digital systems designed for mapping, visualizing, and accessing content based on interconnection are examined.&lt;/p&gt;
+&lt;p&gt;Thus, interconnection here means &lt;em&gt;connected on multiple levels&lt;/em&gt; and is used to describe the various relationships among the contents of documents, some of which go beyond the boundary of documents. Mapping these connections creates complex multidimensional structures, and how exactly these are mapped and visualized is shaped by the medium of the document. In what follows, analog and digital systems designed for mapping, visualizing, and accessing content based on interconnection are examined.&lt;/p&gt;
 
 &lt;h3 id=&quot;analog-and-digital-systems-based-on-interconnection&quot;&gt;Analog and Digital Systems Based on Interconnection&lt;/h3&gt;
 
@@ -264,7 +264,7 @@
 
 &lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://murals.wbtla.org/uploads/2/4/7/9/24790045/talmud_layout_(1).pdf&quot;&gt;A Guide to the Layout of a Talmud Page&lt;/a&gt; by Joshua Parker&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Other analog systems include the Encyclopédie by Denis Diderot and Jean d’Alembert; Paul Otlet’s principles, methods, and model of a global network of documentation; the hypothetical machine the Memex by Vannevar Bush; and Niklas Luhmann’s notecard system based on the Zettelkasten Method. The most prominent example of a digital system is the project Xanadu by Ted Nelson. These all share the conceptualization of documents as nodes that are linked through some mechanism and according to a system. In other words, these are examples of multidimensional structures. In consideration of the scope of this entry, three of the examples given above are examined in more depth:&lt;/p&gt;
+&lt;p&gt;Other analog systems include the Encyclopédie by Denis Diderot and Jean d’Alembert; Paul Otlet’s principles, methods, and model of a global network of documentation; the hypothetical machine the Memex by Vannevar Bush; and Niklas Luhmann’s notecard system based on the Zettelkasten Method. The most prominent example of a digital system is the original hypertext project Xanadu by Ted Nelson. These all share the conceptualization of documents as nodes that are linked through some mechanism and according to a system. In other words, these are examples of multidimensional structures. In consideration of the scope of this entry, three of the examples given above are examined in more depth:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Encyclopédie by Denis Diderot and Jean d’Alembert&lt;/li&gt;
@@ -272,14 +272,13 @@
   &lt;li&gt;Xanadu by Ted Nelson&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Encyclopédie is a system of intraconnections (i.e., a closed system of internal connections; intranet). Otlet’s principles, concepts, and models are based on interconnections and emergent structure (i.e., open system of connections). Xanadu by Nelson is also a system of interconnections and emergent structure, but with consideration of the potential of the computer as a universal machine.&lt;/p&gt;
+&lt;p&gt;Encyclopédie is a system of intraconnections (i.e., a closed system of internal references; an intranet). Otlet’s principles, concepts, and models are based on interconnections and emergent structure (i.e., open system of references). Xanadu by Nelson is also a system of interconnections and emergent structure, but with consideration of the potential of the computer as a universal machine.&lt;/p&gt;
 
-&lt;!-- As van der Weel explains, that the computer is universal machine means:
-&gt; ...that it is an instrument capable of performing on text not only all medial functions such as creating, editing, storing, publishing, distributing and consuming it, but also operations of various kinds. [F]unctioning electronically and digitally, [it can] run every conceivable type of application. (Weel 2012) --&gt;
+&lt;!-- Should I be explaining what I mean by universal machine here? --&gt;
 
 &lt;h4 id=&quot;1-encyclopédie-by-diderot-and-dalembert&quot;&gt;1 Encyclopédie by Diderot and d’Alembert&lt;/h4&gt;
 
-&lt;p&gt;Various information technologies for mapping interconnection (non-)hierarchically were produced in the eighteenth century, ranging from atlases, encyclopedias, dictionaries, and suchlike. A prominent example is the Encyclopédie by Diderot and d’Alembert, which was, as Rosenberg (2015) argues, an innovative system for its time. In its entirety, the Encyclopédie is a system of intraconnections — which is to say, a closed system of cross-references — comprising 28 volumes of 72000 entries by more than 2000 writers. Though the design incorporates ways for external reference, the Encyclopédie was conceived and meant to be used as an independent system.&lt;/p&gt;
+&lt;p&gt;Various information technologies for mapping interconnection (non-)hierarchically were produced in the eighteenth century, ranging from atlases, encyclopedias, dictionaries, and suchlike. A prominent example is the Encyclopédie by Diderot and d’Alembert, which as Rosenberg (2015) argues, was an innovative system for its time. In its entirety, the Encyclopédie is a system of intraconnections — which is to say, a closed system of cross-references — comprising 28 volumes of 72000 entries by more than 2000 writers. Though the design incorporates ways for external reference, the Encyclopédie was conceived and meant to be used as an independent system.&lt;/p&gt;
 
 &lt;p&gt;The alphabetical structure is embedded as running headers throughout the encyclopedia (as seen in the image below), allowing access to content by headword.&lt;/p&gt;
 
@@ -305,7 +304,7 @@
 
 &lt;p&gt;&lt;em&gt;Diagram by Olsen and Blanchard (transcluded from Rosenberg (2015))&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;There are two significant points the diagram elucidates. First, conceiving knowledge as fundamentally hierarchical is not “paradigmatic of Enlightenment epistemology,” and second, nor is it intrinsic to print. As Rosenberg argues, though the&lt;/p&gt;
+&lt;p&gt;There are two significant points the diagram elucidates. First, conceiving knowledge as fundamentally hierarchical is not “paradigmatic of Enlightenment epistemology.” Second, nor is it intrinsic to print. As Rosenberg argues, though the&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;network diagram would not have been familiar to the generation of the Encyclopedists, the concepts behind it were. They too were thinking about intellectual phenomena in terms of underlying structures and aggregate relationships. (Rosenberg 2015)&lt;/p&gt;
@@ -314,19 +313,16 @@
 &lt;p&gt;In sum, significant to the design of the Encyclopédie:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;A system of intraconnections typographically embedded as links.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Multiple (non-)hierarchical structures are mapped, both textual and diagrammatic in form, offering multiple ways of accessing content.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;A system of intraconnections.&lt;/li&gt;
+  &lt;li&gt;Typographic embedded links.&lt;/li&gt;
+  &lt;li&gt;Multiple (non)hierarchical structures are mapped, both textual and diagrammatic in form, offering multiple ways of accessing content.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;2-the-work-of-paul-otlet&quot;&gt;2 The Work of Paul Otlet&lt;/h4&gt;
 
-&lt;p&gt;The work of Paul Otlet — regarded as a pioneer of the field once called documentation that branched into what is now called information science (Le Deuff and Perret 2019) — range from devising the model called Functional Requirements for Bibliographic Records in which entities are linked on multiple levels in the form of a network (Borgman 2015), developing new approaches to organizing and accessing information, establishing theoretical principles of information, to drawing illustrations serving as metaphors of a global network of documents once media other than the book would take precedence (source).&lt;/p&gt;
+&lt;p&gt;The work of Paul Otlet — regarded as a pioneer of the field once called documentation that branched into what is now called information science (Le Deuff and Perret 2019) — range from devising the model called Functional Requirements for Bibliographic Records in which entities are linked on multiple levels in the form of a network (Borgman 2015) to developing new approaches to organizing and accessing information by establishing theoretical principles of information. Otlet also explored how information organization might be in the future in the form of illustrations serving as metaphors of a global network of documents once media other than the book would take precedence (Heuvel and Rayward 2011).&lt;/p&gt;
 
-&lt;p&gt;Similar to the Encyclopédie — a project regarded as in response to the eighteenth-century information overload (Rosenberg 2015) — Otlet’s work was in response to the problem of “the enormous growth in the number of publications, specialist congresses, and international exhibitions that began to occur at the end of the nineteenth century”(Manfroid 2013).&lt;/p&gt;
+&lt;p&gt;Similar to the Encyclopédie — a project regarded as in response to the eighteenth-century information overload (Rosenberg 2015) — Otlet’s work was in response to the problem of “the enormous growth in the number of publications, specialist congresses, and international exhibitions that began to occur at the end of the nineteenth century” (Manfroid 2013).&lt;/p&gt;
 
 &lt;p&gt;As Rayward (1994) formulates it, the problem that Otlet analyzed and explored solutions to was “how most effectively to create, maintain, and change institutional arrangements for collecting, storing, preserving, organizing, retrieving, and disseminating all of the recorded information that is-or will be-needed within society.” With that complex problem at hand, Otlet envisioned new approaches to storing, organizing, and disseminating information while accommodating expansive growth and extensive reuse. Some of the most significant aspects of his work are delineated below.&lt;/p&gt;
 
@@ -334,27 +330,24 @@
   &lt;li&gt;Conceptualization of text as modular.&lt;/li&gt;
   &lt;li&gt;Re-conceptualizing the Book as:
     &lt;ul&gt;
-      &lt;li&gt;A global system of linked content objects.
-        &lt;ul&gt;
-          &lt;li&gt;Based on interconnection and emergent structure.&lt;/li&gt;
-          &lt;li&gt;Necessity of multidimensional linking of content objects.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;A global system of linked content objects:&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Based on interconnection and emergent structure,&lt;/li&gt;
+      &lt;li&gt;And the necessity of multidimensional linking of content objects.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Otlet conceptualized text as modular — made up of parts connected to other parts (internal and external to a document). An appropriate system, according to Otlet, must therefore allow and facilitate establishing links between these &lt;em&gt;parts&lt;/em&gt; (content objects). In designing such a system, Otlet explored the re-conceptualization of the Book as a global system of documents. As told by Heuvel and Rayward (2011):&lt;/p&gt;
+&lt;p&gt;Otlet conceptualized text as modular — made up of parts connected to other parts (internal and external to a document). An appropriate system, according to Otlet, must therefore allow and facilitate establishing links between these &lt;em&gt;parts&lt;/em&gt; (content objects). In designing such a system, Otlet explored the re-conceptualization of the Book as a global system of documents. As told by Heuvel and Rayward:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;In a 1911 lecture on the future of the book and of bibliography, Otlet came back to the idea he had first expressed in 1892 and in subsequent publications: ‘The arbitrary division into lines and pages of the book in its present format, does not at all correspond all with the presentation of ideas’ (p. 291). He envisioned the emergence of a future format of the book in which ‘each intellectual element, in corresponding to a physical element, will create a structure such that any combination of ideas, notions, and facts will be possible.’ He suggested that this process can operate in so mechanical a fashion that in the future, the book will truly become a machine to think with (“machine à penser;” Otlet, 1911, p. 291).&lt;/p&gt;
+  &lt;p&gt;In a 1911 lecture on the future of the book and of bibliography, Otlet came back to the idea he had first expressed in 1892 and in subsequent publications: ‘The arbitrary division into lines and pages of the book in its present format, does not at all correspond all with the presentation of ideas’ (p. 291). He envisioned the emergence of a future format of the book in which ‘each intellectual element, in corresponding to a physical element, will create a structure such that any combination of ideas, notions, and facts will be possible.’ He suggested that this process can operate in so mechanical a fashion that in the future, the book will truly become a machine to think with (Otlet transcluded from Heuvel and Rayward (2011))&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;As the illustration below suggests, for Otlet, the development of such a system begins with &lt;em&gt;ripping&lt;/em&gt; content objects (representing ideas, notions, facts) from books and collecting each on separate paper cards.&lt;/p&gt;
+&lt;p&gt;As the two illustrations below suggests, for Otlet, the development of such a system entails &lt;em&gt;ripping&lt;/em&gt; content objects (representing ideas, notions, facts) from books and collecting each on separate paper cards.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;The book in connection with the library, the Bibliographic Repertory and Encyclopedia. The three bases of the Global Network of Universal Documentation”—Dissecting the book to create a card system as an interface to the Global Network of Documentation&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;!-- &gt; The book in connection with the library, the Bibliographic Repertory and Encyclopedia. The three bases of the Global Network of Universal Documentation”—Dissecting the book to create a card system as an interface to the Global Network of Documentation --&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/the-book-in-connection-with-the-library-the-bibliographic-repertory-and-encyclopedia.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -362,7 +355,9 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_raite_de_documentation.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to store content objects by links and metadata and to access the content objects based on those links and metadata. In the image below, Otlet explored a paper card-based system that could establish multidimensional links between content objects.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Title and Source&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and accsess content objects by links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_card_experiments.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -374,59 +369,25 @@
   &lt;p&gt;To increase the number of sides, one might well abandon the rectangular form of the card and adopt a polygonal form, an octagon for example. For sorting and systematically selecting the ideas that have been classified hierarchically, the cards are suspended from their centre. The Book as a structure of cards thus takes a quasi-circular form and can rotate. [I]ts structure […] constitutes a Book—for it is still a book—that has abandoned the traditional form of linear text arranged according to a unique plan. It has been transformed in some way into a body with several dimensions, as many dimensions as headings such that different searches using the same graphic elements on the cards are possible. (Otlet transcluded from Heuvel and Rayward (2011))&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;As Heuvel and Rayward (2011) point out, though the material manifestation of such a paper card system is “impractical for many reasons,” what Otlet is describing is an open system for mapping and accessing content based on the interconnection of subjects. Beyond these experiments with paper cards, Otlet envisioned new approaches to accessing content and new visual representations. For example, in the image below, “Otlet uses the architectural metaphor of the factory to visualize this process” (Heuvel 2017).&lt;/p&gt;
+&lt;p&gt;As Heuvel and Rayward (2011) point out, though the material manifestation of such a paper card system is “impractical for many reasons,” what Otlet is describing is an open system for mapping and accessing content, based on the interconnection of subjects. Beyond these experiments with paper cards, Otlet envisioned new approaches to accessing content and new visual representations. For example, in the image below, “Otlet uses the architectural metaphor of the factory to visualize this process” (Heuvel 2017).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_mundaneum.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Laboratorium Mundaneum (transcluded from &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/commons/a/a9/Laboratorium_Mundaneum.jpg&quot;&gt;Wikimedia Commons&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Though Otlet was inhibited by the constraints of working with paper-based technologies (e.g., books, paper cards, shelves, cabinets, and desks), he envisioned new ways of organizing and accessing information beyond what Van der Weel (2012) calls &lt;em&gt;the order of the book&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Though Otlet was inhibited by the constraints of working with paper-based technologies (e.g., books, paper cards, shelves, cabinets, and desks), he envisioned new ways of organizing and accessing information beyond what Weel (2012) calls the “order of the book”.&lt;/p&gt;
 
 &lt;p&gt;In sum, significant to the work of Otlet:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Conceptualization of text as modular; made up of content objects.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Developed a system based on interconnections; networked information organization based on emergent structure and new ways of linking those content objects.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Explored ways of storing and accessing content objects through experiments with cards and metaphorical visualizations.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Conceptualization of text as modular; made up of content objects.&lt;/li&gt;
+  &lt;li&gt;Developed a system based on interconnections; networked information organization based on emergent structure and new ways of linking those content objects.&lt;/li&gt;
+  &lt;li&gt;Explored ways of storing and accessing content objects through experiments with cards and metaphorical visualizations.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;3-xanadu-by-ted-nelson&quot;&gt;3 Xanadu by Ted Nelson&lt;/h4&gt;
 
-&lt;p&gt;✱ In dev.&lt;/p&gt;
-
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
-
-&lt;p&gt;Borgman CL. Data, Metadata, and Ted. In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 67–74.&lt;/p&gt;
-
-&lt;p&gt;DeRose SJ. What Is Text, Really? Journal of Computing in Higher Education. 1990;1(2):3–26.&lt;/p&gt;
-
-&lt;p&gt;Le Deuff O, Perret A. Hyperdocumentation: origin and evolution of a concept. JD. 2019;75(6):1463–74.&lt;/p&gt;
-
-&lt;p&gt;Heuvel C van den. Building Society, Constructing Knowledge, Weaving the Web: Otlet’s Visualizations of a Global Information Society and His Concept of a Universal Civilization. In: Rayward WB, editor. European Modernism and the Information Society: Informing the Present, Understanding the Past. 1st ed. Routledge; 2017&lt;/p&gt;
-
-&lt;p&gt;Heuvel C van den, Rayward WB. Facing interfaces: Paul Otlet’s visualizations of data integration. J. Am. Soc. Inf. Sci. 2011 Dec;62(12):2313–26.&lt;/p&gt;
-
-&lt;p&gt;Manfroid S, Gillen J, Phillips-Batoma PM. The Archives of Paul Otlet: Between Appreciation and Rediscovery, 1944–2013. Library Trends. 2013;62(2):311–28.&lt;/p&gt;
-
-&lt;p&gt;Nelson TH. Literary Machines: The report on, and of, Project Xanadu concerning word processing, electronic publishing, hypertext, thinkertoys, tomorrow’s intellectual revolution, and certain other topics including knowledge, education and freedom. Sausalito, California: Mindful Press; 1980.&lt;/p&gt;
-
-&lt;p&gt;Nelson TH. Xanalogical Structure, Needed Now More than Ever: Parallel Documents, Deep Links to Content, Deep Versioning, and Deep Re-Use. ACM Computing Surveys. 1999;31(4):32.&lt;/p&gt;
-
-&lt;p&gt;Nelson TH. What Box? In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 133–50.&lt;/p&gt;
-
-&lt;p&gt;Rayward WB. Visions of Xanadu: Paul Otlet (1868–1944) and Hypertext. Journal of the American Society for Information Science. 1994;16.&lt;/p&gt;
-
-&lt;p&gt;Ridi R. Hypertext. Knowledge Organization. 2018;45(5):393–424.&lt;/p&gt;
-
-&lt;p&gt;Rosenberg D. History Debugged. In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 91–103.&lt;/p&gt;
-
-&lt;p&gt;Weel A van der. Changing Our Textual Minds: Towards a Digital Order of Knowledge. Manchester University Press; 2012.&lt;/p&gt;
 </content>
  </entry>
  
@@ -558,7 +519,7 @@
 &lt;ul&gt;
   &lt;li&gt;Does the construct enable tinkering with the hierarchical presentation of the main text?&lt;/li&gt;
   &lt;li&gt;Does accessing those different structures reflect switching between perspectives on the main text?&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Are there potential advantages to how switching between perspectives is implemented?&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;[1]&lt;del&gt;Are there potential advantages to how switching between perspectives is implemented?&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The evaluation thus contends whether or not the construct demonstrates the above points. Functioning as a preliminary list, additions and modifications are expected throughout the process.&lt;/p&gt;
