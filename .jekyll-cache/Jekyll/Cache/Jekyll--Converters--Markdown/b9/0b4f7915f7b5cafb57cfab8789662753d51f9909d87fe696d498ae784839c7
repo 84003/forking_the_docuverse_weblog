@@ -1,4 +1,4 @@
-I"�=<p>✱ It’s a draft.</p>
+I"8G<p>✱ It’s a draft.</p>
 
 <p>A document is a container of content objects, which can vary in modality (text, images). Taken from the text <em>What is Text, Really?</em> by Steven DeRose (1990), content objects are what Charles van den Heuvel and W. Boyd Rayward (2011) calls “information chunks” and what Ted Nelson (1999) calls “content items.” In traditional terms, a paragraph is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality but are distinguished by type.</p>
 
@@ -115,7 +115,7 @@
 
 <p><em>Title and Source</em></p>
 
-<p>The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to store content objects by links and metadata and to access the content objects based on those links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.</p>
+<p>The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and accsess content objects by links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.</p>
 
 <p><img src="assets/otlet_card_experiments.png" alt="" /></p>
 
@@ -146,4 +146,32 @@
 <h4 id="3-xanadu-by-ted-nelson">3 Xanadu by Ted Nelson</h4>
 
 <h3 id="references">References</h3>
+
+<p>Borgman CL. Data, Metadata, and Ted. In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 67–74.</p>
+
+<p>DeRose SJ. What Is Text, Really? Journal of Computing in Higher Education. 1990;1(2):3–26.</p>
+
+<p>Le Deuff O, Perret A. Hyperdocumentation: origin and evolution of a concept. JD. 2019;75(6):1463–74.</p>
+
+<p>Heuvel C van den. Building Society, Constructing Knowledge, Weaving the Web: Otlet’s Visualizations of a Global Information Society and His Concept of a Universal Civilization. In: Rayward WB, editor. European Modernism and the Information Society: Informing the Present, Understanding the Past. 1st ed. Routledge; 2017</p>
+
+<p>Heuvel C van den, Rayward WB. Facing interfaces: Paul Otlet’s visualizations of data integration. J. Am. Soc. Inf. Sci. 2011;62(12):2313–26.</p>
+
+<p>Manfroid S, Gillen J, Phillips-Batoma PM. The Archives of Paul Otlet: Between Appreciation and Rediscovery, 1944–2013. Library Trends. 2013;62(2):311–28.</p>
+
+<p>Nelson TH. Literary Machines: The report on, and of, Project Xanadu concerning word processing, electronic publishing, hypertext, thinkertoys, tomorrow’s intellectual revolution, and certain other topics including knowledge, education and freedom. Sausalito, California: Mindful Press; 1980.</p>
+
+<p>Nelson TH. Literary Machines: The report on, and of, Project Xanadu concerning word processing, electronic publishing, hypertext, thinkertoys, tomorrow’s intellectual revolution, and certain other topics including knowledge, education and freedom. 87.1. Sausalito, California: Mindful Press; 1987.</p>
+
+<p>Nelson TH. Xanalogical Structure, Needed Now More than Ever: Parallel Documents, Deep Links to Content, Deep Versioning, and Deep Re-Use. ACM Computing Surveys. 1999;31(4):32.</p>
+
+<p>Nelson TH. What Box? In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 133–50.</p>
+
+<p>Rayward WB. Visions of Xanadu: Paul Otlet (1868–1944) and Hypertext. Journal of the American Society for Information Science. 1994;16.</p>
+
+<p>Ridi R. Hypertext. Knowledge Organization. 2018;45(5):393–424.</p>
+
+<p>Rosenberg D. History Debugged. In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 91–103.</p>
+
+<p>Van der Weel A. Changing Our Textual Minds: Towards a Digital Order of Knowledge. Manchester University Press; 2012.</p>
 :ET
