@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-10-21T22:05:00+02:00</updated>
+ <updated>2021-11-01T09:01:01+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -240,17 +240,23 @@
    <link href="/msc_project_weblog/03"/>
    <updated>2021-08-13T00:00:00+02:00</updated>
    <id>/03</id>
-   <content type="html">&lt;p&gt;✱ It’s a draft.&lt;/p&gt;
+   <content type="html">&lt;p&gt;✱ The purpose of this text is to give examples of both analog and digital projects based on mapping and visualizing interconnection, and in so doing, come to an understanding of what interconnection is and the many ways it has been explored in projects throughout history. so though I am expressing discontent with transferring biases and conventions from paper media to digital media, I am not saying we throw away these concepts, but consider how the constructs that we create and embed in the digital realm can serve as reconceptualizations of those conventions to better reflect interconnection (by making them visual, categorizable, and interactive). questions are: which of the significant features of historical projects are valuable and convenient for working with text? how might we design the interfaces of such systems in the digital realm for working with text, based on the intercomparison of their connections.&lt;/p&gt;
 
-&lt;p&gt;A document is a container of content objects, which can vary in modality (text, images). Taken from the text &lt;em&gt;What is Text, Really?&lt;/em&gt; by Steven DeRose (1990), content objects are what Charles van den Heuvel and W. Boyd Rayward (2011) calls “information chunks” and what Ted Nelson (1999) calls “content items.” In traditional terms, a paragraph is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality but are distinguished by type.&lt;/p&gt;
+&lt;p&gt;In what follows, core concepts and ideas behind systems for accommodating interconnection are discussed and implementations are evaluated and juxtaposed to current systems, such as the World Wide Web. In so doing the aim is to to consider that “[t]he past, and the pioneers who shaped the past, may hold many suggestions as to paths [that] might be valuable to explore in the future and advice on the most productive ways to go down those paths” (Hopper 1998).&lt;/p&gt;
 
-&lt;p&gt;The concept of interconnection, on which this project is based, denotes the various connections among the content objects of documents. As Nelson (1987) explains, connections can be internal or external to a document, stated implicitly or explicitly. For example, phrases such as “in the example given below,” “demonstrated in the image above,” or “stated previously” establish implicit internal connections. Explicit internal connections are content objects that by convention take the form of a footnote or marginal annotations, the content of which can be an elaboration of a term used, an example of something, or a tangent or comment on something. Explicit external connections are inclusions of one document segment into another (what Nelson (1980) coined transclusions) or some other direct connection by way of reference.&lt;/p&gt;
+&lt;p&gt;It may be the case that there are “vast potentials in electronic media that we still haven’t implemented, and we may be in danger of missing some of the greatest potential in electronic media because we mistake some situational limitations in technical development or project management for impossibility” (Hopper 1998).&lt;/p&gt;
 
-&lt;p&gt;There are various terms used to express the idea of interconnection. As Christine Borgman (2015) writes, “[t]he body of relationships among documents is sometimes known as &lt;em&gt;hypertextuality&lt;/em&gt;, and in semiotics and literary studies, it is called &lt;em&gt;intertextuality&lt;/em&gt;, which is abstract connections, “as in the influence of one text on the meaning of another.” Nelson (2015) calls it &lt;em&gt;intertwingularity&lt;/em&gt; which “expresses a philosophical position about cross-connection,” namely that “all subjects and issues are intertwined and intermingled.” Lastly, by example, a data model based on interconnection is one that allows a many-to-many relationship among entities. Entities with many many-to-many relationships form clusters, and clusters can also form many-to-many relationships to other clusters. Further, the connections can be based on (or describe, or establish, or map) various relationship types.&lt;/p&gt;
+&lt;h2 id=&quot;terms-and-definitions&quot;&gt;Terms and Definitions&lt;/h2&gt;
 
-&lt;p&gt;Thus, interconnection here means &lt;em&gt;connected on multiple levels&lt;/em&gt; and is used to describe the various relationships among the contents of documents, some of which go beyond the boundary of documents. Mapping these connections creates complex multidimensional structures, and how exactly these are mapped and visualized is shaped by the medium of the document. In what follows, analog and digital systems designed for mapping, visualizing, and accessing content based on interconnection are examined.&lt;/p&gt;
+&lt;p&gt;A document is a container of content objects, which can vary in modality (e.g., text, image, sound). Taken from &lt;em&gt;What is Text, Really?&lt;/em&gt; by Steven DeRose (1990), content objects are what Charles van den Heuvel and W. Boyd Rayward (2011) call “information chunks,” what Ted Nelson (1999) calls “content items,” and what Ridi (2018) calls “information units.” In conventional terms, a paragraph, for example, is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality (text, image, sound) but are distinguished by type.&lt;/p&gt;
 
-&lt;h3 id=&quot;analog-and-digital-systems-based-on-interconnection&quot;&gt;Analog and Digital Systems Based on Interconnection&lt;/h3&gt;
+&lt;p&gt;The concept of interconnection, on which this project is based, denotes the various connections among the content objects within documents. As Nelson (1987) explains, connections can be internal or external to a document, stated implicitly or explicitly. For example, phrases such as “in the example given below,” “demonstrated in the image above,” or “stated previously” establish implicit internal connections. Explicit internal connections are content objects that by convention take the form of a footnote or marginal annotations — the content of which can be an elaboration of a term used, an example, a tangent, or comment. Explicit external connections are inclusions of one document segment into another (what Nelson (1980) coined transclusions) or some other direct connection by way of reference.&lt;/p&gt;
+
+&lt;p&gt;There are various terms across fields used to express the idea of interconnection. As Christine Borgman (2015) writes, “[t]he body of relationships among documents is sometimes known as &lt;em&gt;hypertextuality&lt;/em&gt;. Within semiotics and literary studies, the term &lt;em&gt;intertextuality&lt;/em&gt; is used to describe more abstract connections, “as in the influence of one text on the meaning of another”(Borgman 2015). Nelson (2015) calls it &lt;em&gt;intertwingularity&lt;/em&gt; which “expresses a philosophical position about cross-connection,” namely that “all subjects and issues are intertwined and intermingled.” By example, imagining a data model based on interconnection would be one that allows a many-to-many relationship among entities. Entities with many many-to-many relationships would form clusters, and clusters too could form many-to-many relationships to other clusters. Further, the relationships between entities can be based on (or describe, or establish, or map) various relationship types.&lt;/p&gt;
+
+&lt;p&gt;Thus, interconnection here means &lt;em&gt;connected on multiple levels&lt;/em&gt;, and is used to describe the various relationships among the content objects of documents. Mapping these connections can create complex multidimensional structures, and how exactly these are mapped and visualized is shaped by the medium of the document. In what follows, analog and digital systems designed for mapping, visualizing, and accessing content based on interconnection are examined.&lt;/p&gt;
+
+&lt;h3 id=&quot;interconnection-analog-and-digital-systems&quot;&gt;Interconnection: Analog and Digital Systems&lt;/h3&gt;
 
 &lt;p&gt;An early analog system developed for mapping and visualizing interconnection is the “compilation of Jewish Oral Law with its rabbinical commentaries” organized according to the Talmud page. Representing centuries of religious discussion, the Talmud:&lt;/p&gt;
 
@@ -274,11 +280,9 @@
 
 &lt;p&gt;Encyclopédie is a system of intraconnections (i.e., a closed system of internal references; an intranet). Otlet’s principles, concepts, and models are based on interconnections and emergent structure (i.e., open system of references). Xanadu by Nelson is also a system of interconnections and emergent structure, but with consideration of the potential of the computer as a universal machine.&lt;/p&gt;
 
-&lt;!-- Should I be explaining what I mean by universal machine here? --&gt;
-
 &lt;h4 id=&quot;1-encyclopédie-by-diderot-and-dalembert&quot;&gt;1 Encyclopédie by Diderot and d’Alembert&lt;/h4&gt;
 
-&lt;p&gt;Various information technologies for mapping interconnection (non-)hierarchically were produced in the eighteenth century, ranging from atlases, encyclopedias, dictionaries, and suchlike. A prominent example is the Encyclopédie by Diderot and d’Alembert, which as Rosenberg (2015) argues, was an innovative system for its time. In its entirety, the Encyclopédie is a system of intraconnections — which is to say, a closed system of cross-references — comprising 28 volumes of 72000 entries by more than 2000 writers. Though the design incorporates ways for external reference, the Encyclopédie was conceived and meant to be used as an independent system.&lt;/p&gt;
+&lt;p&gt;Various information technologies for mapping interconnection (non-)hierarchically were produced in the eighteenth century, ranging from atlases, encyclopedias, dictionaries, and suchlike. A prominent example is the Encyclopédie by Diderot and d’Alembert, which as Rosenberg (2015) argues, was an innovative system for its time. In its entirety, the Encyclopédie is a system of intraconnections — which is to say, a closed system of cross-references — “comprising 28 volumes, 72,000 articles by over 2,000 writers, and more than 3,000 plates” (Rosenberg 2015). Though the design incorporates ways for external reference, the Encyclopédie was conceived and meant to be used as an independent system.&lt;/p&gt;
 
 &lt;p&gt;The alphabetical structure is embedded as running headers throughout the encyclopedia (as seen in the image below), allowing access to content by headword.&lt;/p&gt;
 
@@ -327,7 +331,7 @@
 &lt;p&gt;As Rayward (1994) formulates it, the problem that Otlet analyzed and explored solutions to was “how most effectively to create, maintain, and change institutional arrangements for collecting, storing, preserving, organizing, retrieving, and disseminating all of the recorded information that is-or will be-needed within society.” With that complex problem at hand, Otlet envisioned new approaches to storing, organizing, and disseminating information while accommodating expansive growth and extensive reuse. Some of the most significant aspects of his work are delineated below.&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Conceptualization of text as modular.&lt;/li&gt;
+  &lt;li&gt;Conceptualization of text as modular&lt;/li&gt;
   &lt;li&gt;Re-conceptualizing the Book as:
     &lt;ul&gt;
       &lt;li&gt;A global system of linked content objects:&lt;/li&gt;
@@ -347,17 +351,19 @@
 
 &lt;p&gt;As the two illustrations below suggests, for Otlet, the development of such a system entails &lt;em&gt;ripping&lt;/em&gt; content objects (representing ideas, notions, facts) from books and collecting each on separate paper cards.&lt;/p&gt;
 
-&lt;!-- &gt; The book in connection with the library, the Bibliographic Repertory and Encyclopedia. The three bases of the Global Network of Universal Documentation”—Dissecting the book to create a card system as an interface to the Global Network of Documentation --&gt;
+&lt;!-- %%&gt; The book in connection with the library, the Bibliographic Repertory and Encyclopedia. The three bases of the Global Network of Universal Documentation”—Dissecting the book to create a card system as an interface to the Global Network of Documentation%% --&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/the-book-in-connection-with-the-library-the-bibliographic-repertory-and-encyclopedia.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Global Network of Universal Documentation (transcluded from Heuvel and Rayward (2011))&lt;/em&gt;&lt;/p&gt;
 
+&lt;p&gt;In another rendition, the formation, transformation, and organization of ideas are shown.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;assets/otlet_raite_de_documentation.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Title and Source&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and accsess content objects by links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.&lt;/p&gt;
+&lt;p&gt;With this conceptualization of ideas, and knowledge more generally, Otlet predicated his system on having the capacity to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and access content objects through links and metadata. In the image below, Otlet explored a paper card system for establishing multidimensional links between content objects.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_card_experiments.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -387,6 +393,172 @@
 
 &lt;h4 id=&quot;3-xanadu-by-ted-nelson&quot;&gt;3 Xanadu by Ted Nelson&lt;/h4&gt;
 
+&lt;!-- %%Who is Ted Nelson and what is known for%% --&gt;
+
+&lt;p&gt;Nelson is most known for inventing the &lt;em&gt;back button&lt;/em&gt; and coining &lt;em&gt;hypertext&lt;/em&gt;. Since the 1960s, Nelson has been providing reformulations of the definition of hypertext in a series of publications in which the project called Xanadu is introduced and sometimes explained in detail. Though Xanadu has never been fully implemented, the many prototypes and writings throughout the decades have influenced several hypertext projects, including the World Wide Web, “as its own inventor Tim Berners-Lee acknowledged” (Ridi 2018).&lt;/p&gt;
+
+&lt;!-- %%In brief, what is Xanadu?%% --&gt;
+
+&lt;p&gt;Xanadu is a hypertext system — technically a piece of software that since its conception has been designed to run on a global network of computers, in which every single document is to reside (Ridi 2018). Documents are conceived as containing content and connections to other documents that undergo changes. To accommodate these basic features of documents, Xanadu is designed so that connections are visual links and all changes are stored and can be accessed.&lt;/p&gt;
+
+&lt;!-- %%What are the intents and purposes?%% --&gt;
+
+&lt;p&gt;In a recent publication, Nelson describes the purpose of Xanadu:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;to build a deep-reach electronic literary system for worldwide use and a differently-organized general system of data management [and with the intention to] import literary concepts into a redesign of the rest of the software world. (Nelson 2015)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- %%Based on what?%% --&gt;
+
+&lt;p&gt;Much akin to the work of Otlet, the intents and purposes behind Xanadu are reflected in particular notions about the structure of ideas and how knowledge evolves. As Nelson writes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The physical universe is not all that decays. So do abstraction and categories. Human ideas, science, scholarship, and language constantly collapsing and unfolding. Any field, and the corpus of all fields, is a bundle of relationships subject to all kinds of twists, inversions, involutions, and rearrangement. (Nelson 1965)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;According to Nelson, it is this continuous evolution that a system must be designed to accommodate, which is achieved by having the capacity for new categorization systems and any arrangements of old and new content.&lt;/p&gt;
+
+&lt;!-- %%As Nelson writes:%% --&gt;
+
+&lt;!-- %%&gt; To the extent that information retrieval is concerned with seeking true or ideal or permanent codes and categories—and even the most sophisticated &apos;role indicator&apos; syntaxes are a form of this endeavor—to this extent, information retrieval seems to me to be mistaken. The categories are chimerical (or temporal) and our categorization systems must evolve as they do. (Nelson 1965)%% --&gt;
+
+&lt;p&gt;Further, the structure of the system must reflect the structure of ideas, which according to Nelson is nonsequential, and&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;indeed, our thought processes are not very sequential either. [A]s you consider a thing, your thoughts crisscross it constantly, reviewing first one connection, then another. Each new idea is compared with many parts of the whole picture, or with some mental visualization of the whole picture itself. (Nelson 1987)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In line with that notion of the structure of ideas, in his book Literary Machines (first published in 1980), &lt;em&gt;hypertext&lt;/em&gt; is defined as “nonsequential writing—text that branches and allows choices to the reader” (Nelson 1987). Whereas writing and structuring sequential text entails choosing “one expository sequence from among the possible myriad,” writing nonsequential text entails deciding on the “interconnective structure” — “where to put things in the searchable maze” (Nelson 1987).&lt;/p&gt;
+
+&lt;p&gt;Based on these definitions and notions about how ideas and knowledge evolve, for Nelson, it is crucial that a hypertext system stores (and makes accessible) the many possible link types and history of changes to every document. With that as background, some of the most significant aspects of Xanadu are listed below.&lt;/p&gt;
+
+&lt;!-- %%What are the main concepts?%% --&gt;
+&lt;!-- %%List overview%% --&gt;
+
+&lt;p&gt;Xanadu is a system:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;With a multidimensional data structure, in which there are three main categories of dimensions:
+    &lt;ul&gt;
+      &lt;li&gt;Link dimension.&lt;/li&gt;
+      &lt;li&gt;Alternate version dimension.&lt;/li&gt;
+      &lt;li&gt;History dimension.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Designed for interconnected documents, in which the connections:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Are categorized into two main link types:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;Content links&lt;/em&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Transclusions&lt;/em&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Are implemented as bidirectional visual links.
+    &lt;ul&gt;
+      &lt;li&gt;Expressed by two concepts:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;em&gt;Transpointing windows&lt;/em&gt;.&lt;/li&gt;
+          &lt;li&gt;&lt;em&gt;Parallel documents&lt;/em&gt;.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- %%What are the main concepts?%% --&gt;
+&lt;!-- %%Explain%% --&gt;
+
+&lt;p&gt;Xanadu has gone through many revisions and different prototype implementations, but the core concepts have fundamentally remained the same. In what follows, those core concepts are examined, with reflections on some of the implementations, in juxtaposition to a familiar hypertext project, the World Wide Web.&lt;/p&gt;
+
+&lt;p&gt;As Nelson often criticizes, the structure of the World Wide Web (and other projects such as NoteCards by Apple developed in the 1980s), commonly conceived hypertext structure as “a series of text chunks connected by links which offer the reader different pathways” (Nelson 1980). The image below is Nelson’s visual interpretation of that structure, often referred to as &lt;em&gt;chunk style hypertext&lt;/em&gt; (Nelson 1974).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/nelson_ordinary_hypertext.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transcluded from Nelson (1987)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In this structure, links only go outward; none of the inward links are accessible. For Nelson, this is an oversimplification of the potential of a hypertext structure and what a hypertext system can be. In contrast to &lt;em&gt;chunk style hypertext&lt;/em&gt; is what Nelson calls &lt;em&gt;windowing&lt;/em&gt; or &lt;em&gt;compound hypertext&lt;/em&gt;. Seen in the image below are instances of content objects in several documents, whereby the sequence is altered so that the structure is nonsequential.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/nelson_window_compund_text.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transcluded from Nelson (1987)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Compared to the World Wide Web, Xanadu is a system that stores every change made to documents (contents and links), integrated in such a way that former states can be retrieved and reworked (Nelson 1987). Important to note is that people can choose whether those changes are local/private or online/public, as seen in the image below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/nelson_public_private.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transcluded from Nelson (1987)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Once a document is online/public, any changes made (e.g., if the author revises the content or other people reusing parts or creating connections) are stored; effectively, the history of every document is accessible to anyone. To offer historical backtracking and version control of all documents and access to the original context of reused content objects across documents, Xanadu has (beyond the conceptual dimensions) three main dimensions: link dimension, alternate versions dimension, and history dimension.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/nelson_xanadu_document.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transcluded from Nelson (1987)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The hypertext structure of Xanadu, called xanalogical structure, is designed to accommodate two categories of connections between documents, expressed by the two link types called &lt;em&gt;content links&lt;/em&gt; and &lt;em&gt;transclusions&lt;/em&gt;. Content links are the arbitrary connections that people (authors and readers) create as they engage with text. These are the link types that connect a content object, for example, a comment on another content object, to each other. Transclusions are reused content objects. Significantly, on a technical level (and by interactive visual means), transclusions offer a way to retrieve “the origins and context of quotations, excerpts and anthologized materials, and content transiting between versions” (Nelson 1999).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Transclusion is what quotation, copying and cross-referencing merely attempt: they are ways that people have had to &lt;em&gt;imitate&lt;/em&gt; transclusion, which is the true abstract relationship that paper cannot show. Transclusions are not copies and they are not instances, but &lt;em&gt;the same thing knowably and visibly in more than one place&lt;/em&gt;. (Nelson 1999)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Notably, links are not embedded in documents (as with HTML, for example), which means creating links has no repercussions to the content of the original document. Content objects are never duplicated; rather, they are &lt;em&gt;transcluded&lt;/em&gt; — included in other documents linked to the original document. Every link is bidirectional, so every outward and inward going link is accessible and technically implemented as an overlay, much akin to “a cache, or an alias on the desktop.” This is significant because it enables people to create multiple overlapping links on the same document.&lt;/p&gt;
+
+&lt;!-- %%How was this implemented?%% --&gt;
+
+&lt;p&gt;In contrast to the World Wide Web, in which links direct outward and are embedded, so that the interaction entails leaving one document to arrive at another, Nelson envisioned Xanadu as a system in which documents are viewed side-by-side with visual links, which he termed &lt;em&gt;parallel documents&lt;/em&gt; and &lt;em&gt;transpointing windows&lt;/em&gt; [Nelson 1999].&lt;/p&gt;
+
+&lt;p&gt;Parallel documents, according to Nelson:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;are everywhere, but are not generally acknowledged. There are relatively few explicitly parallel documents (like Tom Stoppard’s play “Rosencrantz and Guildenstern Are Dead”, which is explicitly parallel to “Hamlet” – showing events that occur offstage in “Hamlet”, and vice versa). But implicitly parallel documents are everywhere – the parallelism of commentaries, the parallelism of long and short versions of reports, the parallelism of translations, the parallelism of holy books [Nelson 1998].&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Engaging with text would thus benefit from having documents visually parallel, and with transpointing windows, which are meant to:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;support analysis and detailed understanding – by parallel commentary, precise annotation and the explication of contents; by the facilitation of pinpoint controversy. These are needed not just in scholarship, but legislation, diplomacy, and anywhere that interrelated documents need to be seen. We need this visualization for side-by-side parallel documents (from holy books to legislation); for detailed explication, commentary or disagreement; for comparing successive versions of a document. (Nelson 1999)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Instead of deleting content from one place and plugging it into another (today’s distorted meanings of the venerable terms “cut” and “paste”), the author should be able to pull screen contents from old versions into new, seeing all points of origin and also seeing what contents have not yet been used. (Nelson 1999)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are several prototype demonstrations of how the concepts of &lt;em&gt;parallel documents&lt;/em&gt; and &lt;em&gt;transpointing windows&lt;/em&gt; might look and work. The image below shows an implementation from 2003.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/nelson_cosmicbook.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transcluded from Nelson (2015)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In another prototype implementation (seen in the image below), the linked content objects appear when scrolling (or as Nelson puts it: “all objects sworfing (swooping and/or morphing) together” (Nelson 2016).&lt;/p&gt;
+
+&lt;p&gt;✱ The idea of viewing documents side-by-side is solid, but having documents fly in and out of view as you scroll is not. There should be an interaction step in between, in which the content is only opened through deliberate action.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/xanaduspace_2007.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transcluded from Nelson (2016)&lt;/em&gt;&lt;/p&gt;
+
+&lt;!-- %%What is (are) the problem(s)?%% --&gt;
+
+&lt;p&gt;At this point, a reasonable concern is how to manage the complexity that may result from people creating multiple overlapping &lt;em&gt;transclusions&lt;/em&gt; and &lt;em&gt;content links&lt;/em&gt;. Moreover, there can be an infinite number of sub-categories within each of the two main categories of link types that can be created. Whereas Otlet’s experiment with cards is impractical in terms of implementation because of physical constraints, the problem of creating and mapping structures in the digital realm has to do with how to display and interact with the resulting complex information. As suggested by Conklin (1987) in his analysis of hypertext systems, this has been a central concern for decades.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/conklin_fig11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transcluded from Conklin (1987)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nelson refers to it as the &lt;em&gt;framing problem&lt;/em&gt; (seen in the image below), to which he notes that “filtering links is a key aspect of front-end design [which] is a separate study in itself” (Nelson 1987).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/nelson_framing_problem.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Transcluded from Nelson (1987)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In another implementation, Nelson shows how the data structure (xanalogical, but in the video referred to as ZigZag) can be visually and interactively implemented as a multidimensional cell structure.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WEj9vqVvHPc?start=199&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;✱ Insert reflection.&lt;/p&gt;
+
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 
 &lt;p&gt;Borgman CL. Data, Metadata, and Ted. In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 67–74.&lt;/p&gt;
@@ -399,15 +571,23 @@
 
 &lt;p&gt;Heuvel C van den, Rayward WB. Facing interfaces: Paul Otlet’s visualizations of data integration. J. Am. Soc. Inf. Sci. 2011;62(12):2313–26.&lt;/p&gt;
 
+&lt;p&gt;Hopper M. Vannevar Bush and Ted Nelson Revisited. Hypertext in Historical Context [Internet]. MIT Media Lab; 1998. Available from: &lt;a href=&quot;http://web.mit.edu/m-i-t/forums/hypertext/hypertext.htm#missing&quot;&gt;http://web.mit.edu/m-i-t/forums/hypertext/hypertext.htm#missing&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;Manfroid S, Gillen J, Phillips-Batoma PM. The Archives of Paul Otlet: Between Appreciation and Rediscovery, 1944–2013. Library Trends. 2013;62(2):311–28.&lt;/p&gt;
 
-&lt;p&gt;Nelson TH. Literary Machines: The report on, and of, Project Xanadu concerning word processing, electronic publishing, hypertext, thinkertoys, tomorrow’s intellectual revolution, and certain other topics including knowledge, education and freedom. Sausalito, California: Mindful Press; 1980.&lt;/p&gt;
+&lt;p&gt;Nelson TH. A File Structure for the Complex, the 134 Changing and the Indeterminate. 1965;13.&lt;/p&gt;
+
+&lt;p&gt;Nelson TH. Computer Lib Dream Machines. 1974.&lt;/p&gt;
 
 &lt;p&gt;Nelson TH. Literary Machines: The report on, and of, Project Xanadu concerning word processing, electronic publishing, hypertext, thinkertoys, tomorrow’s intellectual revolution, and certain other topics including knowledge, education and freedom. 87.1. Sausalito, California: Mindful Press; 1987.&lt;/p&gt;
 
 &lt;p&gt;Nelson TH. Xanalogical Structure, Needed Now More than Ever: Parallel Documents, Deep Links to Content, Deep Versioning, and Deep Re-Use. ACM Computing Surveys. 1999;31(4):32.&lt;/p&gt;
 
+&lt;p&gt;photonhunter. Ted Nelson on Zigzag data structures [Internet]. 2008 [cited 2021 October 30]. Available from: &lt;a href=&quot;https://www.youtube.com/watch?v=WEj9vqVvHPc&quot;&gt;https://www.youtube.com/watch?v=WEj9vqVvHPc&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;Nelson TH. What Box? In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 133–50.&lt;/p&gt;
+
+&lt;p&gt;Nelson TH. The Xanadu Universe [Internet]. 2016 [cited 2021 Oct 28]. Available from: &lt;a href=&quot;https://xanadu.com/xUniverse-D6&quot;&gt;https://xanadu.com/xUniverse-D6&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Rayward WB. Visions of Xanadu: Paul Otlet (1868–1944) and Hypertext. Journal of the American Society for Information Science. 1994;16.&lt;/p&gt;
 
