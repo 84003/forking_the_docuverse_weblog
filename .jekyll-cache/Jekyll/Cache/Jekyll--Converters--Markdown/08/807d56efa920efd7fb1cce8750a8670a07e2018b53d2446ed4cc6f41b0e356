@@ -1,12 +1,12 @@
-I"n�<p>✱ The purpose of this text is to give examples of both analog and digital projects based on mapping and visualizing interconnection, and in so doing, come to an understanding of what interconnection is and the many ways it has been explored in projects throughout history. so though I am expressing discontent with transferring biases and conventions from paper media to digital media, I am not saying we throw away these concepts, but consider how the constructs that we create and embed in the digital realm can serve as reconceptualizations of those conventions to better reflect interconnection (by making them visual, categorizable, and interactive). questions are: which of the significant features of historical projects are valuable and convenient for working with text? how might we design the interfaces of such systems in the digital realm for working with text, based on the intercomparison of their connections.</p>
+I"��<p>✱ The purpose of this text is to give examples of both analog and digital projects based on mapping and visualizing interconnection, and in so doing, come to an understanding of what interconnection is and the many ways it has been explored in projects throughout history. so though I am expressing discontent with transferring biases and conventions from paper media to digital media, I am not saying we throw away these concepts, but consider how the constructs that we create and embed in the digital realm can serve as reconceptualizations of those conventions to better reflect interconnection (by making them visual, categorizable, and interactive). questions are: which of the significant features of historical projects are valuable and convenient for working with text? how might we design the interfaces of such systems in the digital realm for working with text, based on the intercomparison of their connections.</p>
 
 <p>In what follows, core concepts and ideas behind systems for accommodating interconnection are discussed and implementations are evaluated and juxtaposed to current systems, such as the World Wide Web. In so doing the aim is to to consider that “[t]he past, and the pioneers who shaped the past, may hold many suggestions as to paths [that] might be valuable to explore in the future and advice on the most productive ways to go down those paths” (Hopper 1998).</p>
 
 <p>It may be the case that there are “vast potentials in electronic media that we still haven’t implemented, and we may be in danger of missing some of the greatest potential in electronic media because we mistake some situational limitations in technical development or project management for impossibility” (Hopper 1998).</p>
 
-<h2 id="terms-and-definitions">Terms and Definitions</h2>
+<h3 id="terms-and-definitions">Terms and Definitions</h3>
 
-<p>A document is a container of content objects, which can vary in modality (e.g., text, image, sound). Taken from <em>What is Text, Really?</em> by Steven DeRose (1990), content objects are what Charles van den Heuvel and W. Boyd Rayward (2011) call “information chunks,” what Ted Nelson (1999) calls “content items,” and what Ridi (2018) calls “information units.” In conventional terms, a paragraph, for example, is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality (text, image, sound) but are distinguished by type.</p>
+<p>A document is a container of content objects, which can vary in modality (e.g., text, image, sound). Taken from <em>What is Text, Really?</em> by Steven DeRose (1990), content objects are what Charles van den Heuvel and W. Boyd Rayward (2011) call “information chunks,” what Ted Nelson (1999) calls “content items,” and what Ridi (2018) calls “information units.” In [1]traditional [2]conventional terms, a paragraph, for example, is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality (text, image, sound) but are distinguished by type.</p>
 
 <p>The concept of interconnection, on which this project is based, denotes the various connections among the content objects within documents. As Nelson (1987) explains, connections can be internal or external to a document, stated implicitly or explicitly. For example, phrases such as “in the example given below,” “demonstrated in the image above,” or “stated previously” establish implicit internal connections. Explicit internal connections are content objects that by convention take the form of a footnote or marginal annotations — the content of which can be an elaboration of a term used, an example, a tangent, or comment. Explicit external connections are inclusions of one document segment into another (what Nelson (1980) coined transclusions) or some other direct connection by way of reference.</p>
 
@@ -121,7 +121,7 @@
 
 <p><em>Title and Source</em></p>
 
-<p>With this conceptualization of ideas, and knowledge more generally, Otlet predicated his system on having the capacity to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and access content objects through links and metadata. In the image below, Otlet explored a paper card system for establishing multidimensional links between content objects.</p>
+<p>[1]The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and accsess content objects by links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.[2]With this conceptualization of ideas, and knowledge more generally, Otlet predicated his system on having the capacity to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and access content objects through links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.</p>
 
 <p><img src="assets/otlet_card_experiments.png" alt="" /></p>
 
@@ -289,9 +289,7 @@
 
 <p><em>Transcluded from Nelson (2015)</em></p>
 
-<p>In another prototype implementation (seen in the image below), the linked content objects appear when scrolling (or as Nelson puts it: “all objects sworfing (swooping and/or morphing) together” (Nelson 2016).</p>
-
-<p>✱ The idea of viewing documents side-by-side is solid, but having documents fly in and out of view as you scroll is not. There should be an interaction step in between, in which the content is only opened through deliberate action.</p>
+<p>In another prototype implementation (seen in the image below), the linked content objects appear when scrolling (or as Nelson puts it: “all objects sworfing (swooping and/or morphing) together” (Nelson 2016).<sup id="fnref:sworfing" role="doc-noteref"><a href="#fn:sworfing" class="footnote" rel="footnote">1</a></sup></p>
 
 <p><img src="assets/xanaduspace_2007.png" alt="" /></p>
 
@@ -305,7 +303,7 @@
 
 <p><em>Transcluded from Conklin (1987)</em></p>
 
-<p>Nelson refers to it as the <em>framing problem</em> (seen in the image below), to which he notes that “filtering links is a key aspect of front-end design [which] is a separate study in itself” (Nelson 1987).</p>
+<p>Nelson refers to it as the <em>framing problem</em> (seen in the image below), to which he notes that “filtering links is a key aspect of front-end design [which] is a separate study in itself” (Nelson 1987).<sup id="fnref:front-end-design" role="doc-noteref"><a href="#fn:front-end-design" class="footnote" rel="footnote">2</a></sup></p>
 
 <p><img src="assets/nelson_framing_problem.png" alt="" /></p>
 
@@ -354,4 +352,16 @@
 <p>Rosenberg D. History Debugged. In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 91–103.</p>
 
 <p>Van der Weel A. Changing Our Textual Minds: Towards a Digital Order of Knowledge. Manchester University Press; 2012.</p>
+
+<h3 id="footnotes">Footnotes</h3>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:sworfing" role="doc-endnote">
+      <p>The idea of viewing documents side-by-side is solid, but having documents fly in and out of view as you scroll is not. There should be an interaction step in between, in which the content is only opened through deliberate action. <a href="#fnref:sworfing" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:front-end-design" role="doc-endnote">
+      <p>It is my intention to contribute to this aspect of a much larger project. <a href="#fnref:front-end-design" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 :ET
