@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-01T09:01:01+01:00</updated>
+ <updated>2021-11-01T09:44:05+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -248,7 +248,7 @@
 
 &lt;h2 id=&quot;terms-and-definitions&quot;&gt;Terms and Definitions&lt;/h2&gt;
 
-&lt;p&gt;A document is a container of content objects, which can vary in modality (e.g., text, image, sound). Taken from &lt;em&gt;What is Text, Really?&lt;/em&gt; by Steven DeRose (1990), content objects are what Charles van den Heuvel and W. Boyd Rayward (2011) call “information chunks,” what Ted Nelson (1999) calls “content items,” and what Ridi (2018) calls “information units.” In conventional terms, a paragraph, for example, is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality (text, image, sound) but are distinguished by type.&lt;/p&gt;
+&lt;p&gt;A document is a container of content objects, which can vary in modality (e.g., text, image, sound). Taken from &lt;em&gt;What is Text, Really?&lt;/em&gt; by Steven DeRose (1990), content objects are what Charles van den Heuvel and W. Boyd Rayward (2011) call “information chunks,” what Ted Nelson (1999) calls “content items,” and what Ridi (2018) calls “information units.” In [1]traditional [2]conventional terms, a paragraph, for example, is a content object; a quote within a paragraph is also a content object; a list and a list item are content objects. In other words, content objects vary not only in modality (text, image, sound) but are distinguished by type.&lt;/p&gt;
 
 &lt;p&gt;The concept of interconnection, on which this project is based, denotes the various connections among the content objects within documents. As Nelson (1987) explains, connections can be internal or external to a document, stated implicitly or explicitly. For example, phrases such as “in the example given below,” “demonstrated in the image above,” or “stated previously” establish implicit internal connections. Explicit internal connections are content objects that by convention take the form of a footnote or marginal annotations — the content of which can be an elaboration of a term used, an example, a tangent, or comment. Explicit external connections are inclusions of one document segment into another (what Nelson (1980) coined transclusions) or some other direct connection by way of reference.&lt;/p&gt;
 
@@ -363,7 +363,7 @@
 
 &lt;p&gt;&lt;em&gt;Title and Source&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;With this conceptualization of ideas, and knowledge more generally, Otlet predicated his system on having the capacity to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and access content objects through links and metadata. In the image below, Otlet explored a paper card system for establishing multidimensional links between content objects.&lt;/p&gt;
+&lt;p&gt;[1]The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and accsess content objects by links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.[2]With this conceptualization of ideas, and knowledge more generally, Otlet predicated his system on having the capacity to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and access content objects through links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_card_experiments.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
