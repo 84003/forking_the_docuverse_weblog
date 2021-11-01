@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-01T10:53:17+01:00</updated>
+ <updated>2021-11-01T10:54:40+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -365,7 +365,7 @@
 
 &lt;p&gt;&lt;em&gt;Title and Source&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;[1]The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and accsess content objects by links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.[2]With this conceptualization of ideas, and knowledge more generally, Otlet predicated his system on having the capacity to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and access content objects through links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.&lt;/p&gt;
+&lt;p&gt;[1]&lt;del&gt;The system must, therefore, also be designed to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and accsess content objects by links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.&lt;/del&gt;[2]With this conceptualization of ideas, and knowledge more generally, Otlet predicated his system on having the capacity to accommodate expansive growth and extensive reuse. For Otlet, this meant the capacity to both store and access content objects through links and metadata. In the image below, Otlet explored a paper card-based system to establish multidimensional links between content objects.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_card_experiments.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
