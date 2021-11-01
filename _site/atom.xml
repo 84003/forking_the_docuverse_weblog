@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-01T09:47:37+01:00</updated>
+ <updated>2021-11-01T10:09:26+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -531,9 +531,7 @@
 
 &lt;p&gt;&lt;em&gt;Transcluded from Nelson (2015)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;In another prototype implementation (seen in the image below), the linked content objects appear when scrolling (or as Nelson puts it: “all objects sworfing (swooping and/or morphing) together” (Nelson 2016).&lt;/p&gt;
-
-&lt;p&gt;✱ The idea of viewing documents side-by-side is solid, but having documents fly in and out of view as you scroll is not. There should be an interaction step in between, in which the content is only opened through deliberate action.&lt;/p&gt;
+&lt;p&gt;In another prototype implementation (seen in the image below), the linked content objects appear when scrolling (or as Nelson puts it: “all objects sworfing (swooping and/or morphing) together” (Nelson 2016).&lt;sup id=&quot;fnref:sworfing&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:sworfing&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/xanaduspace_2007.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -558,6 +556,8 @@
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WEj9vqVvHPc?start=199&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;✱ Insert reflection.&lt;/p&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
 
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 
@@ -596,6 +596,13 @@
 &lt;p&gt;Rosenberg D. History Debugged. In: Dechow DR, Struppa DC, editors. Intertwingled. Cham: Springer International Publishing; 2015. p. 91–103.&lt;/p&gt;
 
 &lt;p&gt;Van der Weel A. Changing Our Textual Minds: Towards a Digital Order of Knowledge. Manchester University Press; 2012.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:sworfing&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The idea of viewing documents side-by-side is solid, but having documents fly in and out of view as you scroll is not. There should be an interaction step in between, in which the content is only opened through deliberate action. &lt;a href=&quot;#fnref:sworfing&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
