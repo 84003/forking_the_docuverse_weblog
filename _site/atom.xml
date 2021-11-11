@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-01T10:54:40+01:00</updated>
+ <updated>2021-11-11T22:14:52+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -19,7 +19,9 @@
    <id>/07</id>
    <content type="html">&lt;h2 id=&quot;from-inventory-view-to-vertical-and-lateral-mode&quot;&gt;From Inventory View to Vertical and Lateral Mode&lt;/h2&gt;
 
-&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. Similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened on the same plane, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls &lt;a href=&quot;https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html&quot;&gt;Transpointing Windows in his Xanadu system&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. There are two versions for how this might look and work.&lt;/p&gt;
+
+&lt;!-- Footnote: This is similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened in the same window, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls [Transpointing Windows](https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html)). --&gt;
 
 &lt;h3 id=&quot;version-1&quot;&gt;Version 1&lt;/h3&gt;
 
@@ -51,27 +53,41 @@
 
 &lt;h2 id=&quot;video-demonstration&quot;&gt;Video Demonstration&lt;/h2&gt;
 
-&lt;p&gt;The video below demonstrates switching from Inventory View to Vertical Mode and Lateral Mode.&lt;/p&gt;
+&lt;p&gt;In version one the neighboring documents are always shown, whereas in version 2, hovering on a link shows documents as nodes on the side.&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GLRhaRRR_cM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;h3 id=&quot;version-01&quot;&gt;Version 01&lt;/h3&gt;
 
-&lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oI5o20Qpypg?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;version-02&quot;&gt;Version 02&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/je8Pt7bm3oA?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;other-failed-attempts&quot;&gt;Other (Failed) Attempts&lt;/h2&gt;
 
 &lt;h3 id=&quot;attempts-at-visualizing-opening-a-document-in-inventory-view&quot;&gt;Attempts at Visualizing Opening a Document in Inventory View&lt;/h3&gt;
 
 &lt;p&gt;In the video below, the links are visualized as vertical lines on each side of the document. The thickness of the lines corresponds with the number of linked content items. One of the drawbacks here is that there is too much information visualized simultaneously.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mS90u173WOY&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The video below demonstrates a slow transition from Inventory View to Vertical Mode. The question here is, what is the best way to animate a link within an open document to a closed document (node). In this example, hovering on a link has the effect of extending the line to the content item within the open document, and the closed document (node) scales up. A drawback is that the scaling effect does not immediately capture attention.&lt;/p&gt;
+&lt;p&gt;The video below demonstrates a slow transition from Inventory View to Vertical Mode. The question here is, what is the best way to animate a link within an open document to a closed document. In this example, hovering on a link has the effect of extending the line to the content item within the open document, and the closed document (node) scales up. A drawback is that the scaling effect does not immediately capture attention.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-fDsP9OiBDU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;attempts-at-visualizing-opening-a-document-in-vertical-mode&quot;&gt;Attempts at Visualizing Opening a Document in Vertical Mode&lt;/h3&gt;
 
-&lt;p&gt;Once in Vertical Mode, the selected link opens the corresponding document. The question here is, how should the linked content objects interact. In this example, upon opening a document by selecting a link, the linked content objects align, and the links fade out. The alignment of the content items may suffice.&lt;/p&gt;
+&lt;p&gt;Once in Vertical Mode, the selected link opens the corresponding document. The question is how the linked content objects should interact. In this example, upon opening a document by selecting a link, the linked content objects align, and the links fade out. The alignment of the content items may suffice.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5ClUV5wzWxc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -84,7 +100,7 @@
 
 &lt;h1 id=&quot;why-tinkering&quot;&gt;Why Tinkering?&lt;/h1&gt;
 
-&lt;p&gt;By tinkering with digital text, I mean engaging with text as a process involving analysis/decomposition and synthesis/recomposition. In line with the historical examples given in &lt;a href=&quot;3&quot;&gt;On Interconnection and the Boundary of Documents&lt;/a&gt;, that means breaking a text into parts to create something new, based on an epistemological position about the notion of ideas as being interconnected.&lt;/p&gt;
+&lt;p&gt;By tinkering with digital text, I mean engaging with text as a process involving analysis/decomposition and synthesis/recomposition. In line with the historical examples given in &lt;a href=&quot;3&quot;&gt;On Interconnection and the Boundary of Documents&lt;/a&gt;, that means breaking a text into parts to create something new…&lt;/p&gt;
 </content>
  </entry>
  
@@ -369,7 +385,7 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/otlet_card_experiments.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Multidimensional card system  (transcluded from Heuvel and Rayward (2011))&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Multidimensional card system (transcluded from Heuvel and Rayward (2011))&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;As Otlet writes:&lt;/p&gt;
 
