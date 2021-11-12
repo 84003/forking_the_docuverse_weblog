@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/msc_project_weblog/about</loc>
-<lastmod>2021-11-11T22:37:54+01:00</lastmod>
+<lastmod>2021-11-12T14:24:12+01:00</lastmod>
 </url>
 <url>
 <loc>/msc_project_weblog/search</loc>
-<lastmod>2021-11-11T22:37:54+01:00</lastmod>
+<lastmod>2021-11-12T14:24:12+01:00</lastmod>
 </url>
 <url>
 <loc>/msc_project_weblog/01</loc>
@@ -37,6 +37,10 @@
 <lastmod>2021-10-17T00:00:00+02:00</lastmod>
 </url>
 <url>
+<loc>/msc_project_weblog/08</loc>
+<lastmod>2021-11-12T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>/msc_project_weblog/</loc>
 </url>
 <url>
@@ -55,6 +59,6 @@
 <loc>/msc_project_weblog/tag/Design/</loc>
 </url>
 <url>
-<loc>/msc_project_weblog/tag/Design_Draft/</loc>
+<loc>/msc_project_weblog/tag/Prototype/</loc>
 </url>
 </urlset>

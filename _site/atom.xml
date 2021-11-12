@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-11T22:37:54+01:00</updated>
+ <updated>2021-11-12T14:24:12+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -13,7 +13,20 @@
 
  
  <entry>
-   <title>Designing the Construct: Switching View Modes and Traveling By Links</title>
+   <title>Prototyping: Transition Animations</title>
+   <link href="/msc_project_weblog/08"/>
+   <updated>2021-11-12T00:00:00+01:00</updated>
+   <id>/08</id>
+   <content type="html">&lt;h2 id=&quot;opening-and-sorting-links&quot;&gt;Opening and Sorting Links&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KkLsF9JbPdM?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Prototyping: Switching View Modes</title>
    <link href="/msc_project_weblog/07"/>
    <updated>2021-10-17T00:00:00+02:00</updated>
    <id>/07</id>
@@ -105,7 +118,7 @@
  </entry>
  
  <entry>
-   <title>Designing the Construct: Content Items and Link Types</title>
+   <title>Concept Design: Content Items and Link Types</title>
    <link href="/msc_project_weblog/05"/>
    <updated>2021-09-16T00:00:00+02:00</updated>
    <id>/05</id>
@@ -147,7 +160,7 @@
  </entry>
  
  <entry>
-   <title>Designing the Construct: Components and View Modes</title>
+   <title>Concept Design: Components and View Modes</title>
    <link href="/msc_project_weblog/04"/>
    <updated>2021-08-18T00:00:00+02:00</updated>
    <id>/04</id>

@@ -2,10 +2,21 @@
   
     {
 
-      "title"    : "Designing the Construct: Switching View Modes and Traveling By Links",
+      "title"    : "Prototyping: Transition Animations",
+      "url"      : "/msc_project_weblog/08",
+      "category" : "",
+      "tags"     : "Design, Prototype",
+      "date"     : "2021-11-12 00:00:00 +0100",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Prototyping: Switching View Modes",
       "url"      : "/msc_project_weblog/07",
       "category" : "",
-      "tags"     : "Design_Draft",
+      "tags"     : "Design, Prototype",
       "date"     : "2021-10-17 00:00:00 +0200",
       "description" : ""
 
@@ -24,10 +35,10 @@
   
     {
 
-      "title"    : "Designing the Construct: Content Items and Link Types",
+      "title"    : "Concept Design: Content Items and Link Types",
       "url"      : "/msc_project_weblog/05",
       "category" : "",
-      "tags"     : "Design_Draft",
+      "tags"     : "Design",
       "date"     : "2021-09-16 00:00:00 +0200",
       "description" : ""
 
@@ -35,7 +46,7 @@
   
     {
 
-      "title"    : "Designing the Construct: Components and View Modes",
+      "title"    : "Concept Design: Components and View Modes",
       "url"      : "/msc_project_weblog/04",
       "category" : "",
       "tags"     : "Design",
