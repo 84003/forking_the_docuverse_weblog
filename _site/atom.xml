@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-12T17:11:41+01:00</updated>
+ <updated>2021-11-15T12:13:45+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -13,11 +13,40 @@
 
  
  <entry>
-   <title>Prototyping: Transition Animations</title>
+   <title>Prototyping: Sorting and Selecting Links to Open Documents</title>
    <link href="/msc_project_weblog/08"/>
    <updated>2021-11-12T00:00:00+01:00</updated>
    <id>/08</id>
-   <content type="html">&lt;h2 id=&quot;opening-and-sorting-links&quot;&gt;Opening and Sorting Links&lt;/h2&gt;
+   <content type="html">&lt;p&gt;Summary of alterations:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The representation of linked documents  in version 1 and 2 demonstrated in the &lt;a href=&quot;07&quot;&gt;previous entry&lt;/a&gt; are discarded.
+    &lt;ul&gt;
+      &lt;li&gt;The continuation of representing documents as nodes in Lateral Mode is potentially distracting and not particularly useful. There could be a benefit from distinguishing how documents are represented in each mode.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Linked documents are no longer represented as nodes in Vertical and Lateral Mode, rather as icons.&lt;/li&gt;
+  &lt;li&gt;Transition animations are divided into steps, showing how link properties change from Inventory to Lateral Mode.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;selecting-links&quot;&gt;Selecting Links&lt;/h2&gt;
+
+&lt;p&gt;As seen in the previous entry, selecting a node in Inventory View opens a single document. It is also possible to open documents by selecting their links. There are two ways of opening documents by selecting links:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Double-click&lt;/strong&gt; on links between two nodes opens the two linked documents, and all links are visible between documents.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Single-click&lt;/strong&gt; on links between two nodes reveals a menu of the tag links. Selecting a tag link will open the two linked documents and only the selected tagged links are visible.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/selecting_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;icons-for-representing-linked-documents-in-lateral-mode&quot;&gt;Icons for Representing Linked Documents in Lateral Mode&lt;/h2&gt;
+
+&lt;p&gt;Hovering on a link in an open document reveals the linked document. There are two versions for how to represent a linked document: as an expand icon or preview icon.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/preview_expand_icons.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;video-demonstration&quot;&gt;Video Demonstration&lt;/h2&gt;
+
+&lt;p&gt;The video below shows how to sort links by selecting #Labels, and selecting links to open documents.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KkLsF9JbPdM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -30,19 +59,18 @@
    <link href="/msc_project_weblog/07"/>
    <updated>2021-10-17T00:00:00+02:00</updated>
    <id>/07</id>
-   <content type="html">&lt;h2 id=&quot;from-inventory-view-to-vertical-and-lateral-mode&quot;&gt;From Inventory View to Vertical and Lateral Mode&lt;/h2&gt;
+   <content type="html">&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. There are two versions for how this might look and work.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. There are two versions for how this might look and work.&lt;/p&gt;
+&lt;h2 id=&quot;from-inventory-view-to-lateral-mode&quot;&gt;From Inventory View to Lateral Mode&lt;/h2&gt;
 
-&lt;!-- Footnote: This is similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened in the same window, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls [Transpointing Windows](https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html)). --&gt;
-
-&lt;h3 id=&quot;version-1&quot;&gt;Version 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Version 1&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_select_expand.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the image above, the linked documents are always visible and join in the middle of the open document.&lt;/p&gt;
 
-&lt;h3 id=&quot;version-2&quot;&gt;Version 2&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Version 2&lt;/strong&gt;&lt;/p&gt;
+
 &lt;p&gt;The image below shows an alternate version in which the linked documents are only visible when hovering on a link in the open document (called Vertical View).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_inventory_vertical_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
@@ -66,15 +94,17 @@
 
 &lt;h2 id=&quot;video-demonstration&quot;&gt;Video Demonstration&lt;/h2&gt;
 
-&lt;p&gt;In version one the neighboring documents are always shown, whereas in version 2, hovering on a link shows documents as nodes on the side.&lt;/p&gt;
+&lt;p&gt;In version 1 the neighboring documents are always shown, whereas in version 2, hovering on a link shows documents as nodes on the side.&lt;/p&gt;
 
-&lt;h3 id=&quot;version-01&quot;&gt;Version 01&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Version 01&lt;/strong&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/oI5o20Qpypg?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;version-02&quot;&gt;Version 02&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Version 02&lt;/strong&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/je8Pt7bm3oA?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -101,6 +131,15 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5ClUV5wzWxc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;endnotes&quot;&gt;Endnotes&lt;/h2&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;This is similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened in the same window, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls &lt;a href=&quot;https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html&quot;&gt;Transpointing Windows&lt;/a&gt;). &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
 </content>
  </entry>
  
@@ -111,7 +150,7 @@
    <id>/06</id>
    <content type="html">&lt;p&gt;✱ Still working on it.&lt;/p&gt;
 
-&lt;h1 id=&quot;why-tinkering&quot;&gt;Why Tinkering?&lt;/h1&gt;
+&lt;h2 id=&quot;why-tinkering&quot;&gt;Why Tinkering?&lt;/h2&gt;
 
 &lt;p&gt;By tinkering with digital text, I mean engaging with text as a process involving analysis/decomposition and synthesis/recomposition. In line with the historical examples given in &lt;a href=&quot;3&quot;&gt;On Interconnection and the Boundary of Documents&lt;/a&gt;, that means breaking a text into parts to create something new…&lt;/p&gt;
 </content>

@@ -1,0 +1,10 @@
+I"Ü<p>While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. There are two versions for how this might look and work.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened in the same window, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls <a href="https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html">Transpointing Windows</a>).Â <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

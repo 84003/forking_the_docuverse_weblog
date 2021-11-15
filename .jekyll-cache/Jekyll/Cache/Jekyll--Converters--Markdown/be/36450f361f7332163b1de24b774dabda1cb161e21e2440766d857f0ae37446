@@ -1,16 +1,15 @@
-I"š<h2 id="from-inventory-view-to-vertical-and-lateral-mode">From Inventory View to Vertical and Lateral Mode</h2>
+I"Ü<p>While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. There are two versions for how this might look and work.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
-<p>While in Inventory View, selecting a node opens a document. Selecting another node will close the already-open document and open the other. There are two versions for how this might look and work.</p>
+<h2 id="from-inventory-view-to-lateral-mode">From Inventory View to Lateral Mode</h2>
 
-<!-- Footnote: This is similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened in the same window, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls [Transpointing Windows](https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html)). -->
-
-<h3 id="version-1">Version 1</h3>
+<p><strong>Version 1</strong></p>
 
 <p><img src="assets/bp_select_expand.png" alt="" /></p>
 
 <p>In the image above, the linked documents are always visible and join in the middle of the open document.</p>
 
-<h3 id="version-2">Version 2</h3>
+<p><strong>Version 2</strong></p>
+
 <p>The image below shows an alternate version in which the linked documents are only visible when hovering on a link in the open document (called Vertical View).</p>
 
 <p><img src="assets/bp_inventory_vertical_lateral.png" alt="" /></p>
@@ -34,15 +33,17 @@
 
 <h2 id="video-demonstration">Video Demonstration</h2>
 
-<p>In version one the neighboring documents are always shown, whereas in version 2, hovering on a link shows documents as nodes on the side.</p>
+<p>In version 1 the neighboring documents are always shown, whereas in version 2, hovering on a link shows documents as nodes on the side.</p>
 
-<h3 id="version-01">Version 01</h3>
+<p><strong>Version 01</strong></p>
 
+<p><br /></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oI5o20Qpypg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <p><br /></p>
 
-<h3 id="version-02">Version 02</h3>
+<p><strong>Version 02</strong></p>
 
+<p><br /></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/je8Pt7bm3oA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <p><br /></p>
 
@@ -69,4 +70,13 @@
 <p><br /></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5ClUV5wzWxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <p><br /></p>
+
+<h2 id="endnotes">Endnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened in the same window, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls <a href="https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html">Transpointing Windows</a>).Â <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 :ET
