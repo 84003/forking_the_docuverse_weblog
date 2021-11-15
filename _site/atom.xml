@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-15T12:13:45+01:00</updated>
+ <updated>2021-11-15T12:20:22+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -21,7 +21,7 @@
 &lt;ul&gt;
   &lt;li&gt;The representation of linked documents  in version 1 and 2 demonstrated in the &lt;a href=&quot;07&quot;&gt;previous entry&lt;/a&gt; are discarded.
     &lt;ul&gt;
-      &lt;li&gt;The continuation of representing documents as nodes in Lateral Mode is potentially distracting and not particularly useful. There could be a benefit from distinguishing how documents are represented in each mode.&lt;/li&gt;
+      &lt;li&gt;The continuation of representing documents as nodes in Lateral Mode is potentially distracting and not particularly useful for opening and closing documents. Rather, the representation of documents are now distinguished in each mode.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Linked documents are no longer represented as nodes in Vertical and Lateral Mode, rather as icons.&lt;/li&gt;

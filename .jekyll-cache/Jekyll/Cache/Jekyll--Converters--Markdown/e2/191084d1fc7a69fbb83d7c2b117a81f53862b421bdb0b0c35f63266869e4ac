@@ -1,0 +1,11 @@
+I"¬<p>Summary of alterations:</p>
+<ul>
+  <li>The representation of linked documents  in version 1 and 2 demonstrated in the <a href="07">previous entry</a> are discarded.
+    <ul>
+      <li>The continuation of representing documents as nodes in Lateral Mode is potentially distracting and not particularly useful for opening and closing documents. Rather, the representation of documents are now distinguished in each mode.</li>
+    </ul>
+  </li>
+  <li>Linked documents are no longer represented as nodes in Vertical and Lateral Mode, rather as icons.</li>
+  <li>Transition animations are divided into steps, showing how link properties change from Inventory to Lateral Mode.</li>
+</ul>
+:ET
