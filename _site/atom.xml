@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-15T12:20:22+01:00</updated>
+ <updated>2021-11-15T12:47:13+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -71,7 +71,7 @@
 
 &lt;p&gt;&lt;strong&gt;Version 2&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The image below shows an alternate version in which the linked documents are only visible when hovering on a link in the open document (called Vertical View).&lt;/p&gt;
+&lt;p&gt;The image below shows an alternate version in which the linked documents are only visible when hovering&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; on a link in the open document (called Vertical View).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_inventory_vertical_lateral.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -137,6 +137,9 @@
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;This is similar to how selecting a bookmarked URL in a browser opens a website, it replaces the displayed website if another bookmarked URL is selected. It is, of course, possible to open a new tab, but the difference here is that the documents can be opened in the same window, and the connections are visualized as links across the boundary of documents (similar to what Ted Nelson calls &lt;a href=&quot;https://www.aus.xanadu.com/ted/TN/PARALUNE/paraviz.html&quot;&gt;Transpointing Windows&lt;/a&gt;). &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Hovering on a link to show (documents represented as) node in Vertical Mode is not particularly useful, since the size is only informative when seen in relation to other nodes. In the next round node representation is to be further developed. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
