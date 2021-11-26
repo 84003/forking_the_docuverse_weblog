@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-26T09:48:16+01:00</updated>
+ <updated>2021-11-26T10:00:43+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -46,7 +46,7 @@
 
 &lt;p&gt;The image below shows how to open a document in Inventory View to enter Lateral Mode.&lt;/p&gt;
 
-&lt;p&gt;![[inventory_to_lateral_mode.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/inventory_to_lateral_mode.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;While in Lateral Mode it is possible to open the linked documents, as shown below. Note that each linked content item can be of the same document, in which case there are multiple instances of the same document.&lt;/p&gt;
 
