@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-26T09:40:31+01:00</updated>
+ <updated>2021-11-26T09:48:16+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -34,7 +34,7 @@
 
 &lt;p&gt;On the web links only go outwards and the visibility of links (if at all) take the form of previews (of the webpage, not the particular content item) as the cursor hovers on a hyperlink.&lt;/p&gt;
 
-&lt;p&gt;IMAGE&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/wikipedia_hover_preview.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As have been tested in the interactive prototypes so far, there are certain issues that comes with visible links between documents which mainly has to do with the complexity of information because various link types can be displayed all at once. As demonstrated in the &lt;a href=&quot;08&quot;&gt;previous entry&lt;/a&gt;, a solution to this is the possibility to apply #Labels to tag links in order to sort and filter the amount of information that is displayed. This is deemed useful particularly in Inventory View.&lt;/p&gt;
 
