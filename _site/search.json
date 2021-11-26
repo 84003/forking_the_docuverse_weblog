@@ -2,7 +2,18 @@
   
     {
 
-      "title"    : "Prototyping: Sorting and Selecting Links to Open Documents",
+      "title"    : "Concept Design and Prototyping: Redesigning Lateral Mode",
+      "url"      : "/msc_project_weblog/09",
+      "category" : "",
+      "tags"     : "Design, Prototype",
+      "date"     : "2021-11-26 00:00:00 +0100",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Prototyping: Filtering and Selecting Links to Open Documents",
       "url"      : "/msc_project_weblog/08",
       "category" : "",
       "tags"     : "Design, Prototype",

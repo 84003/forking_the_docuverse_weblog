@@ -1,0 +1,35 @@
+I"„<p>Summary of alterations:</p>
+<ul>
+  <li>The representation of linked documents  in version 1 and 2 demonstrated in the <a href="07">previous entry</a> are discarded.
+    <ul>
+      <li>The continuation of representing documents as nodes in Lateral Mode is potentially distracting and not particularly useful for opening and closing documents. Rather, the representation of documents are now distinguished in each mode.</li>
+    </ul>
+  </li>
+  <li>Linked documents are no longer represented as nodes in Vertical and Lateral Mode, rather as icons.</li>
+  <li>Transition animations are divided into steps, showing how link properties change from Inventory to Lateral Mode.</li>
+</ul>
+
+<h2 id="selecting-links">Selecting Links</h2>
+
+<p>As seen in the previous entry, selecting a node in Inventory View opens a single document. It is also possible to open documents by selecting their links. There are two ways of opening documents by selecting links:</p>
+<ol>
+  <li><strong>Double-click</strong> on links between two nodes opens the two linked documents, and all links are visible between documents.</li>
+  <li><strong>Single-click</strong> on links between two nodes reveals a menu of the tag links. Selecting a tag link will open the two linked documents and only the selected tagged links are visible.</li>
+</ol>
+
+<p><img src="assets/selecting_links.png" alt="" /></p>
+
+<h2 id="icons-for-representing-linked-documents-in-lateral-mode">Icons for Representing Linked Documents in Lateral Mode</h2>
+
+<p>Hovering on a link in an open document reveals the linked document. There are two versions for how to represent a linked document: as an expand icon or preview icon.</p>
+
+<p><img src="assets/preview_expand_icons.png" alt="" /></p>
+
+<h2 id="video-demonstration">Video Demonstration</h2>
+
+<p>The video below shows how to filter links by selecting #Labels, and selecting links to open documents.</p>
+
+<p><br /></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uWC27Vr4_ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p><br /></p>
+:ET
