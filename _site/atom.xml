@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-28T11:32:36+01:00</updated>
+ <updated>2021-11-28T14:13:39+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -36,7 +36,7 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/wikipedia_hover_preview.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As have been tested in the interactive prototypes so far, there are certain issues that comes with visible links between documents which mainly has to do with the complexity of information because various link types can be displayed all at once. As demonstrated in the &lt;a href=&quot;08&quot;&gt;previous entry&lt;/a&gt;, a solution to this is the possibility to apply #Labels to tag links in order to sort and filter the amount of information that is displayed. This is deemed useful particularly in Inventory View.&lt;/p&gt;
+&lt;p&gt;As have been tested in the interactive prototypes so far, there are certain issues that comes with visible links between documents which mainly has to do with the complexity of information because various link types can be displayed all at once. As demonstrated in the &lt;a href=&quot;08&quot;&gt;previous entry&lt;/a&gt;, a solution to this is the possibility to apply #Labels to tag links in order to sort the amount of information that is displayed. This is deemed useful particularly in Inventory View.&lt;/p&gt;
 
 &lt;p&gt;While in Lateral Mode, the crossing of visible links between documents is deemed superfluous and potentially a distraction from the content. In the &lt;a href=&quot;08&quot;&gt;previous entry&lt;/a&gt; the solution proposed took the form of preview icons that are only visible on deliberate action (i.e., as the cursor hovers a link). However, that only applies to documents that remain closed, meaning the two documents that are open.&lt;/p&gt;
 
@@ -60,7 +60,7 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/lateral_mode_02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Note that it is still possible to filter links based on their #Labels, and to exclude transclusions by toggling the visibility in the side menu.&lt;/p&gt;
+&lt;p&gt;Note that it is still possible to sort links based on their #Labels, and to exclude transclusions by toggling the visibility in the side menu.&lt;/p&gt;
 
 &lt;h3 id=&quot;color-code-version&quot;&gt;Color Code Version&lt;/h3&gt;
 
@@ -73,7 +73,7 @@
  </entry>
  
  <entry>
-   <title>Prototyping: Filtering and Selecting Links to Open Documents</title>
+   <title>Prototyping: Sorting and Selecting Links to Open Documents</title>
    <link href="/msc_project_weblog/08"/>
    <updated>2021-11-12T00:00:00+01:00</updated>
    <id>/08</id>
@@ -106,7 +106,7 @@
 
 &lt;h2 id=&quot;video-demonstration&quot;&gt;Video Demonstration&lt;/h2&gt;
 
-&lt;p&gt;The video below shows how to filter links by selecting #Labels, and selecting links to open documents.&lt;/p&gt;
+&lt;p&gt;The video below shows how to sort links by selecting #Labels, and selecting links to open documents.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/uWC27Vr4_ds&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -148,7 +148,7 @@
 
 &lt;p&gt;Note that only the first-level linked nodes of an open document are visible in Lateral Mode. As indicated in the last step in the image above, closing a document will hide its linked nodes unless linked to one of the open documents.&lt;/p&gt;
 
-&lt;p&gt;Lateral Mode (as in the lateral reading strategy) enables checking the original context of a transcluded content item through deliberate action. Through the use of tag links, it is also possible to filter which link types should be displayed. This means it is possible to travel by a link path according to a selected tag (e.g., #comment, #elaboration, #definition).&lt;/p&gt;
+&lt;p&gt;Lateral Mode (as in the lateral reading strategy) enables checking the original context of a transcluded content item through deliberate action. Through the use of tag links, it is also possible to sort which link types should be displayed. This means it is possible to travel by a link path according to a selected tag (e.g., #comment, #elaboration, #definition).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/bp_travel_by_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
