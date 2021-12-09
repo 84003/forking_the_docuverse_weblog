@@ -4,13 +4,66 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-11-28T14:13:39+01:00</updated>
+ <updated>2021-12-10T00:32:34+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Prototyping: Visual Coding of Elements in Lateral Mode</title>
+   <link href="/msc_project_weblog/10"/>
+   <updated>2021-12-08T00:00:00+01:00</updated>
+   <id>/10</id>
+   <content type="html">&lt;p&gt;The attempt here is to finalize the design of the visual elements in Lateral Mode. The main design challenges involve the color-coding of different categories of information, and how cursor events change the display states.&lt;/p&gt;
+
+&lt;h2 id=&quot;color-coding-of-multiple-instances-of-the-same-document&quot;&gt;Color-Coding of Multiple Instances of the Same Document&lt;/h2&gt;
+
+&lt;p&gt;In designing Lateral Mode, one of the challenges is how to indicate multiple instances of the same document. A color-coded border around the preview component is implemented in the first image. In the second image, a color-coded title underline is implemented.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/document_color_border.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/document_color_underline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-position-and-visual-implementation-taglink-labels&quot;&gt;The Position and Visual Implementation Taglink Labels&lt;/h2&gt;
+
+&lt;p&gt;A second challenge is (beyond visually distinguishing link types) visually indicating (1) the link direction and (2) whether the link points to a particular content item within a document or the entire document.&lt;/p&gt;
+
+&lt;p&gt;In the examples below, the taglink points from a particular content item of the open document (middle) to the entire preview document (left). Specifically, the word &lt;em&gt;modality&lt;/em&gt; is linked to the entire document called &lt;em&gt;Defining Modality and Medium&lt;/em&gt;. The direction of the taglink is visually indicated by the label &lt;em&gt;Definition&lt;/em&gt;. The three images below show variations of the position of the label. The third image is deemed optimal because the visual information is separated into two categories and two cursor events.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/label_position_01.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the above below, whether the link points to a particular content item within a document or the entire document is shown &lt;strong&gt;while not hovering&lt;/strong&gt;, and &lt;strong&gt;while hovering&lt;/strong&gt; additionally shows the link direction and the label.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/label_position_02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the image above, all information categories are visible &lt;strong&gt;while not hovering&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/label_position_03.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the image above, &lt;strong&gt;while not hovering&lt;/strong&gt; shows whether the link points to a particular content item within a document or the entire document, and &lt;strong&gt;while hovering&lt;/strong&gt; hides the previous information and shows the link direction and the label.&lt;/p&gt;
+
+&lt;h2 id=&quot;interactive-implementation&quot;&gt;Interactive Implementation&lt;/h2&gt;
+
+&lt;p&gt;In the interactive implementation below, select the expand icon to enter full screen.&lt;/p&gt;
+
+&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/wPcAT4up3?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
+
+&lt;p&gt;Transition animation:
+test_04_transition_01&lt;/p&gt;
+
+&lt;p&gt;[insert reflection]&lt;/p&gt;
+
+&lt;p&gt;Color-coding of taglink label:
+&lt;img src=&quot;assets/label_color_coding_black_outline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;[insert reflection]&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Concept Design and Prototyping: Redesigning Lateral Mode</title>
