@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-10T13:08:11+01:00</updated>
+ <updated>2021-12-10T13:13:43+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -58,7 +58,8 @@
 &lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
 
 &lt;p&gt;Transition animation:&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/0qtwYBsgbU0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/test_04_transition_01.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;[insert reflection]&lt;/p&gt;
 
