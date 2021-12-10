@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-10T13:37:32+01:00</updated>
+ <updated>2021-12-10T13:42:54+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -129,9 +129,9 @@
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/68ZeS3SvcCU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h3 id=&quot;animating-multiple-instances-of-a-document&quot;&gt;Animating Multiple Instances of a Document&lt;/h3&gt;
+&lt;h3 id=&quot;animating-multiple-instances-of-the-same-document&quot;&gt;Animating Multiple Instances of the Same Document&lt;/h3&gt;
 
-&lt;p&gt;If a document has several content items linked to the open document, there will be multiple instances (previews) of that document on the sides. In the first image below, the multiple instances occur before a document is open, and in the second image it occurs after the middle document is open.&lt;/p&gt;
+&lt;p&gt;If a document has several content items linked to the open document, there will be multiple instances (side previews) of that document. In the first image below, the multiple instances occur before a document is open, and in the second image it occurs after the middle document is open.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/test_03_split_before.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
