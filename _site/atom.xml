@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-10T00:52:02+01:00</updated>
+ <updated>2021-12-10T12:20:20+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -33,15 +33,15 @@
 
 &lt;p&gt;In the examples below, the taglink points from a particular content item of the open document (middle) to the entire preview document (left). Specifically, the word &lt;em&gt;modality&lt;/em&gt; is linked to the entire document called &lt;em&gt;Defining Modality and Medium&lt;/em&gt;. The direction of the taglink is visually indicated by the label &lt;em&gt;Definition&lt;/em&gt;. The three images below show variations of the position of the label. The third image is deemed optimal because the visual information is separated into two categories and two cursor events.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/label_position_01.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/label_position_01.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the above below, whether the link points to a particular content item within a document or the entire document is shown &lt;strong&gt;while not hovering&lt;/strong&gt;, and &lt;strong&gt;while hovering&lt;/strong&gt; additionally shows the link direction and the label.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/label_position_02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/label_position_02.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the image above, all information categories are visible &lt;strong&gt;while not hovering&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/label_position_03.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/label_position_03.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the image above, &lt;strong&gt;while not hovering&lt;/strong&gt; shows whether the link points to a particular content item within a document or the entire document, and &lt;strong&gt;while hovering&lt;/strong&gt; hides the previous information and shows the link direction and the label.&lt;/p&gt;
 
@@ -58,8 +58,9 @@
 
 &lt;p&gt;[insert reflection]&lt;/p&gt;
 
-&lt;p&gt;Color-coding of taglink label:
-&lt;img src=&quot;assets/label_color_coding_black_outline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Color-coding of taglink label:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/label_color_coding_black_outline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;[insert reflection]&lt;/p&gt;
 </content>
