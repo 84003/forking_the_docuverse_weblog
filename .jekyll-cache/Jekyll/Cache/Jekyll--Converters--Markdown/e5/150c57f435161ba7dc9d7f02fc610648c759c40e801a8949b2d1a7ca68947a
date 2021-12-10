@@ -1,4 +1,4 @@
-I"Ð<p>Summary of alterations:</p>
+I"Ý<p>Summary of alterations:</p>
 <ul>
   <li>Redesign of Lateral Mode
     <ul>
@@ -50,4 +50,12 @@
 <h3 id="opacity-version">Opacity Version</h3>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/68ZeS3SvcCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h3 id="animating-multiple-instances-of-a-document">Animating Multiple Instances of a Document</h3>
+
+<p>If a document has several content items linked to the open document, there will be multiple instances (previews) of that document on the sides. In the first image below, the multiple instances occur before a document is open, and in the second image it occurs after the middle document is open.</p>
+
+<p><img src="assets/test_03_split_before.gif" alt="" /></p>
+
+<p><img src="assets/test_03_split_after.gif" alt="" /></p>
 :ET
