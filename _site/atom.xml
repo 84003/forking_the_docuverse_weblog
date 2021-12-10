@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-10T12:27:29+01:00</updated>
+ <updated>2021-12-10T12:46:38+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -17,11 +17,13 @@
    <link href="/msc_project_weblog/10"/>
    <updated>2021-12-08T00:00:00+01:00</updated>
    <id>/10</id>
-   <content type="html">&lt;p&gt;The attempt here is to finalize the design of the visual elements in Lateral Mode. The main design challenges involve the color-coding of different categories of information, and how cursor events change the display states.&lt;/p&gt;
+   <content type="html">&lt;p&gt;The attempt here is to finalize the design of the visual elements in Lateral Mode. The main design challenges involve the color-coding and how cursor events change the display states of different categories of information.&lt;/p&gt;
 
 &lt;h2 id=&quot;color-coding-of-multiple-instances-of-the-same-document&quot;&gt;Color-Coding of Multiple Instances of the Same Document&lt;/h2&gt;
 
-&lt;p&gt;In designing Lateral Mode, one of the challenges is how to indicate multiple instances of the same document. A color-coded border around the preview component is implemented in the first image. In the second image, a color-coded title underline is implemented.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/coded_gray.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In designing Lateral Mode, one of the challenges is how to indicate multiple instances of the same document. A color-coded border around the preview component is implemented in the image above and first image below. In the second image below, a color-coded title underline is implemented. Additionally, all linked content is in purple while navigation icons remain gray, which makes them two distinct categories of information.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/document_color_border.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
