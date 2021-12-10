@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-10T12:20:20+01:00</updated>
+ <updated>2021-12-10T12:26:02+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -26,6 +26,8 @@
 &lt;p&gt;&lt;img src=&quot;assets/document_color_border.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/document_color_underline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The document previews on the side are meant to be less visually prominent than the open document in the middle. To that end, the title underline is more appropriate.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-position-and-visual-implementation-taglink-labels&quot;&gt;The Position and Visual Implementation Taglink Labels&lt;/h2&gt;
 
