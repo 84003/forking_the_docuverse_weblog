@@ -4,13 +4,24 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-10T13:42:54+01:00</updated>
+ <updated>2021-12-16T22:52:10+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title> Prototyping: Untitled</title>
+   <link href="/msc_project_weblog/11"/>
+   <updated>2021-12-16T00:00:00+01:00</updated>
+   <id>/11</id>
+   <content type="html">&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;✱ More info to come&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Prototyping: Visual Coding of Elements in Lateral Mode</title>

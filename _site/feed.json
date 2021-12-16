@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "/msc_project_weblog/11",
+            "title": " Prototyping: Untitled",
+            "summary": null,
+            "content_text": "✱ More info to come",
+            "content_html": "<iframe style=\"border: 1px solid rgba(0, 0, 0, 0.1)\" width=\"640\" height=\"480\" src=\"https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/F_MbbVHe7?highlights=0\" allowfullscreen=\"\"></iframe><p>✱ More info to come</p>",
+            "url": "/msc_project_weblog/11",
+            
+            
+            
+            
+            
+            "date_published": "2021-12-16T00:00:00+01:00",
+            "date_modified": "2021-12-16T00:00:00+01:00",
+            
+                "author":  {
+                "name": "Rebecca Rui",
+                "url": "rebeccarui.crypto",
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "/msc_project_weblog/10",
             "title": "Prototyping: Visual Coding of Elements in Lateral Mode",
             "summary": null,
