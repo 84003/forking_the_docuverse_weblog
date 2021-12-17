@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-17T08:29:47+01:00</updated>
+ <updated>2021-12-17T08:46:44+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -26,7 +26,12 @@
 &lt;h2 id=&quot;things-to-fix&quot;&gt;Things To Fix&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;In Lateral Mode, while hovering a preview should bring that preview to front.&lt;/li&gt;
+  &lt;li&gt;In Lateral Mode:
+    &lt;ul&gt;
+      &lt;li&gt;While hovering a preview should bring that preview to front.&lt;/li&gt;
+      &lt;li&gt;While hovering linked text (or preview) should result in active color linked text.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Enable the filter menu&lt;/li&gt;
   &lt;li&gt;Visualization of multiple links to/from the same content item.&lt;/li&gt;
   &lt;li&gt;Step-by-step tutorial pop-ups as an introduction before entering the docuverse.&lt;/li&gt;
