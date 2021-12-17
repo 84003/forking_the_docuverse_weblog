@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-17T09:02:57+01:00</updated>
+ <updated>2021-12-17T09:07:20+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -58,7 +58,7 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/coded_gray.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;A more subtle approach is taken in the image below, having a color-coded title underline. Additionally, all linked content items are purple while navigation icons remain gray, which makes them two distinct categories of information.&lt;/p&gt;
+&lt;p&gt;A more subtle approach is taken in the second image below, having a color-coded title underline. Additionally, all linked content items are purple while navigation icons remain gray, which makes them two distinct categories of information.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/document_color_border.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
