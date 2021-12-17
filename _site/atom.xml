@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-17T08:46:44+01:00</updated>
+ <updated>2021-12-17T08:59:04+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -52,9 +52,13 @@
 
 &lt;h2 id=&quot;color-coding-of-multiple-instances-of-the-same-document&quot;&gt;Color-Coding of Multiple Instances of the Same Document&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;assets/coded_colors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In designing Lateral Mode, one of the challenges is how to indicate multiple instances of the same document. In the image above linked content items share the same color.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&quot;assets/coded_gray.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In designing Lateral Mode, one of the challenges is how to indicate multiple instances of the same document. A color-coded border around the preview component is implemented in the image above and first image below. In the second image below, a color-coded title underline is implemented. Additionally, all linked content is in purple while navigation icons remain gray, which makes them two distinct categories of information.&lt;/p&gt;
+&lt;p&gt;A color-coded border around the previews is implemented in the two images below. In the second image below, a more subtle approach is taken, having a color-coded title underline. Additionally, all linked content items are purple while navigation icons remain gray, which makes them two distinct categories of information.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/document_color_border.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
