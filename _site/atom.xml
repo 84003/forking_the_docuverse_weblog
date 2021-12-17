@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-16T22:52:10+01:00</updated>
+ <updated>2021-12-17T08:23:45+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -17,9 +17,24 @@
    <link href="/msc_project_weblog/11"/>
    <updated>2021-12-16T00:00:00+01:00</updated>
    <id>/11</id>
-   <content type="html">&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;p&gt;✱ Incomplete. More info to come.&lt;/p&gt;
 
-&lt;p&gt;✱ More info to come&lt;/p&gt;
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
+
+&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;things-to-fix&quot;&gt;Things To Fix&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In Lateral Mode, while hovering a preview should bring that preview to front.&lt;/li&gt;
+  &lt;li&gt;Enable the filter menu&lt;/li&gt;
+  &lt;li&gt;Visualization of multiple links to/from the same content item.&lt;/li&gt;
+  &lt;li&gt;Step-by-step tutorial pop-ups as an introduction before entering the docuverse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
+
+&lt;p&gt;[insert screenshots and reflection of failed attempts]&lt;/p&gt;
 </content>
  </entry>
  
