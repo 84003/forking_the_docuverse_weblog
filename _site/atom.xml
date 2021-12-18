@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-18T10:31:06+01:00</updated>
+ <updated>2021-12-18T10:32:56+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -82,43 +82,43 @@
 
 &lt;p&gt;In the image below, linked content items share the same color. In the top-left corner, the blue color-coding and shape of the link indicate that the word “modality” in the middle document is linked to the entire side document. In the bottom-right of the image, the green color coding and shape of the link indicate that only parts of each document are linked.&lt;/p&gt;
 
-&lt;p&gt;![[coded_colors.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/coded_colors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A color-coded border around the side previews is applied in another version, as seen in the image below. All linked content is gray, including the links.&lt;/p&gt;
 
-&lt;p&gt;![[coded_gray.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/coded_gray.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A more subtle approach is taken in the image below, having underlined titles. Additionally, all linked content items are purple, while navigation icons remain gray, indicating two distinct categories of information.&lt;/p&gt;
 
-&lt;p&gt;![[coded_underline.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/coded_underline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;link-types&quot;&gt;Link Types&lt;/h2&gt;
 
 &lt;p&gt;In the two images below, the version with the colored border is compared to the version with the underlined title. In both cases, the dashed line indicates a transclusion type link, and the solid line indicates a taglink.&lt;/p&gt;
 
-&lt;p&gt;![[document_color_border.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/document_color_border.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;![[document_color_underline.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/document_color_underline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;link-endpoints&quot;&gt;Link Endpoints&lt;/h2&gt;
 
 &lt;p&gt;To distinguish between a link that points to an entire document or a content item within a document, the link’s endpoint is either bracketed or pointed, respectively. Additionally, if a link points to a content item within a document, the linked content is emphasized, and if a link points to an entire document, its title is emphasized. These distinctions are demonstrated in the image below.&lt;/p&gt;
 
-&lt;p&gt;![[document_to_document_links.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/document_to_document_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;position-and-visualization-of-taglink-labels&quot;&gt;Position and Visualization of Taglink Labels&lt;/h2&gt;
 
 &lt;p&gt;In the examples below, the taglink points from a particular content item of the open document (middle) to the entire side document. Specifically, the word &lt;em&gt;modality&lt;/em&gt; is linked to the entire document titled &lt;em&gt;Defining Modality and Medium&lt;/em&gt;. The direction of the taglink is visually indicated by the label &lt;em&gt;Definition&lt;/em&gt;. The three images below show variations of the position of the label.&lt;/p&gt;
 
-&lt;p&gt;![[label_position_01.gif]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/label_position_01.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the image above, &lt;strong&gt;while not hovering&lt;/strong&gt; shows whether the link points to a particular content item within a document or the entire document. &lt;strong&gt;While hovering&lt;/strong&gt; shows the label combined with the link direction.&lt;/p&gt;
 
-&lt;p&gt;![[label_position_02.gif]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/label_position_02.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the image above, all information categories are shown &lt;strong&gt;while not hovering&lt;/strong&gt;. Only the display state of the &lt;em&gt;expand&lt;/em&gt; icon is toggled on the two different cursor events.&lt;/p&gt;
 
-&lt;p&gt;![[label_position_03.gif]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/label_position_03.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the image above, &lt;strong&gt;while not hovering&lt;/strong&gt; shows whether the link points to a particular content item within a document or the entire document, and &lt;strong&gt;while hovering&lt;/strong&gt; hides the previous information and shows the label combined with the link direction.&lt;/p&gt;
 
@@ -130,11 +130,11 @@
 
 &lt;p&gt;As seen below, one of the problems with the color border is the awkward transition animation effects.&lt;/p&gt;
 
-&lt;p&gt;![[test_04_transition_01.gif]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/test_04_transition_01.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Other variations of the color-coding system are seen in the following images.&lt;/p&gt;
 
-&lt;p&gt;![[label_color_coding_black_outline.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/label_color_coding_black_outline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
