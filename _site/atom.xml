@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-17T09:11:42+01:00</updated>
+ <updated>2021-12-18T10:15:02+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -13,17 +13,28 @@
 
  
  <entry>
-   <title> Prototyping: Untitled</title>
+   <title> Prototyping: Commixing Inventory View and Later Mode</title>
    <link href="/msc_project_weblog/11"/>
    <updated>2021-12-16T00:00:00+01:00</updated>
    <id>/11</id>
-   <content type="html">&lt;p&gt;✱ Incomplete. More info to come.&lt;/p&gt;
+   <content type="html">&lt;p&gt;This entry showcases an interactive prototype allowing navigation in Inventory View and Lateral Mode.&lt;/p&gt;
 
 &lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
 
-&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&quot;things-to-fix&quot;&gt;Things To Fix&lt;/h2&gt;
+&lt;h2 id=&quot;reflection&quot;&gt;Reflection&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For the purpose of indicating multiple instances of the same document, the title underline is deemed too subtle.
+    &lt;ul&gt;
+      &lt;li&gt;Color-coded borders might be better suited.&lt;/li&gt;
+      &lt;li&gt;For coherency, the color-coded borders should also appear upon hovering a document in Inventory View.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;improvements-due&quot;&gt;Improvements Due&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;In Lateral Mode:
@@ -34,7 +45,7 @@
   &lt;/li&gt;
   &lt;li&gt;Enable the filter menu&lt;/li&gt;
   &lt;li&gt;Visualization of multiple links to/from the same content item.&lt;/li&gt;
-  &lt;li&gt;Step-by-step tutorial pop-ups as an introduction before entering the docuverse.&lt;/li&gt;
+  &lt;li&gt;While in Lateral Mode there should be a frame in the bottom corner providing an overview of the current location in Inventory View.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
@@ -44,65 +55,86 @@
  </entry>
  
  <entry>
-   <title>Prototyping: Visual Coding of Elements in Lateral Mode</title>
+   <title>Prototyping: Visual Coding of Lateral Mode Components</title>
    <link href="/msc_project_weblog/10"/>
    <updated>2021-12-08T00:00:00+01:00</updated>
    <id>/10</id>
-   <content type="html">&lt;p&gt;The attempt here is to finalize the design of the visual elements in Lateral Mode. The main design challenges involve the color-coding and how cursor events change the display states of different categories of information.&lt;/p&gt;
+   <content type="html">&lt;p&gt;The attempt here is to finalize the design of the components in Lateral Mode. The main challenges involve color-coding and how cursor events change the display states of different categories of information. Those different categories of information are:&lt;/p&gt;
 
-&lt;h2 id=&quot;color-coding-of-multiple-instances-of-the-same-document&quot;&gt;Color-Coding of Multiple Instances of the Same Document&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;A link points to an entire document or a content item within a document.&lt;/li&gt;
+  &lt;li&gt;The simulation of multiple instances of the same document.&lt;/li&gt;
+  &lt;li&gt;Link direction.&lt;/li&gt;
+  &lt;li&gt;Link type; whether it is a transclusion or taglink.&lt;/li&gt;
+  &lt;li&gt;Taglink labels.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Questions are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How should these components be visualized?&lt;/li&gt;
+  &lt;li&gt;When should these components be shown or hidden?&lt;/li&gt;
+  &lt;li&gt;How should these components animate between a shown and hidden state?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;simulation-of-multiple-instances-of-the-same-document&quot;&gt;Simulation of Multiple Instances of the Same Document&lt;/h2&gt;
+
+&lt;p&gt;In designing Lateral Mode, one of the challenges is how to indicate multiple instances of the same document. Below are variations of applying color-coding to the different components.&lt;/p&gt;
+
+&lt;p&gt;In the image below, linked content items share the same color. In the top-left corner, the blue color-coding and shape of the link indicate that the word “modality” in the middle document is linked to the entire side document. In the bottom-right of the image, the green color-coding and shape of the link indicate that only parts of each document are linked.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/coded_colors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In designing Lateral Mode, one of the challenges is how to indicate multiple instances of the same document. In the image above linked content items share the same color. In another version, a color-coded border around the previews is implemented, as seen in the image below.&lt;/p&gt;
+&lt;p&gt;A color-coded border around the side previews is applied in another version, as seen in the image below. All linked content is gray, including the links.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/coded_gray.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;A more subtle approach is taken in the second image below, having a color-coded title underline. Additionally, all linked content items are purple while navigation icons remain gray, which makes them two distinct categories of information.&lt;/p&gt;
+&lt;p&gt;A more subtle approach is taken in the image below, having underlined titles. Additionally, all linked content items are purple while navigation icons remain gray, indicating that these are two distinct categories of information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/coded_underline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;link-types&quot;&gt;Link Types&lt;/h2&gt;
+
+&lt;p&gt;In the two images below, the version with the colored border is compared to the version with the underlined title. In both cases, the dashed line indicates a transclusion type link, and the solid line indicates a taglink.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/document_color_border.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/document_color_underline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The document previews on the side are meant to be less visually prominent than the open document in the middle. To that end, the title underline is more appropriate.&lt;/p&gt;
+&lt;h2 id=&quot;link-endpoints&quot;&gt;Link Endpoints&lt;/h2&gt;
 
-&lt;h2 id=&quot;the-position-and-visual-implementation-of-taglink-labels&quot;&gt;The Position and Visual Implementation of Taglink Labels&lt;/h2&gt;
+&lt;p&gt;To distinguish between a link that points to an entire document or a content item within a document, the link’s endpoint is either bracketed or pointed, respectively. Additionally, if a link points to a content item within a document, the linked content is emphasized, and if a link points to an entire document, its title is emphasized. These distinctions are demonstrated in the image below.&lt;/p&gt;
 
-&lt;p&gt;A second challenge is (beyond visually distinguishing link types) visually indicating (1) the link direction and (2) whether the link points to a particular content item within a document or the entire document.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/document_to_document_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In the examples below, the taglink points from a particular content item of the open document (middle) to the entire preview document (left). Specifically, the word &lt;em&gt;modality&lt;/em&gt; is linked to the entire document called &lt;em&gt;Defining Modality and Medium&lt;/em&gt;. The direction of the taglink is visually indicated by the label &lt;em&gt;Definition&lt;/em&gt;. The three images below show variations of the position of the label. The third image is deemed optimal because the visual information is separated into two categories and two cursor events.&lt;/p&gt;
+&lt;h2 id=&quot;position-and-visualization-of-taglink-labels&quot;&gt;Position and Visualization of Taglink Labels&lt;/h2&gt;
+
+&lt;p&gt;In the examples below, the taglink points from a particular content item of the open document (middle) to the entire side document. Specifically, the word &lt;em&gt;modality&lt;/em&gt; is linked to the entire document titled &lt;em&gt;Defining Modality and Medium&lt;/em&gt;. The direction of the taglink is visually indicated by the label &lt;em&gt;Definition&lt;/em&gt;. The three images below show variations of the position of the label.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/label_position_01.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In the above below, whether the link points to a particular content item within a document or the entire document is shown &lt;strong&gt;while not hovering&lt;/strong&gt;, and &lt;strong&gt;while hovering&lt;/strong&gt; additionally shows the link direction and the label.&lt;/p&gt;
+&lt;p&gt;In the image above, &lt;strong&gt;while not hovering&lt;/strong&gt; shows whether the link points to a particular content item within a document or the entire document. &lt;strong&gt;While hovering&lt;/strong&gt; shows the label combined with the link direction.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/label_position_02.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In the image above, all information categories are visible &lt;strong&gt;while not hovering&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;In the image above, all information categories are shown &lt;strong&gt;while not hovering&lt;/strong&gt;. Only the display state of the &lt;em&gt;expand&lt;/em&gt; icon is toggled on the two different cursor events.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/label_position_03.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In the image above, &lt;strong&gt;while not hovering&lt;/strong&gt; shows whether the link points to a particular content item within a document or the entire document, and &lt;strong&gt;while hovering&lt;/strong&gt; hides the previous information and shows the link direction and the label.&lt;/p&gt;
+&lt;p&gt;In the image above, &lt;strong&gt;while not hovering&lt;/strong&gt; shows whether the link points to a particular content item within a document or the entire document, and &lt;strong&gt;while hovering&lt;/strong&gt; hides the previous information and shows the label combined with the link direction.&lt;/p&gt;
 
-&lt;h2 id=&quot;interactive-implementation&quot;&gt;Interactive Implementation&lt;/h2&gt;
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
 
-&lt;p&gt;In the interactive implementation below, select the expand icon to enter full screen.&lt;/p&gt;
-
-&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/wPcAT4up3?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/wPcAT4up3?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
 
-&lt;p&gt;Transition animation:&lt;/p&gt;
+&lt;p&gt;As seen below, one of the problems with the color border is the awkward transition animation effects.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/test_04_transition_01.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;[insert reflection]&lt;/p&gt;
-
-&lt;p&gt;Color-coding of taglink label:&lt;/p&gt;
+&lt;p&gt;Other variations of the color-coding system are seen in the following images.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/label_color_coding_black_outline.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;[insert more screenshots reflection]&lt;/p&gt;
 </content>
  </entry>
  
