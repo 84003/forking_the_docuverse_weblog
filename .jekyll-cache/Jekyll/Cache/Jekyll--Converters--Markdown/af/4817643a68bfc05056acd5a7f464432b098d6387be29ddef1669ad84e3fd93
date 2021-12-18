@@ -1,0 +1,77 @@
+I"o<p>The attempt here is to finalize the design of the components in Lateral Mode. The main challenges involve color coding and how cursor events change the display states of different categories of information. Those different categories of information are:</p>
+
+<ol>
+  <li>A link points to an entire document or a content item within a document.</li>
+  <li>The simulation of multiple instances of the same document.</li>
+  <li>Link direction.</li>
+  <li>Link type; whether it is a transclusion or taglink.</li>
+  <li>Taglink labels.</li>
+</ol>
+
+<p>Questions are:</p>
+<ul>
+  <li>How should these components be visualized?</li>
+  <li>When should these components be shown or hidden?</li>
+  <li>How should these components animate between a shown and hidden state?</li>
+</ul>
+
+<h2 id="simulation-of-multiple-instances-of-the-same-document">Simulation of Multiple Instances of the Same Document</h2>
+
+<p>In designing Lateral Mode, one of the challenges is how to indicate multiple instances of the same document. Below are variations of applying color coding to the different components.</p>
+
+<p>In the image below, linked content items share the same color. In the top-left corner, the blue color-coding and shape of the link indicate that the word “modality” in the middle document is linked to the entire side document. In the bottom-right of the image, the green color coding and shape of the link indicate that only parts of each document are linked.</p>
+
+<p>![[coded_colors.png]]</p>
+
+<p>A color-coded border around the side previews is applied in another version, as seen in the image below. All linked content is gray, including the links.</p>
+
+<p>![[coded_gray.png]]</p>
+
+<p>A more subtle approach is taken in the image below, having underlined titles. Additionally, all linked content items are purple, while navigation icons remain gray, indicating two distinct categories of information.</p>
+
+<p>![[coded_underline.png]]</p>
+
+<h2 id="link-types">Link Types</h2>
+
+<p>In the two images below, the version with the colored border is compared to the version with the underlined title. In both cases, the dashed line indicates a transclusion type link, and the solid line indicates a taglink.</p>
+
+<p>![[document_color_border.png]]</p>
+
+<p>![[document_color_underline.png]]</p>
+
+<h2 id="link-endpoints">Link Endpoints</h2>
+
+<p>To distinguish between a link that points to an entire document or a content item within a document, the link’s endpoint is either bracketed or pointed, respectively. Additionally, if a link points to a content item within a document, the linked content is emphasized, and if a link points to an entire document, its title is emphasized. These distinctions are demonstrated in the image below.</p>
+
+<p>![[document_to_document_links.png]]</p>
+
+<h2 id="position-and-visualization-of-taglink-labels">Position and Visualization of Taglink Labels</h2>
+
+<p>In the examples below, the taglink points from a particular content item of the open document (middle) to the entire side document. Specifically, the word <em>modality</em> is linked to the entire document titled <em>Defining Modality and Medium</em>. The direction of the taglink is visually indicated by the label <em>Definition</em>. The three images below show variations of the position of the label.</p>
+
+<p>![[label_position_01.gif]]</p>
+
+<p>In the image above, <strong>while not hovering</strong> shows whether the link points to a particular content item within a document or the entire document. <strong>While hovering</strong> shows the label combined with the link direction.</p>
+
+<p>![[label_position_02.gif]]</p>
+
+<p>In the image above, all information categories are shown <strong>while not hovering</strong>. Only the display state of the <em>expand</em> icon is toggled on the two different cursor events.</p>
+
+<p>![[label_position_03.gif]]</p>
+
+<p>In the image above, <strong>while not hovering</strong> shows whether the link points to a particular content item within a document or the entire document, and <strong>while hovering</strong> hides the previous information and shows the label combined with the link direction.</p>
+
+<h2 id="interactive-prototype">Interactive Prototype</h2>
+
+<iframe style="border: 2px solid rgba(0, 0, 0, 0.1)" width="640" height="480" src="https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/wPcAT4up3?highlights=0" allowfullscreen=""></iframe>
+
+<h2 id="failed-attempts">Failed Attempts</h2>
+
+<p>As seen below, one of the problems with the color border is the awkward transition animation effects.</p>
+
+<p>![[test_04_transition_01.gif]]</p>
+
+<p>Other variations of the color-coding system are seen in the following images.</p>
+
+<p>![[label_color_coding_black_outline.png]]</p>
+:ET
