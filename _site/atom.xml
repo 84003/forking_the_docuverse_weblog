@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2022-01-06T18:23:58+01:00</updated>
+ <updated>2022-01-06T18:37:04+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -42,6 +42,10 @@
 &lt;p&gt;The image below shows what it would look like if multiple labels are attached to a taglink.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/link_endpoint_three_tags.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the image below, the color-coded borders replace the title underline.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/border_color.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
 

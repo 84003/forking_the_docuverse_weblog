@@ -1,4 +1,4 @@
-I"<p>Alterations and additions:</p>
+I"‡<p>Alterations and additions:</p>
 <ul>
   <li>Redesign of links to distinguish:
     <ul>
@@ -14,15 +14,19 @@
   <li>Addition of a location frame of Inventory View while in Lateral Mode.</li>
 </ul>
 
-<h2 id="link-directions-and-link-endpoints">Link Directions and Link Endpoints</h2>
+<h2 id="link-direction-and-link-endpoint">Link Direction and Link Endpoint</h2>
 
-<p>Link endpoints: how to distinguish between a link that points to an entire document and a link that points to a particular part of a document. In the image below the link is visualized as one element that indicates the link direction, link type, and link endpoint. The label is now visually separate from the link.</p>
+<p>Link endpoints: distinguishing between a link that points to an entire document and a link that points to a particular part of a document. In the image below, the link is visualized as one element that indicates the link direction, link type, and link endpoint. The label is now visually separate from the link.</p>
 
 <p><img src="assets/link_endpoint_one_tag.png" alt="" /></p>
 
-<p>The image below shows what it would look like if there are multiple labels attached to a taglink.</p>
+<p>The image below shows what it would look like if multiple labels are attached to a taglink.</p>
 
 <p><img src="assets/link_endpoint_three_tags.png" alt="" /></p>
+
+<p>In the image below, the color-coded borders replace the title underline.</p>
+
+<p><img src="assets/border_color.png" alt="" /></p>
 
 <h2 id="interactive-prototype">Interactive Prototype</h2>
 
@@ -46,13 +50,13 @@
 
 <h2 id="discarded-attempts">Discarded Attempts</h2>
 
-<p><strong>Aligment</strong></p>
+<p><strong>Alignment</strong></p>
 
 <p>In the image below, in addition to the left-bracket link, the title, the link, the label, and the linked text are aligned to emphasize that it points from the entire document on the left to a particular part in the document on the right.</p>
 
 <p><img src="assets/link_endpoint.gif" alt="" /></p>
 
-<p>In the image below the label is placed closely to the linked text within the open document.</p>
+<p>In the image below, the label is placed close to the linked text within the open document.</p>
 
 <p><img src="assets/link_vis_1.png" alt="" /></p>
 
