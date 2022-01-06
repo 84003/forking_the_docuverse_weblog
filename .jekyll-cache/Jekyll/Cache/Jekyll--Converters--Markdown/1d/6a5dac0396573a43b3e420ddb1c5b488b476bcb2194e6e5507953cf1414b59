@@ -1,0 +1,16 @@
+I"“<p>Alterations and additions:</p>
+<ul>
+  <li>Redesign of links to distinguish:
+    <ul>
+      <li>Link direction</li>
+      <li>Link endpoint (by improving the design of the brackets)</li>
+    </ul>
+  </li>
+  <li>Color coding:
+    <ul>
+      <li>Title underline is replaced with border color.</li>
+    </ul>
+  </li>
+  <li>Addition of a location frame of Inventory View while in Lateral Mode.</li>
+</ul>
+:ET

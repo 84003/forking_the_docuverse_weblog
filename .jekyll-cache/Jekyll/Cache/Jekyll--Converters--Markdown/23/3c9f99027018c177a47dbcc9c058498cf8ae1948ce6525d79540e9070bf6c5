@@ -1,0 +1,31 @@
+I"Ë<p>This entry showcases an interactive prototype allowing navigation in Inventory View and Lateral Mode.</p>
+
+<h2 id="interactive-prototype">Interactive Prototype</h2>
+
+<iframe style="border: 2px solid rgba(0, 0, 0, 0.1)" width="640" height="480" src="https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/F_MbbVHe7?highlights=0" allowfullscreen=""></iframe>
+
+<h2 id="reflection">Reflection</h2>
+
+<ul>
+  <li>To indicate multiple <em>ghost</em>-instances of the same document, the title underline is deemed too subtle.
+    <ul>
+      <li>Color-coded borders might be better suited.</li>
+      <li>The color-coded borders should also appear upon hovering a document in Inventory View for coherency.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="improvements-due">Improvements Due</h2>
+
+<ul>
+  <li>Apply color-coded borders</li>
+  <li>While in Lateral Mode, create a frame showing an overview of the current location in Inventory View.</li>
+  <li>Apply sequence-links at the top and bottom of open documents.</li>
+  <li>Visually distinguish link direction.</li>
+  <li>Improve visualization of link endpoints.</li>
+</ul>
+
+<h2 id="discarded-attempts">Discarded Attempts</h2>
+
+<p>[insert screenshots and reflection of failed attempts]</p>
+:ET

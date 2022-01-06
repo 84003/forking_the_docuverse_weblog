@@ -1,0 +1,79 @@
+I"
+<p>Alterations and additions:</p>
+<ul>
+  <li>Redesign of links to distinguish:
+    <ul>
+      <li>Link direction</li>
+      <li>Link endpoint (by improving the design of the brackets)</li>
+    </ul>
+  </li>
+  <li>Color coding:
+    <ul>
+      <li>Title underline is replaced with border color.</li>
+    </ul>
+  </li>
+  <li>Addition of a location frame of Inventory View while in Lateral Mode.</li>
+</ul>
+
+<h2 id="link-direction-and-link-endpoint">Link Direction and Link Endpoint</h2>
+
+<p>Link endpoints: how to distinguish between a link that points to an entire document and a link that points to a particular part of a document. In the image below the link is visualized as one element that indicates the link direction, link type, and link endpoint. The label is now visually separate from the link.</p>
+
+<p><img src="assets/link_endpoint_one_tag.png" alt="" /></p>
+
+<p>The image below shows what it would look like if there are multiple labels attached to a taglink.</p>
+
+<p><img src="assets/link_endpoint_three_tags.png" alt="" /></p>
+
+<h2 id="interactive-prototype">Interactive Prototype</h2>
+
+<p>Traverse documents in the interactive prototype below.</p>
+
+<iframe style="border: 2px solid rgba(0, 0, 0, 0.1)" width="640" height="480" src="https://framer.com/embed/Round-05--oM7xWmEceylTGDzxjPPZ/F_MbbVHe7?highlights=0" allowfullscreen=""></iframe>
+
+<h2 id="improvements-due">Improvements Due</h2>
+
+<ul>
+  <li>In Lateral Mode:
+    <ul>
+      <li>Hovering a preview should bring that preview to the front.</li>
+      <li>Hovering linked text (or preview) should result in active-color linked text.</li>
+      <li>Visualization of multiple links to/from the same content item.</li>
+    </ul>
+  </li>
+  <li>Filter menu</li>
+  <li>Sequence Links</li>
+</ul>
+
+<h2 id="discarded-attempts">Discarded Attempts</h2>
+
+<p><strong>Aligment</strong></p>
+
+<p>In the image below, in addition to the left-bracket link, the title, the link, the label, and the linked text are aligned to emphasize that it points from the entire document on the left to a particular part in the document on the right.</p>
+
+<p><img src="assets/link_endpoint.gif" alt="" /></p>
+
+<p>In the image below the label is placed closely to the linked text within the open document.</p>
+
+<p><img src="assets/link_vis_1.png" alt="" /></p>
+
+<p><strong>Brackets</strong></p>
+
+<p><img src="assets/link_bracket_1.png" alt="" /></p>
+
+<p><img src="assets/link_bracket_2.png" alt="" /></p>
+
+<p><img src="assets/link_bracket_3.png" alt="" /></p>
+
+<p><img src="assets/link_bracket_4.png" alt="" /></p>
+
+<p><img src="assets/link_bracket_5.png" alt="" /></p>
+
+<p><img src="assets/link_bracket_6.png" alt="" /></p>
+
+<p><img src="assets/link_bracket_7.png" alt="" /></p>
+
+<p><img src="assets/link_bracket_8.png" alt="" /></p>
+
+<p><img src="assets/link_bracket_9.png" alt="" /></p>
+:ET

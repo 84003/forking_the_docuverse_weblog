@@ -4,13 +4,98 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2021-12-18T10:32:56+01:00</updated>
+ <updated>2022-01-06T18:23:58+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title> Prototyping: Inventory View and Later Mode Part Two</title>
+   <link href="/msc_project_weblog/12"/>
+   <updated>2022-01-06T00:00:00+01:00</updated>
+   <id>/12</id>
+   <content type="html">&lt;p&gt;Alterations and additions:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Redesign of links to distinguish:
+    &lt;ul&gt;
+      &lt;li&gt;Link direction&lt;/li&gt;
+      &lt;li&gt;Link endpoint (by improving the design of the brackets)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Color coding:
+    &lt;ul&gt;
+      &lt;li&gt;Title underline is replaced with border color.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Addition of a location frame of Inventory View while in Lateral Mode.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;link-direction-and-link-endpoint&quot;&gt;Link Direction and Link Endpoint&lt;/h2&gt;
+
+&lt;p&gt;Link endpoints: distinguishing between a link that points to an entire document and a link that points to a particular part of a document. In the image below, the link is visualized as one element that indicates the link direction, link type, and link endpoint. The label is now visually separate from the link.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_endpoint_one_tag.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The image below shows what it would look like if multiple labels are attached to a taglink.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_endpoint_three_tags.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
+
+&lt;p&gt;Traverse documents in the interactive prototype below.&lt;/p&gt;
+
+&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-05--oM7xWmEceylTGDzxjPPZ/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;improvements-due&quot;&gt;Improvements Due&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In Lateral Mode:
+    &lt;ul&gt;
+      &lt;li&gt;Hovering a preview should bring that preview to the front.&lt;/li&gt;
+      &lt;li&gt;Hovering linked text (or preview) should result in active-color linked text.&lt;/li&gt;
+      &lt;li&gt;Visualization of multiple links to/from the same content item.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Filter menu&lt;/li&gt;
+  &lt;li&gt;Sequence Links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Alignment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the image below, in addition to the left-bracket link, the title, the link, the label, and the linked text are aligned to emphasize that it points from the entire document on the left to a particular part in the document on the right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_endpoint.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the image below, the label is placed close to the linked text within the open document.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_vis_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Brackets&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_5.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_7.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_8.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_bracket_9.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title> Prototyping: Inventory View and Later Mode</title>
@@ -26,10 +111,10 @@
 &lt;h2 id=&quot;reflection&quot;&gt;Reflection&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;To indicate multiple instances of the same document, the title underline is deemed too subtle.
+  &lt;li&gt;To indicate multiple &lt;em&gt;ghost&lt;/em&gt;-instances of the same document, the title underline is deemed too subtle.
     &lt;ul&gt;
-      &lt;li&gt;Color-coded borders might be better suited.
-  The color-coded borders should also appear upon hovering a document in Inventory View for coherency.&lt;/li&gt;
+      &lt;li&gt;Color-coded borders might be better suited.&lt;/li&gt;
+      &lt;li&gt;The color-coded borders should also appear upon hovering a document in Inventory View for coherency.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -37,18 +122,14 @@
 &lt;h2 id=&quot;improvements-due&quot;&gt;Improvements Due&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;In Lateral Mode:
-    &lt;ul&gt;
-      &lt;li&gt;Hovering a preview should bring that preview to the front.&lt;/li&gt;
-      &lt;li&gt;Hovering linked text (or preview) should result in active-color linked text.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Enable the filter menu&lt;/li&gt;
-  &lt;li&gt;Visualization of multiple links to/from the same content item.&lt;/li&gt;
-  &lt;li&gt;While in Lateral Mode, there should be a frame in the bottom corner providing an overview of the current location in Inventory View.&lt;/li&gt;
+  &lt;li&gt;Apply color-coded borders&lt;/li&gt;
+  &lt;li&gt;While in Lateral Mode, create a frame showing an overview of the current location in Inventory View.&lt;/li&gt;
+  &lt;li&gt;Apply sequence-links at the top and bottom of open documents.&lt;/li&gt;
+  &lt;li&gt;Visually distinguish link direction.&lt;/li&gt;
+  &lt;li&gt;Improve visualization of link endpoints.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
+&lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
 &lt;p&gt;[insert screenshots and reflection of failed attempts]&lt;/p&gt;
 </content>
@@ -126,7 +207,7 @@
 
 &lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/wPcAT4up3?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;h2 id=&quot;failed-attempts&quot;&gt;Failed Attempts&lt;/h2&gt;
+&lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
 &lt;p&gt;As seen below, one of the problems with the color border is the awkward transition animation effects.&lt;/p&gt;
 
@@ -302,7 +383,7 @@
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/je8Pt7bm3oA?controls=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;other-failed-attempts&quot;&gt;Other (Failed) Attempts&lt;/h2&gt;
+&lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
 &lt;h3 id=&quot;attempts-at-visualizing-opening-a-document-in-inventory-view&quot;&gt;Attempts at Visualizing Opening a Document in Inventory View&lt;/h3&gt;
 
