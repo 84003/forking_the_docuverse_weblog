@@ -4,7 +4,7 @@
  <title>A Construct for Tinkering With Digital Text</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2022-01-06T18:37:04+01:00</updated>
+ <updated>2022-01-10T09:33:30+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -33,9 +33,19 @@
   &lt;li&gt;Addition of a location frame of Inventory View while in Lateral Mode.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;link-direction-and-link-endpoint&quot;&gt;Link Direction and Link Endpoint&lt;/h2&gt;
+&lt;h2 id=&quot;link-type-direction-and-endpoint&quot;&gt;Link Type, Direction, and Endpoint&lt;/h2&gt;
 
-&lt;p&gt;Link endpoints: distinguishing between a link that points to an entire document and a link that points to a particular part of a document. In the image below, the link is visualized as one element that indicates the link direction, link type, and link endpoint. The label is now visually separate from the link.&lt;/p&gt;
+&lt;p&gt;Link type: Transclusion, sequence link (sLink), tag link (tLink).&lt;/p&gt;
+
+&lt;p&gt;Direction: To or from one document and another.&lt;/p&gt;
+
+&lt;p&gt;Link endpoints: distinguishing between a link that points to an entire document and a link that points to a particular part of a document.&lt;/p&gt;
+
+&lt;p&gt;Examples of different link types, directions, and endpoints are seen in the image below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/link_type_direction_endpoint.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the image below, the link is visualized as one element separate from the label.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/link_endpoint_one_tag.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
