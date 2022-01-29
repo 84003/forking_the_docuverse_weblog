@@ -1,13 +1,13 @@
 site: MSc Project Weblog
 url:
-title: A Construct for Tinkering With Digital Text
+title: Forking the Docuverse
 author: Rebecca Rui
 description:
 permalink: /:slug
 author:
   name: Rebecca Rui
   email: #youremail
-  url: rebeccarui.crypto
+  url: rebeccarui.online
 
 baseurl: "/msc_project_weblog"
 

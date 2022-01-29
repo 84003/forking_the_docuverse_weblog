@@ -1,0 +1,18 @@
+I"Ž<p>Alterations and additions:</p>
+<ul>
+  <li>Redesign of links to distinguish:
+    <ul>
+      <li>Link direction</li>
+      <li>Link endpoint (by improving the design of the brackets)</li>
+    </ul>
+  </li>
+  <li>Color coding:
+    <ul>
+      <li>Title underline is replaced with border color.</li>
+    </ul>
+  </li>
+  <li>Addition of a location frame of Inventory View while in Lateral View.</li>
+  <li>Aliases no longer have expand icons but use brightness to indicate that it can be triggered to open the linked document.</li>
+  <li>Minimize icon is replaced by a node-link icon, triggering the movement from Lateral View to Inventory View.</li>
+</ul>
+:ET

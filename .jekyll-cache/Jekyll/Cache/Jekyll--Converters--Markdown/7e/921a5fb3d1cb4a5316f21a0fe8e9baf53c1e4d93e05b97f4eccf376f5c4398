@@ -1,0 +1,19 @@
+I"Q<p>This entry discusses points for improving the design presented in the <a href="4">previous entry</a>, particularly Stack View.</p>
+
+<h2 id="engaging-with-complexity">Engaging With Complexity</h2>
+
+<p>The purpose of Stack View is to enable the arrangement of a set of selected documents in a particular order for entering Merge View. Creating stacks is supposed to be a convenient method for engaging with complexity by selecting which to view in more detail. However, shifting from a 2D to a 3D perspective may obfuscate and not serve that purpose well. A filtering technique might be a better solution (explored in a <a href="8">following entry</a>). In abandoning Stack View, proceeding first requires definitions of the basic concepts, how these concepts become components, and then how these components interact.</p>
+
+<p>Questions are:</p>
+<ul>
+  <li>What constitutes a document in the construct?</li>
+  <li>How are links attached, and how do they operate?</li>
+</ul>
+
+<p>Improvements due:</p>
+<ul>
+  <li>Labels should also be attached to links.</li>
+</ul>
+
+<p>See <a href="06">next entry</a>.</p>
+:ET

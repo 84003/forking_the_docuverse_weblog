@@ -3,12 +3,16 @@
 	background-color:inherit;
 	color:inherit;
 	margin:0;
-	padding:0;
+	padding-top:0;
+	padding-bottom:0;
+	padding-right: 0;
+	// padding-left: 0;
 }
 
 body {
 	// font-family: system-ui, sans-serif;
 	font-family: 'Rubik', sans-serif;
+	// font-family: 'Source Sans Pro', sans-serif;
 	// font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -51,6 +55,7 @@ pre {
 // tags on posts
 .meta a {
 	text-decoration: none;
+	color:red;
 }
 
 code,pre {
@@ -118,7 +123,8 @@ blockquote {
 h1,h2,h3,h4,h5 {
 	line-height: 1;
 	margin: 1rem 0;
-	font-weight: 600;
+	font-weight: 700;
+	font-family: 'Karla', sans-serif;
 }
 
 
@@ -129,6 +135,7 @@ section h1:first-child {
 
 strong, b {
 	font-weight: bold;
+	// font-family: 'Karla', sans-serif;
 }
 
 .photos ul {
@@ -159,6 +166,12 @@ strong, b {
 	overflow:hidden;
 	text-overflow:ellipsis;
 	text-decoration: none;
+}
+
+.posts ul, :after,:before {
+	// font-family: 'Source Code Pro', monospace;
+	// font-family: 'Roboto', monospace;
+	padding-left: 0;
 }
 
 .posts li time, .projects li time {

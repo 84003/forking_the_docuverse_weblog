@@ -1,0 +1,92 @@
+I"H<p>In this entry, the components of Lateral View are revised. The main challenges involve color coding and how cursor events change the display states of different categories of information. Those different categories of information are:</p>
+
+<ol>
+  <li>Link endpoints: whether a link points to an entire document or a content item within a document.</li>
+  <li>Multiple aliases of the same document.</li>
+  <li>Link direction.</li>
+  <li>Link type; whether it is a transclusion or tag link.</li>
+  <li>Tag link labels.</li>
+</ol>
+
+<p>Questions are:</p>
+<ul>
+  <li>How should these components be visualized?</li>
+  <li>When should these components be shown or hidden?</li>
+  <li>How should these components animate between a shown and hidden state?</li>
+</ul>
+
+<h2 id="link-endpoints">Link Endpoints</h2>
+
+<p>To distinguish between a link that points to an entire document or a content item within a document, the link’s endpoint is either bracketed or pointed, respectively. Additionally, if a link points to a content item within a document, the linked content is emphasized, and if a link points to an entire document, its title is emphasized. These distinctions are demonstrated in the image below.</p>
+
+<p><img src="assets/document_to_document_links.png" alt="" /></p>
+
+<h2 id="multiple-aliases-of-the-same-document">Multiple Aliases of the Same Document</h2>
+
+<p>In designing Lateral View, one of the challenges is how to indicate that there are multiple aliases of the same document. Below are variations of applying a color code.</p>
+
+<p><strong>Verison 1</strong></p>
+
+<p>In version 1, linked content items share the same color.</p>
+
+<p><img src="assets/coded_colors.png" alt="" /></p>
+
+<p>In the top-left corner in the image above, the blue color-coding and shape of the link indicate that the word “modality” in the middle document is linked to the entire side document. In the bottom-right of the image, the green color coding and shape of the link indicate that only parts of each document are linked.<sup id="fnref:version_1" role="doc-noteref"><a href="#fn:version_1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p><strong>Verison 2</strong></p>
+
+<p>A color-coded border around the side previews is applied in version 2, as seen in the image below. All linked content is gray, including the links.</p>
+
+<p><img src="assets/coded_gray.png" alt="" /></p>
+
+<p><strong>Verison 3</strong></p>
+
+<p>A more subtle approach is taken in version 3, having underlined titles. Additionally, all linked content items are purple, while navigation icons remain gray, indicating two distinct categories of information.</p>
+
+<p><img src="assets/coded_underline.png" alt="" /></p>
+
+<h2 id="link-types">Link Types</h2>
+
+<p>In the two images below, the version with the colored border is compared to the version with the underlined title. In both cases, the dashed line indicates a transclusion type link, and the solid line indicates a tag link.</p>
+
+<p><img src="assets/document_color_border.png" alt="" /></p>
+
+<p><img src="assets/document_color_underline.png" alt="" /></p>
+
+<h2 id="position-and-visualization-of-tag-link-labels">Position and Visualization of Tag Link Labels</h2>
+
+<p>In the examples below, the tag link points from a particular content item of the open document (middle) to the entire side document. Specifically, the word <em>modality</em> is linked to the entire document titled <em>Defining Modality and Medium</em>. The direction of the tag link is visually indicated by the label <em>Definition</em>. The three images below show variations of the position of the label.</p>
+
+<p><img src="assets/label_position_01.gif" alt="" /></p>
+
+<p>In the image above, <strong>while not hovering</strong> shows whether the link points to a particular content item within a document or the entire document. <strong>While hovering</strong> shows the label combined with the link direction.</p>
+
+<p><img src="assets/label_position_02.gif" alt="" /></p>
+
+<p>In the image above, all information categories are shown <strong>while not hovering</strong>. Only the display state of the <em>expand</em> icon is toggled on the two different cursor events.</p>
+
+<p><img src="assets/label_position_03.gif" alt="" /></p>
+
+<p>In the image above, <strong>while not hovering</strong> shows whether the link points to a particular content item within a document or the entire document, and <strong>while hovering</strong> hides the previous information and shows the label combined with the link direction.</p>
+
+<h2 id="interactive-prototype">Interactive Prototype</h2>
+
+<iframe style="border: 2px solid rgba(0, 0, 0, 0.1)" width="640" height="480" src="https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/wPcAT4up3?highlights=0" allowfullscreen=""></iframe>
+
+<h2 id="discarded-attempts">Discarded Attempts</h2>
+
+<p>As seen below, one of the problems with the color border is the awkward transition animation effects.</p>
+
+<p><img src="assets/test_04_transition_01.gif" alt="" /></p>
+
+<p>Other variations of the color-coding system are seen in the following images.</p>
+
+<p><img src="assets/label_color_coding_black_outline.png" alt="" /></p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:version_1" role="doc-endnote">
+      <p>It may become distracting to have multiple colors throughout the main document. <a href="#fnref:version_1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
