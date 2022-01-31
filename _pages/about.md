@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Forking the Docuverse
 ---
 
 &#10033; This section will provide a context of the project and will likely be written towards the end.
