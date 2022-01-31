@@ -1,0 +1,98 @@
+I"h<p>View modes are different levels of perspective on documents. In addition, each view mode differs in the components used to represent a document.</p>
+
+<ol>
+  <li><strong>Inventory View</strong>
+    <ul>
+      <li>At the level of the collection.</li>
+      <li>Documents are represented as nodes, connections as links in a two-dimensional diagram.</li>
+      <li>Displays the number of connections between documents.</li>
+    </ul>
+  </li>
+  <li><strong>Stack View</strong>
+    <ul>
+      <li>At the level of a selection of the collection.</li>
+      <li>Documents are represented as layers, connections as links in a three-dimensional stack.</li>
+      <li>Displays selection of connections (link type subcategories).</li>
+    </ul>
+  </li>
+  <li><strong>Merge View</strong>
+    <ul>
+      <li>At the level of content items.</li>
+      <li>A document is represented as a single frame (full screen).</li>
+      <li>Displays connections side-by-side or top-to-bottom.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="1-inventory-view">1. Inventory View</h2>
+
+<p>In this view mode, the entire inventory is visible and represented as a diagram in which a <strong>node</strong> denotes a document and a <strong>link</strong> denotes connections of various types (specified below).</p>
+
+<p><img src="assets/BP_01.png" alt="" /></p>
+
+<p><strong>Node</strong></p>
+
+<p>The size of a node reflects the number of content items it contains (i.e., the size of the document).</p>
+
+<p><strong>Link</strong></p>
+
+<p>The thickness of a link reflects the number of links between documents.</p>
+
+<p><img src="assets/BP_02.png" alt="" /></p>
+
+<p>In Inventory View, it is possible to select nodes to create a stack for entering Stack View, as seen in the image above.</p>
+
+<h2 id="2-stack-view">2. Stack View</h2>
+
+<p>A <strong>stack</strong> comprises a set of documents represented as <strong>layers</strong> that contain <strong>content items</strong>.</p>
+
+<p><img src="assets/BP_A.png" alt="" /></p>
+
+<p><strong>Stack</strong></p>
+
+<p>A stack can be thought of as a workspace. The inventory in its entirety may contain complex layers of information, so creating stacks is a convenient method for engaging with complexity by selecting those to view in more detail.</p>
+
+<p><strong>Layer</strong></p>
+
+<p>A document is represented as a layer, which instead of having a single title, has a tag. In the image below, there are four layers: <code class="language-plaintext highlighter-rouge">#MAIN,</code> <code class="language-plaintext highlighter-rouge">#A,</code> <code class="language-plaintext highlighter-rouge">#B,</code> and <code class="language-plaintext highlighter-rouge">#C.</code></p>
+
+<p><strong>Content Item</strong></p>
+
+<p>Content items are the parts that make up a text. A content item can have any number of tags, placing it in multiple layers.</p>
+
+<p><img src="assets/BP_B.png" alt="" /></p>
+
+<p><strong>Link Types</strong></p>
+
+<p>In the image below, there are several links between the layers. As defined in the <a href="03">previous entry</a>, there are two main categories of connections that cross the boundaries of documents: those that are transclusions (reused content items; inclusions of one document segment into another), and those that are not transclusions. In the image below, these two types are visually distinguished by dot-line-dot links and side-surface links.</p>
+
+<p>✱ These two link types must be visually distinguished, but the visual form is subject to change.</p>
+
+<p><img src="assets/BP_C.png" alt="" /></p>
+
+<p>The links that are not transclusions are categorized according to whichever taxonomy people wish to develop within the construct, hence the appropriation of the common usage of a hashtag as a metadata tag. For example, in the image below, if content item <code class="language-plaintext highlighter-rouge">ID_P2</code> is a comment on content item <code class="language-plaintext highlighter-rouge">ID_P1</code>, then the layer could be tagged <code class="language-plaintext highlighter-rouge">#COMMENTS.</code> If the other two layers are different references, these layers could be tagged <code class="language-plaintext highlighter-rouge">#REFERENCE_X</code> and <code class="language-plaintext highlighter-rouge">#REFERENCE_Y.</code></p>
+
+<p><img src="assets/BP_D.png" alt="" /></p>
+
+<p>It is also possible to display links only between a selection of layers in the stack. Upon selection, the stack is rearranged. The layers <code class="language-plaintext highlighter-rouge">#MAIN</code> and <code class="language-plaintext highlighter-rouge">#COMMENTS</code> are selected in the two images below, displaying the links between them, followed by stack rearrangement.</p>
+
+<p><img src="assets/BP_X.png" alt="" /></p>
+
+<p><img src="assets/BP_X2.png" alt="" /></p>
+
+<p>While in Stack View, it is possible to merge all or a selection of layers. The arrangement of the stack will determine how the layers are merged.</p>
+
+<h2 id="3-merge-view">3. Merge View</h2>
+
+<p><code class="language-plaintext highlighter-rouge">#MAIN</code> and <code class="language-plaintext highlighter-rouge">#COMMENTS</code> are merged side by side in the image below.</p>
+
+<p><img src="assets/BP_Y.png" alt="" /></p>
+
+<p>Only the linked content items (between <code class="language-plaintext highlighter-rouge">#MAIN</code> and <code class="language-plaintext highlighter-rouge">#COMMENTS</code>) are displayed side by side in the image below.</p>
+
+<p><img src="assets/BP_Z1.png" alt="" /></p>
+
+<p>The image below shows the option for merging the content items sequentially. If another layer were included, the order would depend on the arrangement of layers in Stack View.</p>
+
+<p><img src="assets/BP_Z2.png" alt="" /></p>
+:ET

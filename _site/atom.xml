@@ -4,7 +4,7 @@
  <title>Forking the Docuverse</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2022-01-31T12:20:36+01:00</updated>
+ <updated>2022-01-31T12:44:45+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -25,12 +25,13 @@
       &lt;li&gt;Link endpoint (by improving the design of the brackets)&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;Added a legend (a list of the icons and symbols).&lt;/li&gt;
   &lt;li&gt;Color coding:
     &lt;ul&gt;
       &lt;li&gt;Title underline is replaced with border color.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Addition of a location frame of Inventory View while in Lateral View.&lt;/li&gt;
+  &lt;li&gt;Added a location frame (showing Inventory View) while in Lateral View.&lt;/li&gt;
   &lt;li&gt;Aliases no longer have expand icons but use brightness to indicate that it can be triggered to open the linked document.&lt;/li&gt;
   &lt;li&gt;Minimize icon is replaced by a node-link icon, triggering the movement from Lateral View to Inventory View.&lt;/li&gt;
 &lt;/ul&gt;
@@ -211,7 +212,7 @@ In the image below, in addition to the left-bracket link, the title, the link, t
       &lt;p&gt;This does not exclude the use of computational methods, such as applying natural language processing techniques for classifying text, keyword extraction, and lemmatization. &lt;a href=&quot;#fnref:computational_methods&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:sequence_link&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;em&gt;Sequence links&lt;/em&gt; are introduced in &lt;a href=&quot;14&quot;&gt;entry 14 &lt;/a&gt;. &lt;a href=&quot;#fnref:sequence_link&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;em&gt;Sequence links&lt;/em&gt; are introduced in &lt;a href=&quot;14&quot;&gt;entry 14&lt;/a&gt;. &lt;a href=&quot;#fnref:sequence_link&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -501,7 +502,7 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;h2 id=&quot;selecting-links-to-enter-lateral-view&quot;&gt;Selecting Links to Enter Lateral View&lt;/h2&gt;
 
-&lt;p&gt;As seen in the previous entry, selecting a node in Inventory View opens a single document. It is also possible to open two documents by selecting the links between them. There are two ways of opening documents by selecting links:&lt;/p&gt;
+&lt;p&gt;As seen in the &lt;a href=&quot;07&quot;&gt;previous entry&lt;/a&gt;, selecting a node in Inventory View opens a single document. It is also possible to open two documents by selecting the links between them. There are two ways of opening documents by selecting links:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;Double-click&lt;/strong&gt; on links between two nodes opens the two linked documents, and all links are visible between documents.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Single-click&lt;/strong&gt; on links between two nodes reveals a menu of the tag links. Selecting a tag link will open the two linked documents, and only the selected tag links are visible.&lt;/li&gt;
@@ -585,7 +586,7 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;h2 id=&quot;reflection&quot;&gt;Reflection&lt;/h2&gt;
 
-&lt;p&gt;In version 2, hovering on a link to show (documents represented as) nodes in Vertical Mode is not particularly useful since the size is only informative when seen in relation to other nodes. In the next entry, the representation of linked documents is further developed.&lt;/p&gt;
+&lt;p&gt;In version 2, hovering on a link to show (documents represented as) nodes in Vertical Mode is not particularly useful since the size is only informative when seen in relation to other nodes. In the &lt;a href=&quot;08&quot;&gt;next entry&lt;/a&gt;, the representation of linked documents is further developed.&lt;/p&gt;
 
 &lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
@@ -684,11 +685,11 @@ An improvement would be landing at the particular linked part of a document:
    <link href="/msc_project_weblog/05"/>
    <updated>2021-08-23T00:00:00+02:00</updated>
    <id>/05</id>
-   <content type="html">&lt;p&gt;This entry discusses points for improving the design presented in the &lt;a href=&quot;4&quot;&gt;previous entry&lt;/a&gt;, particularly Stack View.&lt;/p&gt;
+   <content type="html">&lt;p&gt;This entry discusses points for improving the design presented in the &lt;a href=&quot;04&quot;&gt;previous entry&lt;/a&gt;, particularly Stack View.&lt;/p&gt;
 
 &lt;h2 id=&quot;engaging-with-complexity&quot;&gt;Engaging With Complexity&lt;/h2&gt;
 
-&lt;p&gt;The purpose of Stack View is to enable the arrangement of a set of selected documents in a particular order for entering Merge View. Creating stacks is supposed to be a convenient method for engaging with complexity by selecting which to view in more detail. However, shifting from a 2D to a 3D perspective may obfuscate and not serve that purpose well. A filtering technique might be a better solution (explored in a &lt;a href=&quot;8&quot;&gt;following entry&lt;/a&gt;). In abandoning Stack View, proceeding first requires definitions of the basic concepts, how these concepts become components, and then how these components interact.&lt;/p&gt;
+&lt;p&gt;The purpose of Stack View is to enable the arrangement of a set of selected documents in a particular order for entering Merge View. Creating stacks is supposed to be a convenient method for engaging with complexity by selecting which to view in more detail. However, shifting from a 2D to a 3D perspective may obfuscate and not serve that purpose well. A filtering technique might be a better solution (explored in &lt;a href=&quot;8&quot;&gt;entry 08&lt;/a&gt;). In abandoning Stack View, proceeding first requires definitions of the basic concepts, how these concepts become components, and then how these components interact.&lt;/p&gt;
 
 &lt;p&gt;Questions are:&lt;/p&gt;
 &lt;ul&gt;
@@ -776,7 +777,7 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;p&gt;&lt;strong&gt;Link Types&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In the image below, there are several links between the layers. As defined in the &lt;a href=&quot;3&quot;&gt;previous entry&lt;/a&gt;, there are two main categories of connections that cross the boundaries of documents: those that are transclusions (reused content items; inclusions of one document segment into another), and those that are not transclusions. In the image below, these two types are visually distinguished by dot-line-dot links and side-surface links.&lt;/p&gt;
+&lt;p&gt;In the image below, there are several links between the layers. As defined in the &lt;a href=&quot;03&quot;&gt;previous entry&lt;/a&gt;, there are two main categories of connections that cross the boundaries of documents: those that are transclusions (reused content items; inclusions of one document segment into another), and those that are not transclusions. In the image below, these two types are visually distinguished by dot-line-dot links and side-surface links.&lt;/p&gt;
 
 &lt;p&gt;✱ These two link types must be visually distinguished, but the visual form is subject to change.&lt;/p&gt;
 
@@ -1082,11 +1083,11 @@ Beyond the history dimension, the multidimensional structure of Xanadu is design
  </entry>
  
  <entry>
-   <title>Questions That Follow</title>
+   <title>Terms: Questions That Follow</title>
    <link href="/msc_project_weblog/02"/>
    <updated>2021-08-08T00:00:00+02:00</updated>
    <id>/02</id>
-   <content type="html">&lt;p&gt;The attempt here is to elaborate on the terms used in the &lt;a href=&quot;1&quot;&gt;previous entry&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;p&gt;The attempt here is to elaborate on the terms used in the &lt;a href=&quot;01&quot;&gt;previous entry&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-meant-by-paper-document&quot;&gt;What is meant by &lt;em&gt;paper document&lt;/em&gt;?&lt;/h2&gt;
 
@@ -1143,11 +1144,11 @@ Beyond the history dimension, the multidimensional structure of Xanadu is design
   &lt;p&gt;All of storage near and far must therefore become a united whole— what is now called a “distributed database.” […] The documents and their links unite into what is essentially a swirling complex of equi-accessible unity, a single great universal text and data grid, or, as we call it, the docuverse (Nelson 1987).&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In other words, the docuverse is a construct in which documents live, understood as a metadocument with all the information about documents’ contents and linkages, including their version history. The concepts and implementations of Nelson’s vision of the docuverse (among other historical examples of systems based on accommodating interconnection) are examined in the &lt;a href=&quot;3&quot;&gt;next entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In other words, the docuverse is a construct in which documents live, understood as a metadocument with all the information about documents’ contents and linkages, including their version history. The concepts and implementations of Nelson’s vision of the docuverse (among other historical examples of systems based on accommodating interconnection) are examined in the &lt;a href=&quot;03&quot;&gt;next entry&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-interconnection&quot;&gt;What is &lt;em&gt;interconnection&lt;/em&gt;?&lt;/h2&gt;
 
-&lt;p&gt;See next entry, &lt;a href=&quot;3&quot;&gt;On Interconnection and the Boundary of Documents&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&quot;03&quot;&gt;next entry&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
 
@@ -1181,7 +1182,7 @@ Beyond the history dimension, the multidimensional structure of Xanadu is design
  </entry>
  
  <entry>
-   <title>Project Outline: Introducing the Project and Detailing the Method</title>
+   <title>Outline: Introducing the Project</title>
    <link href="/msc_project_weblog/01"/>
    <updated>2021-08-03T00:00:00+02:00</updated>
    <id>/01</id>
