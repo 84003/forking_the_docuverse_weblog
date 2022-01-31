@@ -1,0 +1,86 @@
+I",<p>This is the first of a series of weblog entries that function as snapshots of the research process. This entry serves to introduce the topic of research, the research plan, and the scope of the project.</p>
+
+<ol>
+  <li>Title</li>
+  <li>Question</li>
+  <li>Hypothesis</li>
+  <li>Method</li>
+  <li>Documentation</li>
+  <li>Evaluation</li>
+</ol>
+
+<h2 id="1-title">1. Title</h2>
+
+<p><del>Tinkering with Textual Structures: A Digital Construct</del></p>
+
+<p><del>A Construct for Tinkering With Digital Text</del></p>
+
+<p><del>A Construct for Tinkering With Digital Documents</del></p>
+
+<p><del>Reconceiving Digital Documents: A Digital Construct</del></p>
+
+<p><del>Forked Path: The Re-conceptualization of Digital Documents</del></p>
+
+<p><del>Forking the Docuverse: Mapping and Accessing Multiple Text Structures</del></p>
+
+<p>Forking the Docuverse</p>
+
+<h2 id="2-question">2. Question</h2>
+
+<p>What may result from undermining the biases and conventions inherited from paper documents when creating a construct for digital documents based on accommodating interconnection?
+<!-- WHAT: Accommodate interconnection.
+HOW: Re-imagine how interconnection can be reflected in the digital realm. --></p>
+
+<h2 id="3-hypothesis">3. Hypothesis</h2>
+<p>The concept of interconnection implies that every text has multiple potential structures, which a construct in the digital realm can be created to reflect such that it enables new ways of working with text. It is contended that such a construct should support mapping and accessing those multiple text structures in a coherent and visual way.</p>
+
+<p>Text is confined by the material properties of the medium used for its transmission, whether that be inscribed tablets of gold or clay, or be it handwritten or printed ink on paper. Bound by the material properties of paper document formats such as books, conventions developed for mapping and visualizing interconnection in the ages of manuscript and print thus entailed embedding categories of information in the form of concepts such as footnotes, marginal annotations, and citations. Some such conventions have been transferred to the digital realm. Instead of embedding connections, a construct in the digital realm can represent connections in ways that are not feasible with paper documents. With that as a point of departure, this project entails creating a construct for digital documents with the aim to re-imagine how interconnection can be reflected.</p>
+
+<p>Mapping and visualizing interconnection within and between documents can result in complex layers of information. With that, the aim is to (1) design a system in which people can develop a customizable taxonomy that is continuously evolving and (2) create concepts (implemented as interactive visual components) for showing/hiding information categories through deliberate action. The design of construct will allow mapping and access to multiple structures of texts, and in effect, people switch between perspectives, shaping their understanding.</p>
+
+<h2 id="4-method">4. Method</h2>
+
+<p>The design of the construct aims to aid working with text by supporting activities for mapping and accessing multiple structures in a coherent and visual way. Within the bounds of feasibility, this project entails writing a text on the concept of interconnection (henceforth referred to as <em>the main text</em>), which is then mapped and visualized in the construct. The resulting interactive prototype will allow people to access what has been mapped. The following is a tentative outline of the process.</p>
+
+<h3 id="step-1-concept-design">Step 1: Concept Design</h3>
+
+<p>This is the blueprint step. It entails creating sketches of the components that make up the construct, including how those components interact.</p>
+
+<h3 id="step-2-the-main-text">Step 2: The Main Text</h3>
+
+<p>The main text consists of several parts that introduce and define the concept of interconnection, the underlying philosophical position, and provides historical examples of systems comprising concepts for representing interconnection. Through these examples, the biases and conventions inherited from paper documents are discussed, including the (dis)advantages of transferring these (or how these are transferred) to the digital realm. What is gathered through examining and evaluating historical examples is then utilized in creating a construct based on accommodating interconnection.</p>
+
+<p>In this sense, it results in a self-reflexive project. Throughout the process of writing the main text, small problems are expected to emerge. In response to these problems, interactive prototypes serving as potential solutions are created in the following step.</p>
+
+<h3 id="step-3-interactive-prototypes">Step 3: Interactive Prototypes</h3>
+
+<p>This step involves creating interactive prototypes of the construct, using the current state of the main text as sample content. The purpose is to determine what aspects work as intended and which ones need refining.</p>
+
+<p>Questions include how to design interactions for switching view modes or how different categories of information are visually distinguished. For example, if footnotes (as traditionally implemented in paper documents) are abandoned, then how are these categories of information (re-)conceptualized and visualized in the construct? The interactive prototypes created in this step (in combination with bi-weekly sessions with advisors) are expected to inform modifications to the design of the construct. As each informs the other, steps 2-3 are iterated until it is surmised that enough has been gathered for step 4.</p>
+
+<h3 id="step-4-implementation">Step 4: Implementation</h3>
+
+<p>This step involves completing the main text and the design of the construct by making improvements based on what has been gathered in the previous steps.</p>
+
+<h2 id="5-documentation">5. Documentation</h2>
+
+<p>For each iteration of steps 2-3, the resulting interactive prototypes are documented and published on this weblog. Each entry contains the current version of the main text and the design of the construct (i.e., the interactive prototypes described in step 3). A written reflection is included, serving to inform modifications for improvement. The final version of the construct (which includes the final version of the main text) is to be developed in prototyping software and published online.</p>
+
+<h2 id="6-evaluation">6. Evaluation</h2>
+
+<p>The documentation of the process and the final version of the construct inform the evaluation. The documentation of the process comprises written reflections of significant steps. The final version of the construct demonstrates one potential way of reflecting interconnection. In order for the construct to demonstrate new ways of working with text, the following points must be achieved:</p>
+
+<ul>
+  <li>Does the construct enable modification to the structure and presentation of the main text?</li>
+  <li>Does accessing those multiple structures reflect switching between perspectives on the main text?</li>
+</ul>
+
+<p>Questions are:</p>
+<ul>
+  <li>What is the data structure best suited for accommodating interconnection?</li>
+  <li>What are the most suited concepts for creating a digital construct for that data structure?</li>
+  <li>What visual form do those concepts take, and how do they interact?</li>
+</ul>
+
+<p>Functioning as a preliminary list, additions and modifications are expected throughout the process.</p>
+:ET

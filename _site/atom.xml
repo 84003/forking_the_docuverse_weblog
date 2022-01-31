@@ -4,7 +4,7 @@
  <title>Forking the Docuverse</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2022-01-31T12:14:29+01:00</updated>
+ <updated>2022-01-31T12:20:36+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -1243,7 +1243,7 @@ HOW: Re-imagine how interconnection can be reflected in the digital realm. --&gt
 
 &lt;p&gt;This step involves creating interactive prototypes of the construct, using the current state of the main text as sample content. The purpose is to determine what aspects work as intended and which ones need refining.&lt;/p&gt;
 
-&lt;p&gt;Questions include how to design interactions for switching view modes or how different categories of information are visually distinguished. For example, if footnotes (as traditionally implemented in paper documents) are abandoned, then how are these categories of information (re-)conceptualized and visualized in the construct? The interactive prototypes created in this step, in combination with bi-weekly sessions with the supervisors of the project, are expected to inform modifications to the design of the construct. As each informs the other, steps 2-3 are iterated until it is surmised that enough has been gathered for step 4.&lt;/p&gt;
+&lt;p&gt;Questions include how to design interactions for switching view modes or how different categories of information are visually distinguished. For example, if footnotes (as traditionally implemented in paper documents) are abandoned, then how are these categories of information (re-)conceptualized and visualized in the construct? The interactive prototypes created in this step (in combination with bi-weekly sessions with advisors) are expected to inform modifications to the design of the construct. As each informs the other, steps 2-3 are iterated until it is surmised that enough has been gathered for step 4.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-4-implementation&quot;&gt;Step 4: Implementation&lt;/h3&gt;
 
