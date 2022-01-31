@@ -4,7 +4,7 @@
  <title>Forking the Docuverse</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2022-01-31T13:19:04+01:00</updated>
+ <updated>2022-01-31T17:16:59+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -209,7 +209,7 @@ In the image below, in addition to the left-bracket link, the title, the link, t
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:computational_methods&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;This does not exclude the use of computational methods, such as applying natural language processing techniques for classifying text, keyword extraction, and lemmatization. &lt;a href=&quot;#fnref:computational_methods&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;As noted in &lt;a href=&quot;03&quot;&gt;entry 03&lt;/a&gt;, computational methods, such as applying natural language processing techniques for classifying text and keyword extraction, are not excluded. &lt;a href=&quot;#fnref:computational_methods&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:sequence_link&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;&lt;em&gt;Sequence links&lt;/em&gt; are introduced in &lt;a href=&quot;14&quot;&gt;entry 14&lt;/a&gt;. &lt;a href=&quot;#fnref:sequence_link&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
@@ -628,7 +628,7 @@ An improvement would be landing at the particular linked part of a document:
    <link href="/msc_project_weblog/06"/>
    <updated>2021-09-16T00:00:00+02:00</updated>
    <id>/06</id>
-   <content type="html">&lt;p&gt;The intent here is to clarify which concepts are to become components of the construct and how those components interact.&lt;/p&gt;
+   <content type="html">&lt;p&gt;The intent here is to clarify which concepts are to become components in the construct and how those components interact.&lt;/p&gt;
 
 &lt;p&gt;Questions are:&lt;/p&gt;
 &lt;ul&gt;
@@ -644,7 +644,7 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;h2 id=&quot;link-types&quot;&gt;Link Types&lt;/h2&gt;
 
-&lt;p&gt;Two main link types can be established between content items: transclusions and those that are not transclusions, called &lt;em&gt;tag links&lt;/em&gt; and can include a descriptive label or remain empty.&lt;/p&gt;
+&lt;p&gt;Two main link types can be established between content items: transclusions and those that are not transclusions, called &lt;em&gt;tag links&lt;/em&gt; which can include a descriptive label or remain empty.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;Transclusion&lt;/strong&gt; —-&lt;/li&gt;
@@ -655,23 +655,26 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;h3 id=&quot;1-transclusion--&quot;&gt;1. Transclusion —-&lt;/h3&gt;
 
-&lt;p&gt;A transclusion is created when a content item from one document is included in another document.&lt;sup id=&quot;fnref:excerpts&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:excerpts&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Transclusions are reused content items with visible links and thus offer a way to retrieve “the origins and context of quotations, excerpts and anthologized materials, and content transiting between versions” (Nelson Xanalogical). The image below shows the concept of transclusion on a technical level.&lt;/p&gt;
+&lt;p&gt;A transclusion is created when a document or some of its content items are included in another document.[^excerpts] Transclusions are reused content items with visual links and thus offer a way to retrieve “the origins and context of quotations, excerpts and anthologized materials, and content transiting between versions” (Nelson 1999).&lt;/p&gt;
+
+&lt;p&gt;The image below shows the concept of transclusion on a technical level.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/link_types_02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;2-tag-link-&quot;&gt;2. Tag link –#–&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;Tag links&lt;/em&gt; are created by connecting two separate content items and can include a descriptive label (#Label) or remain empty (#). Utilizing the common usage of hashtag&lt;sup id=&quot;fnref:hashtag&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:hashtag&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; as a means to categorize content, &lt;em&gt;tag links&lt;/em&gt; enable people to organize and filter links based on their developed taxonomy. Examples of &lt;em&gt;tag links&lt;/em&gt; are given below.&lt;/p&gt;
+&lt;p&gt;Tag links are created by connecting two separate content items and can include a descriptive label (#Label) or remain empty (#). Utilizing the common usage of hashtag&lt;sup id=&quot;fnref:hashtag&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:hashtag&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; as a means to categorize content, tag links enable people to organize and filter links based on their developed taxonomy. Examples of tag links are given below.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/link_types_03.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
+
+&lt;p&gt;Nelson TH. Xanalogical Structure, Needed Now More than Ever: Parallel Documents, Deep Links to Content, Deep Versioning, and Deep Re-Use. ACM Computing Surveys. 1999;31(4):32.&lt;/p&gt;
 
 &lt;h2 id=&quot;endnotes&quot;&gt;Endnotes&lt;/h2&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:excerpts&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Conventionally, these are called excerpts and typographically classified as block quotes or inline quotes, and the link between the &lt;em&gt;copied&lt;/em&gt; and the &lt;em&gt;pasted&lt;/em&gt; is usually embedded as a citation. &lt;a href=&quot;#fnref:excerpts&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
     &lt;li id=&quot;fn:hashtag&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;The word hashtag refers to the symbol # (as popularized by Twitter) and combines the word hash from the hash mark and the word tag as it is used to label something belonging to a specific category. &lt;a href=&quot;#fnref:hashtag&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
@@ -830,7 +833,7 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;p&gt;There are terms other than &lt;em&gt;interconnection&lt;/em&gt; that denote the various connections between documents. As Borgman (2015) writes, “[t]he body of relationships among documents is sometimes known as ‘&lt;em&gt;hypertextuality&lt;/em&gt;.’” &lt;em&gt;Hypertext&lt;/em&gt; is commonly associated with how it has been implemented on the Web, understood in general terms as “a computer construct of links and data corresponding to files or parts of files that can be displayed in windows of various dimensions (Vandendorpe 2009).” Another term, used particularly within semiotics and literary theory, is &lt;em&gt;intertextuality&lt;/em&gt; which describes abstract connections, “as in the influence of one text on the meaning of another” (Borgman 2015). One such connection can be how one text is derived from a preceding text, as with Ulysses by James Joyce, which is a transformation of Odyssey by Homer (Vandendorpe 2009). In the definition of an &lt;em&gt;intertext&lt;/em&gt; as it was first proposed, there is an emphasis on the perception of the reader, namely that the connections between one text and one that preceded or followed it results from the activity of reading (Vanderndorpe 2009). Ted Nelson (2015) calls it &lt;em&gt;intertwingularity&lt;/em&gt; which “expresses a philosophical position about cross-connection,” namely that “all subjects and issues are intertwined and intermingled.”&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Hypertextuality&lt;/em&gt;, &lt;em&gt;intertextuality&lt;/em&gt;, and &lt;em&gt;intertwingularity&lt;/em&gt; coincide but not completely. These terms are similar yet different lenses (used within particular fields) to view documents for mapping multiple structures by establishing connections. &lt;em&gt;Interconnection&lt;/em&gt; is a general term chosen and used to encompass these various connections between documents that ultimately result in complex layers of information. These connections can be established through reading and writing, but also, for example, computational methods for text analysis. In what follows, analog and digital systems comprising concepts for representing interconnection are examined.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Hypertextuality&lt;/em&gt;, &lt;em&gt;intertextuality&lt;/em&gt;, and &lt;em&gt;intertwingularity&lt;/em&gt; coincide but not completely. These terms are similar yet different lenses (used within particular fields) to view documents for mapping multiple structures by establishing connections. &lt;em&gt;Interconnection&lt;/em&gt; is a general term chosen and used to encompass these various connections between documents that ultimately result in complex layers of information. These connections can be established through reading and writing, but also through computational methods, such as applying natural language processing techniques for classifying text and keyword extraction. In what follows, analog and digital systems comprising concepts for representing interconnection are examined.&lt;/p&gt;
 
 &lt;h2 id=&quot;analog-and-digital-systems&quot;&gt;Analog and Digital Systems&lt;/h2&gt;
 
@@ -953,15 +956,19 @@ Xanadu is a system that stores (and makes accessible) every change made to docum
 &lt;p&gt;Once a document is online/public, any changes made (e.g., if the author revises the content, or readers reuse parts of a document or create links to/from a document) are stored; effectively, the history of every document is accessible to anyone. This would be the same if the Web were built with an integrated history management system such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Git&quot;&gt;Git&lt;/a&gt;, not as an optional tool but as a core feature.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bidirectional Visual Links&lt;/strong&gt;
-Beyond the history dimension, the multidimensional structure of Xanadu is designed for two main categories of connections between documents, expressed by two link types: &lt;em&gt;content links&lt;/em&gt; and &lt;em&gt;transclusions&lt;/em&gt;. Content links are the arbitrary connections that people (writers and readers) create as they engage with text, and &lt;em&gt;transclusions&lt;/em&gt; are reused content items.&lt;/p&gt;
+Beyond the history dimension, the multidimensional structure of Xanadu is designed for two main categories of connections between documents, expressed by two link types: &lt;em&gt;content links&lt;/em&gt; and &lt;em&gt;transclusions&lt;/em&gt;. Content links are the arbitrary connections that people (writers and readers) create as they engage with text, and &lt;em&gt;transclusions&lt;/em&gt; are reused content items. By convention, transclusions are what are known as excerpts and typographically distinguished as block quotes or inline quotes, and the link between the &lt;em&gt;copied&lt;/em&gt; and the &lt;em&gt;pasted&lt;/em&gt; is usually embedded as a citation. However, as Nelson writes:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Transclusion is what quotation, copying and cross-referencing merely attempt: they are ways that people have had to &lt;em&gt;imitate&lt;/em&gt; transclusion, which is the true abstract relationship that paper cannot show. (Nelson 1999)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;A content item is never duplicated; rather, it is &lt;em&gt;transcluded&lt;/em&gt; — included in a document with a visual link to the original document. Additionally, since all links are bidirectional, every outward and inward-pointing link is accessible, which means the original document also points to documents that reuse parts of its contents. In this way, transclusions offer a way to retrieve “the origins and context of quotations, excerpts and anthologized materials, and content transiting between versions” (Nelson 1999). Important to note is that links are not embedded but technically implemented as an overlay, much akin to “a cache, or an alias on the desktop” (Nelson 1999). This technicality enables multiple overlapping links in the same document. Additionally, because all changes are stored, even if the original document undergoes changes, it is always possible to view the content item in its original context at the time it was transcluded.&lt;/p&gt;
+&lt;p&gt;Content items are not duplicated; rather, &lt;em&gt;transcluded&lt;/em&gt; — included in a document with a visual link to the original document. Additionally, since all links are bidirectional, every outward and inward-pointing link is accessible, which means the original document also points to documents that reuse parts of its contents. In this way, transclusions offer a way to retrieve “the origins and context of quotations, excerpts and anthologized materials, and content transiting between versions” (Nelson 1999). Important to note is that links are not embedded but technically implemented as an overlay, much akin to “a cache, or an alias on the desktop” (Nelson 1999). This technicality enables multiple overlapping links in the same document. Additionally, because all changes are stored, even if the original document undergoes changes, it is always possible to view the content item in its original context at the time it was transcluded.&lt;/p&gt;
 
 &lt;p&gt;In contrast, links on the Web are embedded (in HTML) and only point outward. When a website is cited as a source in a text, it usually indicates the date the website was accessed. However, if the contents of the website have been deleted or changed since then, though the date on which it was updated might be displayed, there is no way of accessing previous versions. Additionally, link endpoints on the Web are at the level of the document, or &lt;em&gt;page&lt;/em&gt; rather,&lt;sup id=&quot;fnref:links_on_the_web&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:links_on_the_web&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; whereas, in Xanadu, link endpoints are at the level of the content item. The implication is that a link can point from a particular part of a document to a particular part of another document. As for how this would look and work, Nelson envisioned Xanadu as a system in which documents are viewed side-by-side with visual links, expressed by two concepts: &lt;em&gt;parallel documents&lt;/em&gt; and &lt;em&gt;transpointing windows&lt;/em&gt; (Nelson 1999).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/hypernotes01.png&quot; alt=&quot;&quot; /&gt;
+An improvement would be landing at the particular linked part of a document:
+&lt;img src=&quot;assets/hypernotes03.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Side-By-Side Documents With Visual Links&lt;/strong&gt;&lt;/p&gt;
 
@@ -988,6 +995,8 @@ Beyond the history dimension, the multidimensional structure of Xanadu is design
 &lt;em&gt;Screenshot of Xanadoc (try the interactive demo &lt;a href=&quot;https://xanadu.com/xanademos/MoeJusteOrigins.html&quot;&gt;here&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;In the latest Xanadu prototype, which is in 3D,&lt;sup id=&quot;fnref:3D_prototype&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3D_prototype&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; the linked documents appear on the sides when moving through the contents, or as Nelson puts it: “all objects sworfing (swooping and/or morphing) together” (Nelson 2016).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/nelson_click_full_frame.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/xanaduspace_2007.png&quot; alt=&quot;&quot; /&gt;
 &lt;em&gt;Transcluded from Nelson (2016)&lt;/em&gt;&lt;/p&gt;
@@ -1063,13 +1072,13 @@ Beyond the history dimension, the multidimensional structure of Xanadu is design
       &lt;p&gt;As stated in [Questions That Follow], the &lt;em&gt;order of the book&lt;/em&gt; is the presentation and structure of text based on the form of books and defined by the format of manuscript and print. &lt;a href=&quot;#fnref:order_of_the_book&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:links_on_the_web&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Traversing content on the Web by selecting hyperlinks commonly entails blindly &lt;em&gt;jumping&lt;/em&gt; and landing at the top of the page: &lt;img src=&quot;assets/hypernotes01.png&quot; alt=&quot;&quot; /&gt;An improvement would be landing at the particular linked part of a document: &lt;img src=&quot;assets/hypernotes03.png&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;#fnref:links_on_the_web&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Traversing content on the Web by selecting hyperlinks commonly entails blindly &lt;em&gt;jumping&lt;/em&gt; and landing at the top of the page: &lt;a href=&quot;#fnref:links_on_the_web&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2003_prototype&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;Note that the link direction is unclear, and the position and overlap of the windows are not convenient. &lt;a href=&quot;#fnref:2003_prototype&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3D_prototype&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;One problem with this 3D version is that there is no obvious way of navigating the space. For reading and editing a document, it could be useful to snap into a full-frame view of a particular part of a document. &lt;img src=&quot;assets/nelson_click_full_frame.png&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;#fnref:3D_prototype&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;One problem with this 3D version is that there is no obvious way of navigating the space. For reading and editing a document, it could be useful to snap into a full-frame view of a particular part of a document. &lt;a href=&quot;#fnref:3D_prototype&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:sworfing&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;The idea of viewing documents side-by-side is solid, but having documents fly in and out of view as you move through the document is not. There should be an interaction step in between, in which the content is only opened through deliberate action. &lt;a href=&quot;#fnref:sworfing&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;

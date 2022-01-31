@@ -1,0 +1,10 @@
+I"�<p>Mapping text structure can be done by both the reader and writer of documents.<sup id="fnref:computational_methods" role="doc-noteref"><a href="#fn:computational_methods" class="footnote" rel="footnote">1</a></sup> Establishing links between documents or attaching metadata to documents (assigning categories) results in multisequential text structures, or “interconnective structure[s]” (Nelson 1987). There may be an intended paragraph-by-paragraph sequence of a text — the structure conventionally conceived as the main text — but several other structures can be mapped. For example, the order of chapters and subchapters is the sequential order intended by the writer. However, within that sequential order, there can be reused content items from other sources or other categories of information (conventionally embedded and visually distinguished from the main text) that point to internal or external content items. Mapping text structure thus entails assigning the contents of documents resulting in an order that is multisequential.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:computational_methods" role="doc-endnote">
+      <p>As noted in <a href="03">entry 03</a>, computational methods, such as applying natural language processing techniques for classifying text and keyword extraction, are not excluded. <a href="#fnref:computational_methods" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
