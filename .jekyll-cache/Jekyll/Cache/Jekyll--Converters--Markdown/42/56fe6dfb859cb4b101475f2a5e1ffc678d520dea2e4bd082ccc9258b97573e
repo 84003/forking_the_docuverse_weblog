@@ -1,4 +1,4 @@
-I"S<h3 id="redesign-of-the-location-frame">Redesign of the Location Frame</h3>
+I"•<h3 id="redesign-of-the-location-frame">Redesign of the Location Frame</h3>
 
 <p>In the previous version of the location frame, traversing documents meant that movement was animated both in the main frame and the location frame.</p>
 
@@ -12,11 +12,23 @@
 
 <p>The brightest document is the one that is active (i.e., open), and the purple links indicate the inactive (linked documents).</p>
 
-<h3 id="indicating-the-active-document-and-the-inactive-linked-documents">Indicating the Active Document and the Inactive (Linked) Documents</h3>
+<!-- ### Indicating the Active Document and the Inactive (Linked) Documents -->
 
 <h3 id="transition-animations-spawning-alias-documents">Transition Animations: Spawning Alias Documents</h3>
 
+<p>The animation of the links now split into separate links as multiple aliases spawn.</p>
+
 <p><img src="assets/round_06_alias_split.gif" alt="" /></p>
+
+<h3 id="addition-of-a-legend">Addition of a Legend</h3>
+
+<p>The legend provides information about the various link types.</p>
+
+<p><img src="assets/legend.png" alt="" /></p>
+
+<h3 id="addition-of-a-metadata-window">Addition of a Metadata Window</h3>
+
+<p><img src="assets/metadata.png" alt="" /></p>
 
 <h2 id="interactive-prototype">Interactive Prototype</h2>
 
@@ -24,7 +36,7 @@
 
 <h2 id="discarded-attempts">Discarded Attempts</h2>
 
-<h3 id="indicating-the-active-document-and-the-inactive-linked-documents-1">Indicating the Active Document and the Inactive (Linked) Documents</h3>
+<h3 id="indicating-the-active-document-and-the-inactive-linked-documents">Indicating the Active Document and the Inactive (Linked) Documents</h3>
 
 <p><img src="assets/round_06_(in)active_black.gif" alt="" /></p>
 

@@ -1,4 +1,4 @@
-I"k<h3 id="redesign-of-the-location-frame">Redesign of the Location Frame</h3>
+I"•<h3 id="redesign-of-the-location-frame">Redesign of the Location Frame</h3>
 
 <p>In the previous version of the location frame, traversing documents meant that movement was animated both in the main frame and the location frame.</p>
 
@@ -19,6 +19,16 @@
 <p>The animation of the links now split into separate links as multiple aliases spawn.</p>
 
 <p><img src="assets/round_06_alias_split.gif" alt="" /></p>
+
+<h4 id="addition-of-a-legend">Addition of a Legend</h4>
+
+<p>The legend provides information about the various link types.</p>
+
+<p><img src="assets/legend.png" alt="" /></p>
+
+<h4 id="addition-of-a-metadata-window">Addition of a Metadata Window</h4>
+
+<p><img src="assets/metadata.png" alt="" /></p>
 
 <h2 id="interactive-prototype">Interactive Prototype</h2>
 
