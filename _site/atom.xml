@@ -4,7 +4,7 @@
  <title>Forking the Docuverse</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2022-03-08T10:35:14+01:00</updated>
+ <updated>2022-03-08T10:37:31+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -41,7 +41,7 @@
 
 &lt;h3 id=&quot;addition-of-a-legend&quot;&gt;Addition of a Legend&lt;/h3&gt;
 
-&lt;p&gt;The legend provides information about the various link types.&lt;/p&gt;
+&lt;p&gt;The legend provides information about the various link types, which is accessible through the info icon in the bottom left corner.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/legend.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
