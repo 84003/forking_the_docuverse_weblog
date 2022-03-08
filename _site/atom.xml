@@ -4,13 +4,62 @@
  <title>Forking the Docuverse</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2022-01-31T17:16:59+01:00</updated>
+ <updated>2022-03-08T10:18:52+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Prototype: Revising the Location Frame and Transition Animations</title>
+   <link href="/msc_project_weblog/15"/>
+   <updated>2022-02-24T00:00:00+01:00</updated>
+   <id>/15</id>
+   <content type="html">&lt;h3 id=&quot;redesign-of-the-location-frame&quot;&gt;Redesign of the Location Frame&lt;/h3&gt;
+
+&lt;p&gt;In the previous version of the location frame, traversing documents meant that movement was animated both in the main frame and the location frame.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_location_frame_from_round_5.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_location_frame_new.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this version, all documents are displayed in the location frame and the movement is animated through change in link color and node brightness.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/LocationFrame.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The brightest document is the one that is active (i.e., open), and the purple links indicate the inactive (linked documents).&lt;/p&gt;
+
+&lt;!-- ### Indicating the Active Document and the Inactive (Linked) Documents --&gt;
+
+&lt;h3 id=&quot;transition-animations-spawning-alias-documents&quot;&gt;Transition Animations: Spawning Alias Documents&lt;/h3&gt;
+
+&lt;p&gt;The animation of the links now split into separate links as multiple aliases spawn.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_alias_split.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
+
+&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-06--hDt0qsaq8QlB3oLigjRr/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
+
+&lt;h3 id=&quot;indicating-the-active-document-and-the-inactive-linked-documents&quot;&gt;Indicating the Active Document and the Inactive (Linked) Documents&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_(in)active_black.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_(in)active_gray.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_(in)active_purple.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_(in)active_red.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_active_pink.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/round_06_active_teal.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Concept Design and Prototype: Revising Links and Aliases</title>
@@ -1015,7 +1064,7 @@ An improvement would be landing at the particular linked part of a document:
 &lt;p&gt;&lt;img src=&quot;assets/nelson_framing_problem.png&quot; alt=&quot;&quot; /&gt;
 &lt;em&gt;Transcluded from Nelson (1987)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;a-selection-system-features&quot;&gt;A Selection System Features&lt;/h2&gt;
+&lt;h2 id=&quot;a-selection-of-system-features&quot;&gt;A Selection of System Features&lt;/h2&gt;
 
 &lt;p&gt;Discussed below are a selection of features of the three examples that will be reworked and incorporated in the design of the construct.&lt;/p&gt;
 
