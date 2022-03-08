@@ -4,7 +4,7 @@
  <title>Forking the Docuverse</title>
  <link href="/msc_project_weblog/atom.xml" rel="self"/>
  <link href="/msc_project_weblog/"/>
- <updated>2022-03-08T10:33:09+01:00</updated>
+ <updated>2022-03-08T10:35:14+01:00</updated>
  <id></id>
  <author>
    <name>Rebecca Rui</name>
@@ -169,8 +169,9 @@
 
 &lt;h3 id=&quot;visual-distinction-of-links&quot;&gt;Visual Distinction of Links&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Position and Alignment&lt;/strong&gt;
-In the image below, in addition to the left-bracket link, the title, the link, the label, and the linked text are aligned to emphasize that it points from the entire document on the left to a particular part in the document on the right.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Position and Alignment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the image below, in addition to the left-bracket link, the title, the link, the label, and the linked text are aligned to emphasize that it points from the entire document on the left to a particular part in the document on the right.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/link_endpoint.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 

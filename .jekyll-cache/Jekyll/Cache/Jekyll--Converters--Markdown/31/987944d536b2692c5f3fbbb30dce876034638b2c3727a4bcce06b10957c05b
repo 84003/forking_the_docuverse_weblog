@@ -1,4 +1,4 @@
-I"s<p>Alterations and additions:</p>
+I"{<p>Alterations and additions:</p>
 <ul>
   <li>Redesign of links to distinguish:
     <ul>
@@ -91,8 +91,9 @@
 
 <h3 id="visual-distinction-of-links">Visual Distinction of Links</h3>
 
-<p><strong>Position and Alignment</strong>
-In the image below, in addition to the left-bracket link, the title, the link, the label, and the linked text are aligned to emphasize that it points from the entire document on the left to a particular part in the document on the right.</p>
+<p><strong>Position and Alignment</strong></p>
+
+<p>In the image below, in addition to the left-bracket link, the title, the link, the label, and the linked text are aligned to emphasize that it points from the entire document on the left to a particular part in the document on the right.</p>
 
 <p><img src="assets/link_endpoint.gif" alt="" /></p>
 
