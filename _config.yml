@@ -1,15 +1,8 @@
-site: MSc Project Weblog
+site: Forking the Docuverse Weblog
 url:
-title: Forking the Docuverse
+title: Forking the Docuverse Weblog
 author: Rebecca Rui
-description:
-permalink: /:slug
-author:
-  name: Rebecca Rui
-  email: #youremail
-  url: rebeccarui.online
-
-baseurl: "/msc_project_weblog"
+baseurl: "/forking_the_docuverse_weblog"
 
 # highlighter: none
 

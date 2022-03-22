@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Forking the Docuverse</title>
- <link href="/msc_project_weblog/atom.xml" rel="self"/>
- <link href="/msc_project_weblog/"/>
- <updated>2022-03-08T10:37:31+01:00</updated>
+ <title>Forking the Docuverse Weblog</title>
+ <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
+ <link href="/forking_the_docuverse_weblog/"/>
+ <updated>2022-03-22T18:58:47+01:00</updated>
  <id></id>
  <author>
-   <name>Rebecca Rui</name>
+   <name></name>
    <email></email>
  </author>
 
  
  <entry>
    <title>Prototype: Revising the Location Frame and Transition Animations</title>
-   <link href="/msc_project_weblog/15"/>
+   <link href="/forking_the_docuverse_weblog/15"/>
    <updated>2022-02-24T00:00:00+01:00</updated>
    <id>/15</id>
    <content type="html">&lt;h3 id=&quot;redesign-of-the-location-frame&quot;&gt;Redesign of the Location Frame&lt;/h3&gt;
@@ -73,7 +73,7 @@
  
  <entry>
    <title>Concept Design and Prototype: Revising Links and Aliases</title>
-   <link href="/msc_project_weblog/14"/>
+   <link href="/forking_the_docuverse_weblog/14"/>
    <updated>2022-01-06T00:00:00+01:00</updated>
    <id>/14</id>
    <content type="html">&lt;p&gt;Alterations and additions:&lt;/p&gt;
@@ -203,7 +203,7 @@
  
  <entry>
    <title>Prototype: Visually Distinguishing Links and Indicating Multiple Aliases of the Same Document (Continued)</title>
-   <link href="/msc_project_weblog/13"/>
+   <link href="/forking_the_docuverse_weblog/13"/>
    <updated>2021-12-16T00:00:00+01:00</updated>
    <id>/13</id>
    <content type="html">&lt;p&gt;Alterations and additions:&lt;/p&gt;
@@ -252,7 +252,7 @@
  
  <entry>
    <title>Reflection: Mapping Multisequence Text Structures</title>
-   <link href="/msc_project_weblog/12"/>
+   <link href="/forking_the_docuverse_weblog/12"/>
    <updated>2021-12-12T00:00:00+01:00</updated>
    <id>/12</id>
    <content type="html">&lt;p&gt;Mapping text structure can be done by both the reader and writer of documents.&lt;sup id=&quot;fnref:computational_methods&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:computational_methods&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Establishing links between documents or attaching metadata to documents (assigning categories) results in multisequential text structures, or “interconnective structure[s]” (Nelson 1987). There may be an intended paragraph-by-paragraph sequence of a text — the structure conventionally conceived as the main text — but several other structures can be mapped. For example, the order of chapters and subchapters is the sequential order intended by the writer. However, within that sequential order, there can be reused content items from other sources or other categories of information (conventionally embedded and visually distinguished from the main text) that point to internal or external content items. Mapping text structure thus entails assigning the contents of documents resulting in an order that is multisequential.&lt;/p&gt;
@@ -281,7 +281,7 @@
  
  <entry>
    <title>Prototype: Visually Distinguishing Links and Indicating Multiple Aliases of the Same Document</title>
-   <link href="/msc_project_weblog/11"/>
+   <link href="/forking_the_docuverse_weblog/11"/>
    <updated>2021-12-08T00:00:00+01:00</updated>
    <id>/11</id>
    <content type="html">&lt;p&gt;In this entry, the components of Lateral View are revised. The main challenges involve color coding and how cursor events change the display states of different categories of information. Those different categories of information are:&lt;/p&gt;
@@ -380,7 +380,7 @@
  
  <entry>
    <title>Concept Design and Prototype: Representing Linked Documents as Aliases</title>
-   <link href="/msc_project_weblog/10"/>
+   <link href="/forking_the_docuverse_weblog/10"/>
    <updated>2021-11-26T00:00:00+01:00</updated>
    <id>/10</id>
    <content type="html">&lt;p&gt;Alterations and additions:&lt;/p&gt;
@@ -448,7 +448,7 @@
  
  <entry>
    <title>Reflection: Representing Linked Documents</title>
-   <link href="/msc_project_weblog/09"/>
+   <link href="/forking_the_docuverse_weblog/09"/>
    <updated>2021-11-23T00:00:00+01:00</updated>
    <id>/09</id>
    <content type="html">&lt;p&gt;Ted Nelson envisioned the docuverse implemented with bi-directional visual links that have been explored in many models and prototypes:&lt;/p&gt;
@@ -542,7 +542,7 @@ An improvement would be landing at the particular linked part of a document:
  
  <entry>
    <title>Prototype: Opening Documents and Representing Linked Documents</title>
-   <link href="/msc_project_weblog/08"/>
+   <link href="/forking_the_docuverse_weblog/08"/>
    <updated>2021-11-12T00:00:00+01:00</updated>
    <id>/08</id>
    <content type="html">&lt;p&gt;Alterations and additions:&lt;/p&gt;
@@ -586,7 +586,7 @@ An improvement would be landing at the particular linked part of a document:
  
  <entry>
    <title>Prototype: Switching View Modes</title>
-   <link href="/msc_project_weblog/07"/>
+   <link href="/forking_the_docuverse_weblog/07"/>
    <updated>2021-10-17T00:00:00+02:00</updated>
    <id>/07</id>
    <content type="html">&lt;p&gt;Alterations and additions:&lt;/p&gt;
@@ -685,7 +685,7 @@ An improvement would be landing at the particular linked part of a document:
  
  <entry>
    <title>Concept Design: Documents, Content Items, and Link Types</title>
-   <link href="/msc_project_weblog/06"/>
+   <link href="/forking_the_docuverse_weblog/06"/>
    <updated>2021-09-16T00:00:00+02:00</updated>
    <id>/06</id>
    <content type="html">&lt;p&gt;The intent here is to clarify which concepts are to become components in the construct and how those components interact.&lt;/p&gt;
@@ -745,7 +745,7 @@ An improvement would be landing at the particular linked part of a document:
  
  <entry>
    <title>Reflection: Components and View Modes</title>
-   <link href="/msc_project_weblog/05"/>
+   <link href="/forking_the_docuverse_weblog/05"/>
    <updated>2021-08-23T00:00:00+02:00</updated>
    <id>/05</id>
    <content type="html">&lt;p&gt;This entry discusses points for improving the design presented in the &lt;a href=&quot;04&quot;&gt;previous entry&lt;/a&gt;, particularly Stack View.&lt;/p&gt;
@@ -771,7 +771,7 @@ An improvement would be landing at the particular linked part of a document:
  
  <entry>
    <title>Concept Design: Components and View Modes</title>
-   <link href="/msc_project_weblog/04"/>
+   <link href="/forking_the_docuverse_weblog/04"/>
    <updated>2021-08-18T00:00:00+02:00</updated>
    <id>/04</id>
    <content type="html">&lt;p&gt;View modes are different levels of perspective on documents. In addition, each view mode differs in the components used to represent a document.&lt;/p&gt;
@@ -876,7 +876,7 @@ An improvement would be landing at the particular linked part of a document:
  
  <entry>
    <title>Background: On Interconnection and the Boundary of Documents</title>
-   <link href="/msc_project_weblog/03"/>
+   <link href="/forking_the_docuverse_weblog/03"/>
    <updated>2021-08-13T00:00:00+02:00</updated>
    <id>/03</id>
    <content type="html">&lt;p&gt;The first section of this entry introduces the concept of interconnection, the various terms used to express the idea of interconnection across fields, and the underlying philosophical position. The second section examines analog and digital systems developed throughout history, comprising concepts for representing interconnection. Those concepts are juxtaposed to how they have been implemented in commonly known systems, such as how hypertext is implemented on the Web. The biases and conventions inherited from paper documents are also discussed, including the (dis)advantages of transferring these (or how these have been transferred) to the digital realm. The aim is to gather insight into which features of the systems can be utilized in creating a construct based on accommodating interconnection.&lt;/p&gt;
@@ -1153,7 +1153,7 @@ An improvement would be landing at the particular linked part of a document:
  
  <entry>
    <title>Terms: Questions That Follow</title>
-   <link href="/msc_project_weblog/02"/>
+   <link href="/forking_the_docuverse_weblog/02"/>
    <updated>2021-08-08T00:00:00+02:00</updated>
    <id>/02</id>
    <content type="html">&lt;p&gt;The attempt here is to elaborate on the terms used in the &lt;a href=&quot;01&quot;&gt;previous entry&lt;/a&gt;.&lt;/p&gt;
@@ -1252,7 +1252,7 @@ An improvement would be landing at the particular linked part of a document:
  
  <entry>
    <title>Outline: Introducing the Project and Detailing the Method</title>
-   <link href="/msc_project_weblog/01"/>
+   <link href="/forking_the_docuverse_weblog/01"/>
    <updated>2021-08-03T00:00:00+02:00</updated>
    <id>/01</id>
    <content type="html">&lt;p&gt;This is the first of a series of weblog entries that function as snapshots of the research process. This entry serves to introduce the topic of research, the research plan, and the scope of the project.&lt;/p&gt;
