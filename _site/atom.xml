@@ -4,7 +4,7 @@
  <title>Forking the Docuverse Weblog</title>
  <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
  <link href="/forking_the_docuverse_weblog/"/>
- <updated>2022-03-28T09:52:55+02:00</updated>
+ <updated>2022-03-28T10:12:04+02:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -17,7 +17,20 @@
    <link href="/forking_the_docuverse_weblog/16"/>
    <updated>2022-03-25T00:00:00+01:00</updated>
    <id>/16</id>
-   <content type="html">&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-06--hDt0qsaq8QlB3oLigjRr/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+   <content type="html">&lt;p&gt;Additions and alterations:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Thicker lines in location frame.&lt;/li&gt;
+  &lt;li&gt;Updated content in documents.&lt;/li&gt;
+  &lt;li&gt;Addition of a filter menu.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
+
+&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-06--hDt0qsaq8QlB3oLigjRr/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/filterpanel_01.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -60,7 +73,7 @@
 
 &lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
 
-&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-06--hDt0qsaq8QlB3oLigjRr/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-06--hiw1G3EWg9PAMWVgCcWf/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
