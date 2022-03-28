@@ -4,13 +4,22 @@
  <title>Forking the Docuverse Weblog</title>
  <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
  <link href="/forking_the_docuverse_weblog/"/>
- <updated>2022-03-22T18:58:47+01:00</updated>
+ <updated>2022-03-28T09:52:55+02:00</updated>
  <id></id>
  <author>
    <name></name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Prototype: Revisions</title>
+   <link href="/forking_the_docuverse_weblog/16"/>
+   <updated>2022-03-25T00:00:00+01:00</updated>
+   <id>/16</id>
+   <content type="html">&lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-06--hDt0qsaq8QlB3oLigjRr/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Prototype: Revising the Location Frame and Transition Animations</title>
@@ -1007,16 +1016,18 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;p&gt;Xanadu has gone through many revisions and different prototype implementations over the span of six decades, but the core concepts have fundamentally remained the same. In what follows, those concepts are examined with reflections on some of the implementations and juxtaposed to how some of its concepts are implemented on the Web.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;History Management&lt;/strong&gt;
-Xanadu is a system that stores (and makes accessible) every change made to documents’ contents and linkages, integrated in such a way that former states can be retrieved and reworked (Nelson 1987). As seen in the image below, people can choose whether those changes are local/private or online/public.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;History Management&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Xanadu is a system that stores (and makes accessible) every change made to documents’ contents and linkages, integrated in such a way that former states can be retrieved and reworked (Nelson 1987). As seen in the image below, people can choose whether those changes are local/private or online/public.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/nelson_public_private.png&quot; alt=&quot;&quot; /&gt;
 &lt;em&gt;Transcluded from Nelson (1987)&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Once a document is online/public, any changes made (e.g., if the author revises the content, or readers reuse parts of a document or create links to/from a document) are stored; effectively, the history of every document is accessible to anyone. This would be the same if the Web were built with an integrated history management system such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Git&quot;&gt;Git&lt;/a&gt;, not as an optional tool but as a core feature.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Bidirectional Visual Links&lt;/strong&gt;
-Beyond the history dimension, the multidimensional structure of Xanadu is designed for two main categories of connections between documents, expressed by two link types: &lt;em&gt;content links&lt;/em&gt; and &lt;em&gt;transclusions&lt;/em&gt;. Content links are the arbitrary connections that people (writers and readers) create as they engage with text, and &lt;em&gt;transclusions&lt;/em&gt; are reused content items. By convention, transclusions are what are known as excerpts and typographically distinguished as block quotes or inline quotes, and the link between the &lt;em&gt;copied&lt;/em&gt; and the &lt;em&gt;pasted&lt;/em&gt; is usually embedded as a citation. However, as Nelson writes:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bidirectional Visual Links&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Beyond the history dimension, the multidimensional structure of Xanadu is designed for two main categories of connections between documents, expressed by two link types: &lt;em&gt;content links&lt;/em&gt; and &lt;em&gt;transclusions&lt;/em&gt;. Content links are the arbitrary connections that people (writers and readers) create as they engage with text, and &lt;em&gt;transclusions&lt;/em&gt; are reused content items. By convention, transclusions are what are known as excerpts and typographically distinguished as block quotes or inline quotes, and the link between the &lt;em&gt;copied&lt;/em&gt; and the &lt;em&gt;pasted&lt;/em&gt; is usually embedded as a citation. However, as Nelson writes:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Transclusion is what quotation, copying and cross-referencing merely attempt: they are ways that people have had to &lt;em&gt;imitate&lt;/em&gt; transclusion, which is the true abstract relationship that paper cannot show. (Nelson 1999)&lt;/p&gt;
