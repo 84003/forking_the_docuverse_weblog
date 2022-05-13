@@ -4,7 +4,7 @@
  <title>Forking the Docuverse Weblog</title>
  <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
  <link href="/forking_the_docuverse_weblog/"/>
- <updated>2022-05-13T09:08:28+02:00</updated>
+ <updated>2022-05-13T09:19:58+02:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -340,11 +340,7 @@ Or, according to the date of publication, rendered in a timeline view:&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;%%it might look something like this or this%%&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Closed systems&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Semi-closed systems&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Semi-closed systems on the web&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Examples of semi-closed systems are Wikipedia and digital gardens, which both have internal links and external links.&lt;/p&gt;
 
@@ -358,19 +354,24 @@ Or, according to the date of publication, rendered in a timeline view:&lt;/p&gt;
 
 &lt;p&gt;Conceptually, Nexae aspires to be a docuverse where (parts of ) digital gardens can merge.&lt;/p&gt;
 
-&lt;p&gt;Once a document would be made public, it should be possible to configure the edit settings. A &lt;em&gt;full edit mode&lt;/em&gt; for example, would allow anyone to edit the contents and links, and &lt;em&gt;limited edit mode&lt;/em&gt; would allow anyone to create links to that document.&lt;/p&gt;
-
-&lt;p&gt;If the Nexae docuverse is to be further developed into an open system, then several design problems arise.&lt;/p&gt;
-
-&lt;p&gt;%%list them%%&lt;/p&gt;
-
 &lt;ul&gt;
   &lt;li&gt;Moderation %%compare to Wikipedia%%&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;%%Conceptually how do you position Nexae. Example of use-cases of this and this…just elaborate. discuss whether there are moderators like Wikipedia%%&lt;/p&gt;
+&lt;p&gt;Once a document would be made public, it should be possible to configure the edit settings. A &lt;em&gt;full edit mode&lt;/em&gt; for example, would allow anyone to edit the contents and links, and &lt;em&gt;limited edit mode&lt;/em&gt; would allow anyone to create links to that document.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Open systems&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If a document is authored by the person who adds it to the Nexae docuverse, then they have authority on the edit settings. If a document is not authored by the person who adds it, then the edit settings are automatically set to limited.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Copyright issues that come with being an open system&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Copyright issues can be circumvented if the Nexae docuverse is a closed system.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Closed system&lt;/strong&gt;&lt;/p&gt;
 </content>
  </entry>
  
