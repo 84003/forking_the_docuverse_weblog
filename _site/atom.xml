@@ -4,7 +4,7 @@
  <title>Forking the Docuverse Weblog</title>
  <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
  <link href="/forking_the_docuverse_weblog/"/>
- <updated>2022-05-12T19:14:44+02:00</updated>
+ <updated>2022-05-13T08:52:37+02:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -340,6 +340,16 @@ Or, according to the date of publication, rendered in a timeline view:&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;%%it might look something like this or this%%&lt;/p&gt;
+
+&lt;p&gt;Closed systems&lt;/p&gt;
+
+&lt;p&gt;Semi-closed systems&lt;/p&gt;
+
+&lt;p&gt;Examples of semi-closed systems are Wikipedia and digital gardens, which both have internal links and external links.&lt;/p&gt;
+
+&lt;p&gt;The inline links in Wikipedia for example, all point to other Wikipedia pages. The footnotes are used to link to references of external sources.&lt;/p&gt;
+
+&lt;p&gt;Open systems&lt;/p&gt;
 
 &lt;p&gt;If the Nexae docuverse is to be further developed into an open system, then several design problems arise.&lt;/p&gt;
 
