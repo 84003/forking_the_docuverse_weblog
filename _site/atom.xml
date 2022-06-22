@@ -4,7 +4,7 @@
  <title>Forking the Docuverse Weblog</title>
  <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
  <link href="/forking_the_docuverse_weblog/"/>
- <updated>2022-06-06T19:17:50+02:00</updated>
+ <updated>2022-06-22T08:04:49+02:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -19,29 +19,31 @@
    <id>/17</id>
    <content type="html">&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 
+&lt;p&gt;What may result from reworking (and taking new approaches to how to represent and interact with) concepts for mapping and accessing the interconnective structure of documents to create a docuverse?&lt;/p&gt;
+
 &lt;p&gt;What may result from reworking (and taking new approaches to how to represent and interact with) concepts for mapping and accessing multiple structures of documents?&lt;/p&gt;
 
-&lt;p&gt;%% write intro (which concepts and taken from what)%%&lt;/p&gt;
+&lt;h2 id=&quot;which-concepts-have-been-reworked-and-how&quot;&gt;Which concepts have been reworked, and how?&lt;/h2&gt;
 
-&lt;h2 id=&quot;what-are-those-prominent-examples&quot;&gt;What are those prominent examples?&lt;/h2&gt;
+&lt;p&gt;The reworked concepts have been derived through examining prominent examples of systems comprising concepts for representing interconnection.&lt;/p&gt;
 
-&lt;h2 id=&quot;why-did-you-choose-them&quot;&gt;Why did you choose them?&lt;/h2&gt;
+&lt;p&gt;Those examples are:&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Considered influential to the evolution of information technologies and knowledge systems %%explain%%&lt;/li&gt;
-  &lt;li&gt;All three examples are grounded in a philosophical position about the structure of ideas and evolution of knowledge.&lt;/li&gt;
-  &lt;li&gt;To illustrate:
-    &lt;ul&gt;
-      &lt;li&gt;that hierarchical categorization of knowledge is not intrinsic to print (particularly the Encyclopédie)&lt;/li&gt;
-      &lt;li&gt;the three systems comprise similar concepts but are limited by the medium used for their realization/implementation (particularly the work of Otlet)&lt;/li&gt;
-      &lt;li&gt;the computer can be embedded with any conceivable construct, which is a potential worthwhile exploring in re-imagining a document system.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;ol&gt;
+  &lt;li&gt;The Encyclopédie by Denis Diderot ( 1713 - 1784) and Jean d’Alembert (1717 - 1783)&lt;/li&gt;
+  &lt;li&gt;The work of Paul Otlet (1868 - 1944)&lt;/li&gt;
+  &lt;li&gt;The original hypertext project Xanadu by Ted Nelson (1937)&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Through examination, some of the concepts and features of the three examples were deemed suitable for reflecting that philosophical position and therefore reworked in creating a docuverse.&lt;/p&gt;
+&lt;p&gt;All three examples are considered influential in the evolution of information technologies. The Encyclopédie is exemplary of the eighteenth century; the work of Paul Otlet is exemplary of the nineteenth century; Xanadu by Ted Nelson is exemplary of the twentieth century.&lt;/p&gt;
 
-&lt;h2 id=&quot;which-aspects-and-concepts-have-been-reworked-and-how&quot;&gt;Which aspects and concepts have been reworked, and how?&lt;/h2&gt;
+&lt;p&gt;Published between 1751 and 1772, the Encyclopédie is seen as in response to the eighteenth-century information overload (Rosenberg 2015). It was an innovative system for its time, utilizing textual and diagrammatic ways of mapping structures.&lt;/p&gt;
+
+&lt;p&gt;Otlet’s work is similarly seen as in response to the nineteenth-century problem of “the enormous growth in the number of publications, specialist congresses, and international exhibitions” (Manfroid 2013). Otlet is regarded as a pioneer of the field once called documentation that branched into what is now called information science, and his work can be understood as a nineteenth-century attempt to represent interconnection, inhibited by the material constraints of paper-based technologies.&lt;/p&gt;
+
+&lt;p&gt;Since its conception, the Xanadu docuverse by Ted Nelson was envisioned to run on a global network of computers in which every document is to reside (Ridi 2018). Xanadu has never been fully implemented, but the many prototypes and writings throughout the decades since the 1960s have had a profound impact on the evolution of hypertext, influencing several projects, including the World Wide Web.&lt;/p&gt;
+
+&lt;p&gt;All three examples are grounded in a philosophical position about the structure of ideas and evolution of knowledge (explained below). Through examination, some of the concepts and features of the three examples were deemed suitable for reflecting that philosophical position and therefore reworked in creating a docuverse. Other concepts derived from paper documents, such as footnotes, have been abandoned.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Modularization of documents.&lt;/li&gt;
@@ -50,19 +52,15 @@
   &lt;li&gt;A closed system.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;%%Insert a small paragraph explaining how these derive from those examples%%&lt;/p&gt;
-
-&lt;p&gt;%%Which are not from those historical examples?%%&lt;/p&gt;
-
 &lt;h3 id=&quot;1-modularization-of-documents&quot;&gt;1. Modularization of documents&lt;/h3&gt;
 
-&lt;p&gt;The structure of ideas is non-sequential. Hierarchy and sequence should not be the predominant structures into which everything must fit. A document system must therefore support mapping multiple structures. The evolution of knowledge is a process of decomposition/recomposition, analysis/synthesis. Therefore, a document system should facilitate and support that process through the modularization of documents.&lt;/p&gt;
+&lt;p&gt;The structure of ideas is nonsequential. Hierarchy and sequence should not be the predominant structures into which everything must fit. A document system must therefore support mapping multiple structures. Knowledge is not fundamentally hierarchical, and the evolution of knowledge is a process of decomposition/recomposition, analysis/synthesis. Therefore, a document system should facilitate and support that process through the modularization of documents.&lt;/p&gt;
 
-&lt;p&gt;In line with the conception of documents as modular — made up of parts connected to other parts — all connections to/from a document are implemented as visual links. The linked documents are represented as aliases, providing direct access to those linked documents. In contrast to web pages viewed in browsers, documents are not viewed in isolation, and selecting a link does not involve blindly landing on a page. An open document (in Lateral View) has its linked documents represented as aliases that make clear the link’s destination (including the link direction and the link endpoint). Selecting an alias opens that linked document, while the previously opened document transforms into an alias (or multiple aliases if there are multiple links between those two documents).&lt;/p&gt;
+&lt;p&gt;In line with the conception of documents as modular — made up of parts connected to other parts — all connections to/from a document are implemented as visual links. The linked documents are represented as aliases, providing direct access to those linked documents. In contrast to web pages viewed in browsers, documents are not viewed in isolation, and selecting a link does not involve blindly landing on a page. An open document (in Lateral View) has its linked documents represented as aliases that clearly indicate the link’s destination (including the link direction and the link endpoint). Selecting an alias opens that linked document, while the previously opened document transforms into an alias (or multiple aliases if there are multiple links between those two documents).&lt;/p&gt;
 
 &lt;p&gt;For example, &lt;em&gt;Document A&lt;/em&gt; is open and has several links to &lt;em&gt;Document B&lt;/em&gt;. Selecting an alias of &lt;em&gt;Document B&lt;/em&gt; transforms &lt;em&gt;Document B&lt;/em&gt; into an open document and transforms &lt;em&gt;Document A&lt;/em&gt; into aliases.&lt;/p&gt;
 
-&lt;p&gt;%%insert image%%&lt;/p&gt;
+&lt;p&gt;%%insert sketch%%&lt;/p&gt;
 
 &lt;h3 id=&quot;2-links-are-distinguished-according-to-the-type-of-connection&quot;&gt;2. Links are distinguished according to the type of connection&lt;/h3&gt;
 
@@ -86,23 +84,21 @@
 
 &lt;p&gt;Transclusion is the inclusion of (a part of) a document into another document. Content that is by convention put between quotation marks or in a block quote, for example, is a &lt;em&gt;form&lt;/em&gt; of transclusion. In the Naxae docuverse, the visual form of transclusions is dashed lines pointing to an alias of the source document. Transclusions thus offer direct access to the “origins and context of quotations, excerpts and anthologized materials, and content transiting between versions” (Nelson 1999).&lt;/p&gt;
 
-&lt;p&gt;Note: By convention (derived from paper documents), the content of digital documents is copied (onto the construct called clipboard) and pasted (with a citation if taken from another source), whereas in the Nexae docuverse content items are never duplicated, they are transcluded (with a transclusion type link and an alias of the linked document).&lt;/p&gt;
+&lt;p&gt;Note: By convention (derived from paper documents), the content of digital documents is copied (onto the construct called clipboard) and pasted (with the manual insertion of a citation if taken from another source), whereas in the Nexae docuverse content items are never duplicated, they are transcluded (with a transclusion type link and an alias of the linked document).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;3. Sequence Link&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Sequence links determine the order of documents in a sequence. Accordingly, a sequence link can point to the previous or the next document in a sequence. Unlike transclusions and tag links, sequence links can only point to an entire document, not to a content item of a document. Headings can be applied to create a nested structure within the sequence (i.e., hierarchical order). The sequential order of documents (and the possible hierarchical order of content items within a document) co-exists with the order offered by the other two link types.&lt;/p&gt;
 
-&lt;p&gt;Note: even if a set of content items belong in a hierarchical order within a document, it may simultaneously exist in another structure by establishing a link. Similarly, a list item in a nested list with one document may simultaneously (through transclusion) be a title in another document.&lt;/p&gt;
+&lt;p&gt;Note: even if a set of content items belong in a hierarchical order within a document, it may simultaneously exist in another structure by establishing a link. Similarly, a list item in a nested list in one document may simultaneously (through transclusion) be a title in another document.&lt;/p&gt;
+
+&lt;p&gt;Note: a document can be the second item in one sequence and the fifth item in another.&lt;/p&gt;
 
 &lt;p&gt;Note: How sequences and hierarchies are organized can vary. For example, one sequence might be a set of documents containing one content item. That particular sequence would be akin to the concept of a chapter. Another sequence might be a set of documents containing multiple content items that belong to sections within a document (established through headings). This latter sequence would be similar to a set of chapters or a chapter with sub-chapters. Rather than numbering, as is often done with chapters, the order is indicated by the visual layout of the documents.&lt;/p&gt;
 
-&lt;p&gt;%%insert image%%&lt;/p&gt;
-
 &lt;p&gt;&lt;strong&gt;The visual distinction of the three link types and the subcategorization enabled by tag links.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The means of visually distinguishing different categories of information is by convention done typographically. The main text has a large font size, and additional information, such as footnotes, has a small font size, implying a hierarchical relationship.&lt;/p&gt;
-
-&lt;p&gt;In the Nexae docuverse, information categories are assigned through the three link types, not a predefined hierarchical structure. So information that is by convention embedded as footnotes would be in separate documents to which metadata can be attached and a tag link label that describes the connection. There is no implicit hierarchy, and through filtering, it is possible to view a subcategory of the additional information.&lt;/p&gt;
+&lt;p&gt;The means of visually distinguishing different categories of information is by convention done typographically. The main text has a large font size, and additional information, such as footnotes, has a small font size, implying a hierarchical relationship. In the Nexae docuverse, information categories are assigned through the three link types, not a predefined hierarchical structure. So information that is by convention embedded as footnotes would be in separate documents to which metadata can be attached and a tag link label that describes the connection. There is no implicit hierarchy, and through filtering, it is possible to view a subcategory of the additional information.&lt;/p&gt;
 
 &lt;p&gt;To convey further information about a connection, beyond the three link types, there are two link directions and two link endpoints.&lt;/p&gt;
 
@@ -113,9 +109,7 @@
   &lt;li&gt;&lt;em&gt;from&lt;/em&gt; a document.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;%%insert image%%&lt;/p&gt;
-
-&lt;p&gt;Most common on the web are one-directional links pointing &lt;em&gt;to&lt;/em&gt; another website (external) or webpage (internal). This linking mechanism forms a linear sequence structure. Additionally, since the link does indicate its destination, once it has been selected, the only way to retrieve the original web page is to navigate back by selecting the back button in the browser.&lt;/p&gt;
+&lt;p&gt;Most common on the web are one-directional links pointing &lt;em&gt;to&lt;/em&gt; another (external) website or (internal) webpage. This linking mechanism forms a linear sequence structure. Additionally, since the link does indicate its destination, once it has been selected, the only way to retrieve the original web page is to navigate back by selecting the back button in the browser.&lt;/p&gt;
 
 &lt;p&gt;Less common are backlinks, often implemented in what is called digital gardens. Backlinks are links that point &lt;em&gt;from&lt;/em&gt; another document. If &lt;em&gt;Document A&lt;/em&gt; contains a link to &lt;em&gt;Document B&lt;/em&gt;, then &lt;em&gt;Document B&lt;/em&gt; contains a backlink to &lt;em&gt;Document A&lt;/em&gt;. Roam Research is known for popularizing backlinks, and others like Notion have followed suit. Usually, backlinks are presented in a list and commonly at the bottom, as seen in the three following images.&lt;/p&gt;
 
@@ -129,9 +123,9 @@
 
 &lt;p&gt;&lt;img src=&quot;assets/backlinks_list_3.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In all these examples, links pointing outward are inline hyperlinks, and links pointing inward are in a separate list, which means that the backlinks do not make available where exactly the document has been mentioned (the link endpoint) and also do not indicate how many times it has been mentioned (the number of links).&lt;/p&gt;
+&lt;p&gt;In all these examples, links pointing outward are inline hyperlinks, and links pointing inward are in a separate list, which means that the backlinks do not make available where exactly the document has been mentioned (the link endpoint) and also do not indicate how many times it has been mentioned (the number of links to a particular document).&lt;/p&gt;
 
-&lt;p&gt;In Nexae, outward and inward links are not separated, both are inline, and the arrow symbol indicates the link direction. Additionally, because links can be attached at the level of the content item, unlike backlinks, the endpoint of a link provides direct access to the particular part of a document. Moreover, if there are multiple links, then there are multiple aliases.&lt;/p&gt;
+&lt;p&gt;In Nexae, outward and inward links are not separated; both are inline, with the arrow symbol indicating the link direction. Additionally, because links can be attached at the level of the content item, unlike backlinks, the endpoint of a link provides direct access to the particular part of a document. If there are multiple links, then there are multiple aliases of the linked document.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Link endpoints&lt;/strong&gt; describes whether there is a connection to:&lt;/p&gt;
 
@@ -148,13 +142,11 @@
 
 &lt;p&gt;“In &lt;em&gt;What Are Data&lt;/em&gt;, Christine Borgman examines different conceptions of data, from Paul Uhlir and David Cohen’s definition of data to the Data Documentation Initiative and categories of data developed by NASA.”&lt;/p&gt;
 
-&lt;p&gt;%%insert visual implementation%%&lt;/p&gt;
-
 &lt;h3 id=&quot;3-multiple-renditions-of-content&quot;&gt;3. Multiple renditions of content&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Switching View Modes and Traversing Documents&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The two view modes are each different renditions of documents and linkages. Both view modes are based on conveying (different) information about the connections among documents. Inventory View is at the level of the collection, and Lateral View is at the level of the document. Differing in the level of detail, Inventory View is the &lt;em&gt;zoomed-out&lt;/em&gt; view, and Lateral View is the &lt;em&gt;zoomed-in&lt;/em&gt; view.&lt;/p&gt;
+&lt;p&gt;The Nexae docuverse is designed with two view modes. The two view modes are each different renditions of documents and linkages. Both view modes convey different information about the connections among documents. Inventory View is at the level of the collection, and Lateral View is at the level of the document. Differing in the level of detail, Inventory View is the &lt;em&gt;zoomed-out&lt;/em&gt; view, and Lateral View is the &lt;em&gt;zoomed-in&lt;/em&gt; view.&lt;/p&gt;
 
 &lt;p&gt;Inventory View is a network diagram using a node-link model. All documents are viewed in relation to each other, conveying information about the size of each document (node size) and the number of links (line thickness). Functioning as an infographic, it allows understanding a lot of information at a glance.&lt;/p&gt;
 
@@ -198,30 +190,25 @@
 
 &lt;p&gt;A bracketed link indicates that it is attached to the entire document. An unbracketed link indicates that it is linked to a particular content item within the document (in which case, the linked content item is displayed in purple).&lt;/p&gt;
 
-&lt;p&gt;%%Discuss reflect on why it is like this%%&lt;/p&gt;
-
-&lt;p&gt;The insight gained from examining the Encyclopédie is that the entire contents can be arranged in a nested list (hierarchical structure) but can also be arranged in a node-link map to show the interconnective structure. Both structures can be mapped, and both are different lenses onto the contents, functioning as infographics and offering different entry points. So though this project is based on accommodating interconnection, it does not intend to abandon hierarchical and sequential arrangements but not to give it predominance. Again, documents are modular; multiple structures co-exist.&lt;/p&gt;
+&lt;p&gt;The insight gained from examining the Encyclopédie is that the entire contents can be arranged in a nested list (hierarchical structure) but can also be arranged in a node-link map to show the interconnective structure. Both structures can be mapped, and both are different lenses onto the contents, functioning as infographics and offering different entry points. So though the main aim of this project is to support mapping and accessing the interconnective structure of documents, that does entail excluding hierarchical and sequential arrangements but not giving them predominance. Again, documents are modular; multiple structures co-exist.&lt;/p&gt;
 
 &lt;p&gt;Implementing two view modes is also an attempt to further develop Nelson’s &lt;a href=&quot;https://xanadu.com/xanademos/MoeJusteOrigins.html&quot;&gt;implementation of Xanadu&lt;/a&gt; by dealing with the complexity that comes with mapping multiple structures.&lt;/p&gt;
 
-&lt;p&gt;Similar to Xanadu, Nexae abandons the idea of embedding information; instead, metadata and links are attached.
-Improving the implementation of Xanadu, in Nexae conceptual categories are visually distinguished by applying a diagrammatic visual language, and all references are present (represented as aliases with direct access to the referenced document).&lt;/p&gt;
+&lt;p&gt;Similar to Xanadu, Nexae abandons the idea of embedding information; instead, metadata and links are attached. Improving the implementation of Xanadu, in Nexae conceptual categories are visually distinguished by applying a diagrammatic visual language, and all references are present (represented as aliases with direct access to the referenced document).&lt;/p&gt;
 
 &lt;p&gt;On a web page, a content list or navigation sitemap provides people with an overview of the structure of a website. Selecting a list item directs them to the web page instantly. There is no longer an overview, and people do not know exactly where they are anymore. Looking at a list conveys the hierarchical structure of the website. The amount of information and number of links are also not available.&lt;/p&gt;
 
 &lt;p&gt;Rather than the file system’s tree structure, or the blog format’s chronological structure, the collection of documents is represented as a node-link network. Entirely based on the interconnective structure, conveying information about the number of links and size of documents whereby the individual document is distinguished by title.&lt;/p&gt;
 
-&lt;p&gt;Note: the display of titles should be configurable in the settings so that instead of titles, another variable from the metadata is displayed, such as the author (further discussed in the Future Developments section)) The arrangement of the node-link network should also be configurable (note that the default is set to “arrange by sequence links”).&lt;/p&gt;
+&lt;p&gt;Note: the display of titles should be configurable in the settings so that instead of titles, another variable from the metadata is displayed, such as the author (further discussed in the Future Developments section)). The arrangement of the node-link network should also be configurable, which is by default set to arranging the nodes according to sequence links.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/arranged_by_sequence.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;4-closed-system&quot;&gt;4. Closed system&lt;/h3&gt;
 
-&lt;p&gt;To support the core concepts that allow mapping and accessing multiple structures, Nexae is envisioned as a closed system. For example, the concept of transclusion dictates that concepts such as &lt;em&gt;copying&lt;/em&gt; and &lt;em&gt;pasting&lt;/em&gt; (derived from paper documents) are not possible; instead, content is transcluded. If the content is taken from another document, it is done by inserting it into a document, generating a link and alias to that document.&lt;/p&gt;
+&lt;p&gt;To support the core concepts that allow mapping and accessing multiple structures, Nexae is envisioned as a closed system. For example, the concept of transclusion dictates that concepts such as &lt;em&gt;copying&lt;/em&gt; and &lt;em&gt;pasting&lt;/em&gt; are not possible; instead, content is transcluded. If the content is taken from another document, it is done by inserting it into a document, generating a link and alias to that document.&lt;/p&gt;
 
-&lt;p&gt;To compare, websites built with wiki structures, such as digital gardens and Wikipedia, are very similar to the Encyclopédie in that they are semi-closed systems, meaning there is an emphasis on internal links, although establishing external links is possible. In both examples, internal links and external links are somehow distinguished.&lt;/p&gt;
-
-&lt;p&gt;In the Wikipedia docuverse, internal links (links to other Wikipedia pages) are implemented as hyperlinks in the main text or panels with other categories of information located on the side of the main text. External links, which can be connections by way of reference or arbitrary connections, are implemented as footnotes, and the links are located at the bottom of the webpage. Selecting an external link results in leaving Wikipedia, whether that be a link to download a PDF or opening another website in another browser tab.&lt;/p&gt;
+&lt;p&gt;To compare, websites built with wiki structures, such as digital gardens and Wikipedia, are very similar to the Encyclopédie in that they are semi-closed systems, meaning there is an emphasis on internal links, although establishing external links is possible. In both examples, internal links and external links are somehow visually distinguished. In the Wikipedia docuverse, internal links (links to other Wikipedia pages) are implemented as hyperlinks in the main text or panels with other categories of information located on the side of the main text. External links, which can be connections by way of reference or arbitrary connections, are implemented as footnotes, and the links are located at the bottom of the webpage. Selecting an external link results in leaving Wikipedia, whether that be a link to download a PDF or opening another website in another browser tab.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/wikipedia_internal_external_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -232,71 +219,78 @@ Improving the implementation of Xanadu, in Nexae conceptual categories are visua
 &lt;p&gt;In sum, Wikipedia has two main link types (external and internal), distinguished through layout design.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/wikipedia_semi-open_system.png&quot; alt=&quot;&quot; /&gt;
-Nexae has been designed with no external links because, in order to have direct access to a linked document, it must exist in the Nexae docuverse. Content is added rather than linked. The only distinction made is between documents that are private (only accessible to the person who added them) and public (accessible to everyone in the Nexae docuverse).&lt;/p&gt;
+Nexae has been designed with no external links because, in order to have direct access to a linked document, it must exist in the Nexae docuverse. Content is added rather than linked to external sources. The only distinction made is between documents that are private (only accessible to the person who added them) and public (accessible to everyone or a selection of people in the Nexae docuverse).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/nexae_closed_system.png&quot; alt=&quot;&quot; /&gt;
 Whereas Wikipedia is a public project to which (at least in principle) anyone can contribute, digital gardens are set up as more personal spaces, usually edited by one person. Conceptually, Nexae aspires to be a docuverse where (parts of ) digital gardens can merge, which occurs when documents are made public.&lt;/p&gt;
 
-&lt;p&gt;This is similar to how Nelson envisioned Xanadu — people should be able to decide which documents are private and which are public.&lt;/p&gt;
-
 &lt;h2 id=&quot;what-does-the-prototype-offer-at-this-stage&quot;&gt;What does the prototype offer (at this stage)?&lt;/h2&gt;
 
-&lt;p&gt;Nexae is the result of reworking those concepts derived from the three historical examples and incorporating a diagrammatical visual language, features from contemporary software for editing media, the appropriation of the contemporary usage of hashtags, and the utilization of transition animations.&lt;/p&gt;
+&lt;p&gt;Nexae is the result of abandoning some concepts derived from paper documents and reworking other concepts; incorporating a diagrammatical visual language, features from contemporary software for editing media; and the appropriation of the contemporary usage of hashtags; and the utilization of transition animations possible in interactive digital environments.&lt;/p&gt;
 
-&lt;p&gt;The prototype at this stage offers pre-mapped sample content that can be accessed through the designed UI. It is not yet possible to edit or add documents and links.&lt;/p&gt;
+&lt;p&gt;The prototype at this stage offers pre-mapped sample content that has been written throughout the process of this project. The documents have the following attached metadata: title, year of creation, author, and tags. This list is extendible. The connections between the documents make use of all three link types. Each tag link has a descriptive label describing the connection between documents.&lt;/p&gt;
 
-&lt;p&gt;It is possible to traverse documents by selecting a document in Inventory View to enter Lateral View and select linked documents.&lt;/p&gt;
+&lt;p&gt;%%image of example%%&lt;/p&gt;
+
+&lt;p&gt;It is possible to traverse documents by selecting a document in Inventory View to enter Lateral View and select linked documents. It is, however, not yet possible to edit or add documents and links.&lt;/p&gt;
 
 &lt;p&gt;It is possible to filter documents and links in Inventory View, enabling people to enter a subset of the docuverse.&lt;/p&gt;
 
-&lt;p&gt;The default arrangement of documents and links in Inventory View is set according to the sequence links. However, many other arrangements based on the metadata and link types are possible and should be configurable.&lt;/p&gt;
+&lt;p&gt;The default arrangement of documents and links in Inventory View is set according to the sequence links. However, many other arrangements based on the metadata and link types are possible and should be configurable (discussed below).&lt;/p&gt;
 
-&lt;p&gt;The default interface should ideally also be configurable (e.g., color-coding tag links according to their label).&lt;/p&gt;
+&lt;p&gt;The default interface should ideally also be configurable, for example, color-coding tag links according to their label or a different background color, etc.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-needs-to-be-explored-or-developed-further-and-how&quot;&gt;What needs to be explored or developed further, and how?&lt;/h2&gt;
 
-&lt;p&gt;Key features that still need to be developed:&lt;/p&gt;
+&lt;p&gt;There are many possibilities for further development of this project.&lt;/p&gt;
+
+&lt;p&gt;Key features that need to be developed:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;An edit mode&lt;/li&gt;
-  &lt;li&gt;Extension of the filtering technique&lt;/li&gt;
+  &lt;li&gt;Time dimension&lt;/li&gt;
+  &lt;li&gt;Extending the filtering technique&lt;/li&gt;
   &lt;li&gt;Arrangement of documents and links&lt;/li&gt;
   &lt;li&gt;Configurability&lt;/li&gt;
   &lt;li&gt;Overlapping links&lt;/li&gt;
-  &lt;li&gt;Extension of the closed system&lt;/li&gt;
+  &lt;li&gt;Extending the closed system&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;1-an-edit-mode&quot;&gt;1. An edit mode&lt;/h3&gt;
 &lt;p&gt;The prototype allows only for accessing the pre-mapped structures of the sample content, which means that the option to edit documents, links, or metadata is not yet possible.&lt;/p&gt;
 
-&lt;p&gt;A problem that arises when implementing an edit mode is: what happens when adding a document with references to other documents that have not been added to the Nexae docuverse?&lt;/p&gt;
+&lt;p&gt;A problem that arises when implementing an edit mode is:&lt;/p&gt;
 
-&lt;p&gt;Note: Transclusions dictate that all referenced documents must be directly accessible.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What happens when documents undergo changes?&lt;/li&gt;
+  &lt;li&gt;What happens when adding a document with references to other documents that have not been added to the Nexae docuverse?&lt;/li&gt;
+  &lt;li&gt;What happens when adding documents that contain concepts that have been abandoned, such as footnotes and citations?&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;It could involve a prompt, asking whoever is adding the document also to add the referenced documents, or a computer program that searches the web for the linked documents and adds (and transforms) them automatically. If the documents are not found, then what would the visual implementation of a missing linked document be?&lt;/p&gt;
+&lt;p&gt;For the first, a time dimension would need to be developed so that different states of documents are stored and can be accessed in order to accommodate the reuse of intellectual elements (facilitate the process of decomposition/recomposition, analysis/synthesis of intellectual elements). How different versions of documents and linkages behave will need to be worked out.&lt;/p&gt;
 
-&lt;p&gt;Another problem to solve when implementing an edit mode is: what happens when adding documents that contain concepts that have been abandoned, such as footnotes and citations?&lt;/p&gt;
+&lt;p&gt;For the second, it could involve a prompt, asking whoever is adding the document also to add the referenced documents, or a computer program that searches the web for the linked documents and adds (and transforms) them automatically. If the documents are not found, then the question is, what would the visual implementation of a missing linked document look like and function?&lt;/p&gt;
 
-&lt;p&gt;Adding a document with several footnotes could entail each footnote becoming a separate document linked to the added document as a tag link.&lt;/p&gt;
+&lt;p&gt;Thirdly, adding a document with several footnotes could entail each footnote becoming a separate document linked to the added document as a tag link.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/nexea_importing.png&quot; alt=&quot;&quot; /&gt;
 Through NLP techniques, suggestions for labels of the tag links and metadata to the document could be provided, which the user would manually confirm. Alternatively, the suggestions could be skipped, and the tag link labels would have to be done manually.&lt;/p&gt;
 
-&lt;h3 id=&quot;2-extension-of-the-filtering-technique&quot;&gt;2. Extension of the filtering technique&lt;/h3&gt;
+&lt;h3 id=&quot;2-extending-the-filtering-technique&quot;&gt;2. Extending the filtering technique&lt;/h3&gt;
 
-&lt;p&gt;Filtering documents and links offer a way to deal with the complexity of information. Within a closed system, the taxonomy created through tag links could be organized according to presets. It would allow people to navigate the docuverse by viewing only a subset based on presets instead of (de)selecting each tag individually.&lt;/p&gt;
+&lt;p&gt;A key problem with mapping multiple structures is that it inevitably leads to complex overlapping information. Filtering documents and links have been proposed as a way to deal with the complexity of information.&lt;/p&gt;
 
-&lt;p&gt;As multiple taxonomies would co-exist, it should be possible to select a taxonomy developed by other people, and any person could have several taxonomies organized as sets of presets. Similar to how there are citation conventions, we can imagine that the development of a taxonomy can be shared among groups.&lt;/p&gt;
+&lt;p&gt;As it is now, it is very basic filtering — select a tag to view only that tag. This could be further explored by designing ways for organizing and selecting sets of tags according to presets. Presets would allow people to navigate the docuverse by viewing only a subset instead of (de)selecting each tag individually.&lt;/p&gt;
+
+&lt;p&gt;Seeing as multiple taxonomies would co-exist in the Nexea docuverse, another question is how people can share their presets of their developed taxonomies.&lt;/p&gt;
 
 &lt;h3 id=&quot;3-arrangement-of-documents-and-links&quot;&gt;3. Arrangement of documents and links&lt;/h3&gt;
 
-&lt;p&gt;Beyond utilizing metadata for filtering, it could also be utilized for organizing documents in Inventory View to gain an infographic-like overview. Functioning as an infographic, Inventory View allows understanding of a lot of information at a glance.&lt;/p&gt;
-
-&lt;p&gt;For example, someone might be investigating the concept of evolution. The inventory might look like this:&lt;/p&gt;
+&lt;p&gt;Beyond utilizing metadata for filtering, it could also be utilized for arranging documents in Inventory View to gain an infographic-like overview. Functioning as an infographic, Inventory View allows understanding of a lot of information at a glance. For example, someone might be investigating the concept of evolution, and the inventory might look like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/filtering_arranging_01.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In the menu, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#evolution&lt;/code&gt; is selected (or a preset named &lt;em&gt;Evolution&lt;/em&gt; that contains a set of related tag labels), and so the inventory looks like this:&lt;/p&gt;
+&lt;p&gt;In the metadata menu, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#evolution&lt;/code&gt; is selected (or a preset named &lt;em&gt;Evolution&lt;/em&gt; that contains a set of related tag labels), and so the inventory looks like this:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/filtering_arranging_02.png&quot; alt=&quot;&quot; /&gt;
 From here, it should be possible to arrange the documents according to the set sequences (determined by the established sequence links).&lt;/p&gt;
@@ -314,9 +308,7 @@ Alternatively, according to the date of publication, rendered in a timeline view
 
 &lt;p&gt;&lt;img src=&quot;assets/node_with_title.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Similar to most plain text editors (Atom, Sublime Text 3) and Markdown editors (Obsidian, Typora), configuring the UI theme should also be possible.&lt;/p&gt;
-
-&lt;p&gt;Obsidian, for example, can be configured to have documents stacked side by side as sliding panels:&lt;/p&gt;
+&lt;p&gt;Similar to most plain text editors (Atom, Sublime Text 3) and Markdown editors (Obsidian, Typora), configuring the UI theme should also be possible. Obsidian, for example, can be configured to have documents stacked side by side as sliding panels:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/obsidian_theme_slide_panels.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -326,17 +318,11 @@ Alternatively, according to the date of publication, rendered in a timeline view
 
 &lt;h3 id=&quot;5-overlapping-links&quot;&gt;5. Overlapping links&lt;/h3&gt;
 
-&lt;p&gt;The idea is that instead of embedding links (and metadata), it is attached. In this way, links are an overlay on top of the content. However, the interaction and visual implementation of overlapping links still need to be explored.&lt;/p&gt;
-
-&lt;p&gt;Below is a sketch of stacking multiple links to the same content item in the form of a deck. Upon hovering on an alias, it comes to the front, and it should be possible to rearrange the order.&lt;/p&gt;
+&lt;p&gt;The idea is that instead of embedding links (and metadata), it is attached. In this way, links are an overlay on top of the content. However, the interaction and visual implementation of overlapping links still need to be explored. Below is a sketch of stacking multiple links to the same content item in the form of a deck. Upon hovering on an alias, it comes to the front, and it should be possible to rearrange the order.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/nexae_overlapping_links_deck.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;6-extension-of-the-closed-system&quot;&gt;6. Extension of the closed system&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Copyright issues&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A problem that emerges with making documents public in the Nexae docuverse is copyright issues. If a document is made public, the person who adds it should have the license to do so.&lt;/p&gt;
+&lt;h3 id=&quot;6-extending-the-closed-system&quot;&gt;6. Extending the closed system&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Making documents by another author public&lt;/strong&gt;&lt;/p&gt;
 
@@ -344,15 +330,58 @@ Alternatively, according to the date of publication, rendered in a timeline view
 
 &lt;p&gt;Based on the premise that there can be no copies, what happens if a document is made public that has already been added by someone else? If a document has already been added to the Nexae docuverse, it would have to merge with the existing document (links and metadata).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Co-authoring and edit options&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sharing and collaborating&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Once a document is made public, it should be possible to configure the edit settings. For example, granting someone the &lt;em&gt;full edit mode&lt;/em&gt; would allow them to edit the contents and links. Granting someone the &lt;em&gt;limited edit mode&lt;/em&gt; would allow them only to create links to that document. In both cases, it should be possible to grant access to either a select number of people or everyone in the Nexae docuverse.&lt;/p&gt;
 
 &lt;p&gt;%%An experiment could involve a bottom-up approach to see how taxonomies evolve and how they could be shared. Bottom-up approach versus top-bottom: https://youtu.be/AhhFLXfldJQ?t=86%%&lt;/p&gt;
 
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Copyright issues&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;%%summarizing the intro and discussion%%&lt;/p&gt;
+&lt;p&gt;A problem that emerges with making documents public in the Nexae docuverse is copyright issues. If a document is made public, the person who adds it should have the right to do so.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;%%What may result from reworking (and taking new approaches to how to represent and interact with) concepts for mapping and accessing the interconnective structure of documents?%%&lt;/p&gt;
+
+&lt;p&gt;A prototype of a docuverse comprising reworked concepts for mapping and accessing multiple structures of documents has been developed. In its current state, the prototype is in the proof of concept stage. Containing sample content developed throughout the process, the prototype provides an example of how the three main link types can be applied to map multiple structures of documents and how those structures can be accessed through interaction.&lt;/p&gt;
+
+&lt;p&gt;With the aim to reflect the philosophical position that ideas are nonsequential and that knowledge is not fundamentally hierarchical and is a continuous process of decomposition/recomposition, analysis/synthesis, the prototype has been developed based on the conception of documents as modular. The three main link types (tag link, sequence link, transclusion) thus accommodate the formation of hierarchical and non-hierarchical structures. For example, a transclusion type link can place a content item that is in a hierarchal structure in another sequence of content items to form a non-hierarchical structure.&lt;/p&gt;
+
+&lt;p&gt;The proposed concepts — how they are represented and interacted with — subvert the limitations of concepts derived from paper documents by utilizing the potential inherent to the digital realm.&lt;/p&gt;
+
+&lt;p&gt;The project is a small step in a larger process of creating a docuverse that enables new ways of working with documents, not constrained by concepts (e.g., clipboard) and practices (e.g., copy/paste) derived from paper documents.&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;This project is a small step towards a docuverse for mapping and accessing the interconnective structure of documents in the context of an online document system.&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;The project is a small step in a larger process, contributing to the further development of a docuverse in which new ways of mapping and accessing the interconnective structure of documents are possible.&lt;/p&gt;
+
+&lt;p&gt;%%Nexae needs to be developed into a functional prototype in order to: one, two, and three.%%&lt;/p&gt;
+
+&lt;p&gt;The proposed next steps in that larger process involve developing features (and determining the technical implementation) so that the prototype is functional and can be used for objectives such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;finding the advantages and challenges in:
+    &lt;ul&gt;
+      &lt;li&gt;the bottom-up approach in creating taxonomies (instead of the top-down approach of hierarchical systems);&lt;/li&gt;
+      &lt;li&gt;sharing taxonomies;&lt;/li&gt;
+      &lt;li&gt;filtering as a technique for dealing with the complexity of information;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;evaluating usability;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;%%continue list%%&lt;/p&gt;
+
+&lt;p&gt;%%NOTES%%&lt;/p&gt;
+
+&lt;p&gt;%%Through examination of prominent examples of constructs and systems comprising concepts for mapping multiple structures of documents, some core concepts and features have been reworked in creating a docuverse prototype enabling new ways of working with documents.%%&lt;/p&gt;
+
+&lt;p&gt;%%Some of those concepts have been reworked, and other concepts and practices derived from paper documents — particularly embedded information in the form of concepts such as footnotes — have been abandoned. The hierarchical organization of documents and content items has been reworked around the conception of documents as modular. In abandoning the hierarchical structure of the file system, a more flexible mechanism for categorization has been implemented, namely the common usage of hashtags, allowing a document to belong to multiple categories. Other abandoned concepts derived from paper documents include the clipboard and the related copy/paste method.%%&lt;/p&gt;
+
+&lt;p&gt;%%Information that can be categorized as additional to the main contents of a document is the kind that is commonly distinguished by being embedded as footnotes. In Nexae, additional information is not embedded; it is attached. By being attached, it acts as an overlay on top of the content that can be brought in or out of view upon deliberate action (e.g., filtering, zooming in and out).%%&lt;/p&gt;
 </content>
  </entry>
  
