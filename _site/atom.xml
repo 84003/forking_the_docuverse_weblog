@@ -4,7 +4,7 @@
  <title>Forking the Docuverse Weblog</title>
  <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
  <link href="/forking_the_docuverse_weblog/"/>
- <updated>2022-06-22T08:04:49+02:00</updated>
+ <updated>2022-06-26T20:46:30+02:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -19,13 +19,11 @@
    <id>/17</id>
    <content type="html">&lt;h2 id=&quot;research-question&quot;&gt;Research Question&lt;/h2&gt;
 
-&lt;p&gt;What may result from reworking (and taking new approaches to how to represent and interact with) concepts for mapping and accessing the interconnective structure of documents to create a docuverse?&lt;/p&gt;
+&lt;p&gt;Can new approaches be taken to representational and interactive concepts for mapping and accessing the interconnective structure of documents, and what are the consequences?&lt;/p&gt;
 
-&lt;p&gt;What may result from reworking (and taking new approaches to how to represent and interact with) concepts for mapping and accessing multiple structures of documents?&lt;/p&gt;
+&lt;h2 id=&quot;which-concepts&quot;&gt;Which concepts?&lt;/h2&gt;
 
-&lt;h2 id=&quot;which-concepts-have-been-reworked-and-how&quot;&gt;Which concepts have been reworked, and how?&lt;/h2&gt;
-
-&lt;p&gt;The reworked concepts have been derived through examining prominent examples of systems comprising concepts for representing interconnection.&lt;/p&gt;
+&lt;p&gt;The concepts have been derived through examining prominent examples of systems comprising concepts representing interconnection.&lt;/p&gt;
 
 &lt;p&gt;Those examples are:&lt;/p&gt;
 
@@ -76,7 +74,7 @@
 
 &lt;p&gt;&lt;strong&gt;1. Tag link&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Tag links are the arbitrary (conceptual) connections created between content items and can include a descriptive label (to describe that conceptual category). By utilizing the common usage of hashtags to categorize content, tag links enable the organization and filtering of links based on any taxonomy.&lt;/p&gt;
+&lt;p&gt;Tag links are the arbitrary (conceptual) connections created between content items and can include a descriptive label (to describe that conceptual category). By utilizing the common usage of hashtags as a categorization mechanism, tag links enable the organization and filtering of links based on any taxonomy.&lt;/p&gt;
 
 &lt;p&gt;Note: Tag links replace such concepts as footnotes. Unlike tag links, footnotes do not enable creating categories within all the footnotes (e.g., a comment, a reference, a definition). With tag links, there is also no implicit hierarchy; instead, multiple sequences are on the same level (e.g., the paragraph-by-paragraph sequence and the branches of linked documents).&lt;/p&gt;
 
@@ -206,13 +204,13 @@
 
 &lt;h3 id=&quot;4-closed-system&quot;&gt;4. Closed system&lt;/h3&gt;
 
-&lt;p&gt;To support the core concepts that allow mapping and accessing multiple structures, Nexae is envisioned as a closed system. For example, the concept of transclusion dictates that concepts such as &lt;em&gt;copying&lt;/em&gt; and &lt;em&gt;pasting&lt;/em&gt; are not possible; instead, content is transcluded. If the content is taken from another document, it is done by inserting it into a document, generating a link and alias to that document.&lt;/p&gt;
+&lt;p&gt;To support the core concepts that allow mapping and accessing multiple structures, Nexae is envisioned as a closed system. For example, the concept of transclusion dictates that concepts such as &lt;em&gt;copying&lt;/em&gt; and &lt;em&gt;pasting&lt;/em&gt; are not possible; instead, content is transcluded. If the content is taken from another document, it is done by inserting it into a document, generating an alias link to that document.&lt;/p&gt;
 
 &lt;p&gt;To compare, websites built with wiki structures, such as digital gardens and Wikipedia, are very similar to the Encyclopédie in that they are semi-closed systems, meaning there is an emphasis on internal links, although establishing external links is possible. In both examples, internal links and external links are somehow visually distinguished. In the Wikipedia docuverse, internal links (links to other Wikipedia pages) are implemented as hyperlinks in the main text or panels with other categories of information located on the side of the main text. External links, which can be connections by way of reference or arbitrary connections, are implemented as footnotes, and the links are located at the bottom of the webpage. Selecting an external link results in leaving Wikipedia, whether that be a link to download a PDF or opening another website in another browser tab.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/wikipedia_internal_external_links.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Digital gardens also contain internal and external links; both applied as inline links and commonly visually distinguished. External links are visually distinguished from internal links by the northeast arrow symbol, as seen in the image below.&lt;/p&gt;
+&lt;p&gt;Digital gardens also contain internal and external links, both applied as inline links and commonly visually distinguished. External links are visually distinguished from internal links by the northeast arrow symbol, as seen in the image below.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/example_internal_external_distinction.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -226,7 +224,7 @@ Whereas Wikipedia is a public project to which (at least in principle) anyone ca
 
 &lt;h2 id=&quot;what-does-the-prototype-offer-at-this-stage&quot;&gt;What does the prototype offer (at this stage)?&lt;/h2&gt;
 
-&lt;p&gt;Nexae is the result of abandoning some concepts derived from paper documents and reworking other concepts; incorporating a diagrammatical visual language, features from contemporary software for editing media; and the appropriation of the contemporary usage of hashtags; and the utilization of transition animations possible in interactive digital environments.&lt;/p&gt;
+&lt;p&gt;Nexae is the result of abandoning some concepts derived from paper documents and taking new approaches to other concepts; incorporating a diagrammatical visual language, features from contemporary software for editing media; the appropriation of the contemporary usage of hashtags; and the utilization of transition animations possible in interactive digital environments.&lt;/p&gt;
 
 &lt;p&gt;The prototype at this stage offers pre-mapped sample content that has been written throughout the process of this project. The documents have the following attached metadata: title, year of creation, author, and tags. This list is extendible. The connections between the documents make use of all three link types. Each tag link has a descriptive label describing the connection between documents.&lt;/p&gt;
 
@@ -248,7 +246,6 @@ Whereas Wikipedia is a public project to which (at least in principle) anyone ca
 
 &lt;ol&gt;
   &lt;li&gt;An edit mode&lt;/li&gt;
-  &lt;li&gt;Time dimension&lt;/li&gt;
   &lt;li&gt;Extending the filtering technique&lt;/li&gt;
   &lt;li&gt;Arrangement of documents and links&lt;/li&gt;
   &lt;li&gt;Configurability&lt;/li&gt;
@@ -341,27 +338,33 @@ Alternatively, according to the date of publication, rendered in a timeline view
 &lt;p&gt;A problem that emerges with making documents public in the Nexae docuverse is copyright issues. If a document is made public, the person who adds it should have the right to do so.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;%%What may result from reworking (and taking new approaches to how to represent and interact with) concepts for mapping and accessing the interconnective structure of documents?%%&lt;/p&gt;
 
-&lt;p&gt;A prototype of a docuverse comprising reworked concepts for mapping and accessing multiple structures of documents has been developed. In its current state, the prototype is in the proof of concept stage. Containing sample content developed throughout the process, the prototype provides an example of how the three main link types can be applied to map multiple structures of documents and how those structures can be accessed through interaction.&lt;/p&gt;
+&lt;p&gt;A prototype of a docuverse has been developed by taking new approaches to representational and interactive concepts for mapping and accessing the interconnective structure of documents. In its current state, the prototype is in the proof of concept stage. Containing sample content developed throughout the process, the prototype provides an example of how the three main link types can be applied to map the interconnective structure of documents and how it can be accessed through interaction.&lt;/p&gt;
 
-&lt;p&gt;With the aim to reflect the philosophical position that ideas are nonsequential and that knowledge is not fundamentally hierarchical and is a continuous process of decomposition/recomposition, analysis/synthesis, the prototype has been developed based on the conception of documents as modular. The three main link types (tag link, sequence link, transclusion) thus accommodate the formation of hierarchical and non-hierarchical structures. For example, a transclusion type link can place a content item that is in a hierarchal structure in another sequence of content items to form a non-hierarchical structure.&lt;/p&gt;
+&lt;p&gt;With the aim to reflect the philosophical position that ideas are nonsequential and that knowledge is not fundamentally hierarchical and is a continuous process of decomposition/recomposition, analysis/synthesis, the prototype has been developed based on the conception of documents as modular.&lt;/p&gt;
 
-&lt;p&gt;The proposed concepts — how they are represented and interacted with — subvert the limitations of concepts derived from paper documents by utilizing the potential inherent to the digital realm.&lt;/p&gt;
+&lt;p&gt;To accommodate the modularization of documents, links are distinguished according to three types of connection. There are three link types: transclusion, tag link, and sequence link. The three main link types enable the formation of non-hierarchical and hierarchical structures. A transclusion-type link enables a content item to be inserted into other documents with direct access to its origin. By utilizing the common usage of hashtags as a categorization mechanism, tag links make it possible to describe the arbitrary (conceptual) connections by including a label. Sequence links enable establishing the order of documents. In combination with headings within a document, sequence links allow the possibility of creating hierarchical structures. Links are implemented through a diagrammatic visual language, specifically lines with arrow symbols and an alias window of the linked document.&lt;/p&gt;
 
-&lt;p&gt;The project is a small step in a larger process of creating a docuverse that enables new ways of working with documents, not constrained by concepts (e.g., clipboard) and practices (e.g., copy/paste) derived from paper documents.&lt;/p&gt;
+&lt;p&gt;To convey further information about a connection, beyond the three link types, there are two link directions and two link endpoints. The direction of a link is indicated by an arrow symbol. The link endpoints describe whether there is a connection to an entire document or a part of a document, providing direct access to that particular part. A bracketed line indicates that the link is attached to the entire document; an unbracketed line indicates that the link is attached to a particular content item within the document.&lt;/p&gt;
 
-&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;The two view modes are each different renditions of documents and linkages. Both view modes convey different information about the connections among documents at different levels of detail. The zoomed-out view is at the level of the collection, and the zoomed-in view is at the level of the document. The zoomed-out view is a network diagram using a node-link model. All documents are viewed in relation to each other, conveying information about the size of each document (node size) and the number of links (line thickness). Functioning as an infographic, it allows understanding a lot of information at a glance. In zoomed-in view, the selected document is viewed in more detail, conveying information about the type of connections to/from that document.&lt;/p&gt;
 
-&lt;p&gt;This project is a small step towards a docuverse for mapping and accessing the interconnective structure of documents in the context of an online document system.&lt;/p&gt;
+&lt;p&gt;Switching view modes involves transition animations suggesting the movement of zooming in and out on documents. While in zoomed-in view, opening a linked document by selecting one of its aliases also brings about a transition animation, moving laterally. Additionally, a location frame shows the open document as an active node seen from the zoomed-out perspective, which supports orientation. Additionally, documents and links can be filtered so that only a subset of the docuverse is in view.&lt;/p&gt;
 
-&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;Nexae has been designed as a closed system (i.e., with no external links) because, in order to have direct access to a linked document, it must exist in the Nexae docuverse. Similarly, aliases of linked documents and for links to point to particular parts of a document rely on that document existing in the Nexae docuverse.&lt;/p&gt;
 
-&lt;p&gt;The project is a small step in a larger process, contributing to the further development of a docuverse in which new ways of mapping and accessing the interconnective structure of documents are possible.&lt;/p&gt;
+&lt;p&gt;This project is a small step toward a docuverse enabling new ways of mapping and accessing the interconnective structure of documents in the context of an online document system.&lt;/p&gt;
 
-&lt;p&gt;%%Nexae needs to be developed into a functional prototype in order to: one, two, and three.%%&lt;/p&gt;
+&lt;p&gt;The proposed next steps in that larger process involve determining the technical implementation and:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;developing an edit mode with a time dimension;&lt;/li&gt;
+  &lt;li&gt;extending the filtering technique;&lt;/li&gt;
+  &lt;li&gt;developing a feature allowing the arrangement of documents to produce different renditions based on metadata;&lt;/li&gt;
+  &lt;li&gt;developing a feature for overlapping links;&lt;/li&gt;
+  &lt;li&gt;and extending the closed system.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;The proposed next steps in that larger process involve developing features (and determining the technical implementation) so that the prototype is functional and can be used for objectives such as:&lt;/p&gt;
+&lt;p&gt;These features would bring the prototype to a functional stage and could then be used for objectives such as:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;finding the advantages and challenges in:
     &lt;ul&gt;
@@ -370,18 +373,11 @@ Alternatively, according to the date of publication, rendered in a timeline view
       &lt;li&gt;filtering as a technique for dealing with the complexity of information;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;evaluating usability;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;%%continue list%%&lt;/p&gt;
+&lt;p&gt;%%and explain what it brings to navigating documents. In two sentences, what does the bottom-up approach bring? What do you intend to achieve with it? what would it potentially bring?%%&lt;/p&gt;
 
-&lt;p&gt;%%NOTES%%&lt;/p&gt;
-
-&lt;p&gt;%%Through examination of prominent examples of constructs and systems comprising concepts for mapping multiple structures of documents, some core concepts and features have been reworked in creating a docuverse prototype enabling new ways of working with documents.%%&lt;/p&gt;
-
-&lt;p&gt;%%Some of those concepts have been reworked, and other concepts and practices derived from paper documents — particularly embedded information in the form of concepts such as footnotes — have been abandoned. The hierarchical organization of documents and content items has been reworked around the conception of documents as modular. In abandoning the hierarchical structure of the file system, a more flexible mechanism for categorization has been implemented, namely the common usage of hashtags, allowing a document to belong to multiple categories. Other abandoned concepts derived from paper documents include the clipboard and the related copy/paste method.%%&lt;/p&gt;
-
-&lt;p&gt;%%Information that can be categorized as additional to the main contents of a document is the kind that is commonly distinguished by being embedded as footnotes. In Nexae, additional information is not embedded; it is attached. By being attached, it acts as an overlay on top of the content that can be brought in or out of view upon deliberate action (e.g., filtering, zooming in and out).%%&lt;/p&gt;
+&lt;p&gt;%%Some concepts and practices derived from paper documents — particularly embedded information in the form of concepts such as footnotes — have been abandoned. The hierarchical organization of documents and content items has been reworked around the conception of documents as modular. In abandoning the hierarchical structure of the file system, a more flexible mechanism for categorization has been implemented, namely the common usage of hashtags, allowing a document and links to belong to multiple categories. Other abandoned concepts derived from paper documents include the clipboard and the related copy/paste method.%%&lt;/p&gt;
 </content>
  </entry>
  
