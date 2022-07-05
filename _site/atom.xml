@@ -4,7 +4,7 @@
  <title>Forking the Docuverse Weblog</title>
  <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
  <link href="/forking_the_docuverse_weblog/"/>
- <updated>2022-07-05T06:38:54+02:00</updated>
+ <updated>2022-07-05T07:27:00+02:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -333,9 +333,9 @@ Alternatively, according to the date of publication, rendered in a timeline view
 
 &lt;p&gt;%%An experiment could involve a bottom-up approach to see how taxonomies evolve and how they could be shared. Bottom-up approach versus top-bottom: https://youtu.be/AhhFLXfldJQ?t=86%%&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Copyright issues&lt;/strong&gt;&lt;/p&gt;
+&lt;!-- **Copyright issues**
 
-&lt;p&gt;A problem that emerges with making documents public in the Nexae docuverse is copyright issues. If a document is made public, the person who adds it should have the right to do so.&lt;/p&gt;
+A problem that emerges with making documents public in the Nexae docuverse is copyright issues. If a document is made public, the person who adds it should have the right to do so. --&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
