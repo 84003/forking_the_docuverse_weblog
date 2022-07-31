@@ -1,8 +1,10 @@
 links:
-- title: Entries
-  url: /forking_the_docuverse_weblog/
 - title: About
   url: /forking_the_docuverse_weblog/about
+- title: Abstract
+  url: /forking_the_docuverse_weblog/abstract
+- title: Entries
+  url: /forking_the_docuverse_weblog/
 # - title: Search
 #   url: /search
 # - title: Rss

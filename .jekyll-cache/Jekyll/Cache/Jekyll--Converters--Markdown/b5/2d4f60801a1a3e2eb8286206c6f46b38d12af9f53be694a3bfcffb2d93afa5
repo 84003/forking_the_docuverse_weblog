@@ -1,0 +1,54 @@
+I"·<p>Alterations and additions:</p>
+<ul>
+  <li>Added a location frame, showing Inventory View while in Lateral View.</li>
+  <li>Minimize icon is replaced by a node-link icon, triggering the movement from Lateral View to Inventory View.</li>
+  <li>Aliases no longer have expand icons but use brightness to indicate that it can be triggered to open the linked document.</li>
+</ul>
+
+<h2 id="switching-view-modes">Switching View Modes</h2>
+
+<p>The expand icon is replaced with a node-link icon, which triggers the movement from Lateral View to Inventory View.</p>
+
+<p><img src="assets/round_5_expand_icon 1.png" alt="" /></p>
+
+<p><img src="assets/round_5_node-link_icon.png" alt="" /></p>
+
+<p><img src="assets/round_05_icon.gif" alt="" /></p>
+
+<h2 id="traversing-documents-in-lateral-view-using-the-location-frame">Traversing Documents in Lateral View Using the Location Frame</h2>
+
+<p><img src="assets/test_5_jump_transition_3.gif" alt="" /></p>
+
+<h2 id="redesign-of-aliases">Redesign of Aliases</h2>
+
+<p>The expand icons are removed, and now the brightness and change of cursor indicate that clicking an alias will open the linked document. The ellipsis indicates that the aliases only reveal part of the linked document.</p>
+
+<p><img src="assets/round_5_alias_documents.gif" alt="" /></p>
+
+<h2 id="interactive-prototype">Interactive Prototype</h2>
+
+<p>Traverse documents in the interactive prototype below.</p>
+
+<iframe style="border: 2px solid rgba(0, 0, 0, 0.1)" width="640" height="480" src="https://framer.com/embed/Round-05--oM7xWmEceylTGDzxjPPZ/F_MbbVHe7?highlights=0" allowfullscreen=""></iframe>
+
+<h2 id="improvements-due">Improvements Due</h2>
+
+<ul>
+  <li>In Lateral View:
+    <ul>
+      <li>Hovering a preview should bring that preview to the front.</li>
+      <li>Hovering linked text (or preview) should result in active-color linked text.</li>
+      <li>Visualization of multiple links to/from the same content item.</li>
+    </ul>
+  </li>
+  <li>Filter menu</li>
+</ul>
+
+<h2 id="discarded-attempts">Discarded Attempts</h2>
+
+<h3 id="location-frame-transitions">Location Frame Transitions</h3>
+
+<p><img src="assets/test_5_jump_transition_1.gif" alt="" /></p>
+
+<p><img src="assets/test_5_jump_transition_2.gif" alt="" /></p>
+:ET

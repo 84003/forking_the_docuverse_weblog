@@ -2,8 +2,8 @@
   
     {
 
-      "title"    : "Reflection and Further Developments",
-      "url"      : "/forking_the_docuverse_weblog/17",
+      "title"    : "Conclusion",
+      "url"      : "/forking_the_docuverse_weblog/21",
       "category" : "",
       "tags"     : "",
       "date"     : "2022-04-27 00:00:00 +0200",
@@ -13,8 +13,30 @@
   
     {
 
-      "title"    : "Prototype: Revisions",
-      "url"      : "/forking_the_docuverse_weblog/16",
+      "title"    : "Further Developments",
+      "url"      : "/forking_the_docuverse_weblog/20",
+      "category" : "",
+      "tags"     : "",
+      "date"     : "2022-04-27 00:00:00 +0200",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Reflection",
+      "url"      : "/forking_the_docuverse_weblog/19",
+      "category" : "",
+      "tags"     : "",
+      "date"     : "2022-04-27 00:00:00 +0200",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Prototype: How to Filter Documents and Links (Round 07)",
+      "url"      : "/forking_the_docuverse_weblog/18",
       "category" : "",
       "tags"     : "",
       "date"     : "2022-03-25 00:00:00 +0100",
@@ -24,8 +46,8 @@
   
     {
 
-      "title"    : "Prototype: Revising the Location Frame and Transition Animations",
-      "url"      : "/forking_the_docuverse_weblog/15",
+      "title"    : "Prototype: View Modes and Links (Round 06)",
+      "url"      : "/forking_the_docuverse_weblog/17",
       "category" : "",
       "tags"     : "",
       "date"     : "2022-02-24 00:00:00 +0100",
@@ -35,7 +57,29 @@
   
     {
 
-      "title"    : "Concept Design and Prototype: Revising Links and Aliases",
+      "title"    : "Prototype: How to Switch View Modes and Traverse Documents (Round 05)",
+      "url"      : "/forking_the_docuverse_weblog/16",
+      "category" : "",
+      "tags"     : "",
+      "date"     : "2022-02-16 00:00:00 +0100",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Concept Design: Link Type, Direction, and Endpoint",
+      "url"      : "/forking_the_docuverse_weblog/15",
+      "category" : "",
+      "tags"     : "",
+      "date"     : "2022-01-16 00:00:00 +0100",
+      "description" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Prototype: How to Switch View Modes (Round 4)",
       "url"      : "/forking_the_docuverse_weblog/14",
       "category" : "",
       "tags"     : "",
@@ -46,7 +90,7 @@
   
     {
 
-      "title"    : "Prototype: Visually Distinguishing Links and Indicating Multiple Aliases of the Same Document (Continued)",
+      "title"    : "Reflection: Multisequential Structures",
       "url"      : "/forking_the_docuverse_weblog/13",
       "category" : "",
       "tags"     : "",
@@ -57,7 +101,7 @@
   
     {
 
-      "title"    : "Reflection: Mapping Multisequence Text Structures",
+      "title"    : "Prototype: Multiple Aliases of the Same Document (Round 4)",
       "url"      : "/forking_the_docuverse_weblog/12",
       "category" : "",
       "tags"     : "",
@@ -68,7 +112,7 @@
   
     {
 
-      "title"    : "Prototype: Visually Distinguishing Links and Indicating Multiple Aliases of the Same Document",
+      "title"    : "Prototype: Link Types and Link Endpoints (Round 3)",
       "url"      : "/forking_the_docuverse_weblog/11",
       "category" : "",
       "tags"     : "",
@@ -79,7 +123,7 @@
   
     {
 
-      "title"    : "Concept Design and Prototype: Representing Linked Documents as Aliases",
+      "title"    : "Prototype: Linked Documents Represented As Aliases",
       "url"      : "/forking_the_docuverse_weblog/10",
       "category" : "",
       "tags"     : "",
@@ -90,7 +134,7 @@
   
     {
 
-      "title"    : "Reflection: Representing Linked Documents",
+      "title"    : "Reflection: How to Represent Linked Documents",
       "url"      : "/forking_the_docuverse_weblog/09",
       "category" : "",
       "tags"     : "",
@@ -101,7 +145,7 @@
   
     {
 
-      "title"    : "Prototype: Opening Documents and Representing Linked Documents",
+      "title"    : "Prototype: How to Switch View Modes (Round 2)",
       "url"      : "/forking_the_docuverse_weblog/08",
       "category" : "",
       "tags"     : "",
@@ -112,7 +156,7 @@
   
     {
 
-      "title"    : "Prototype: Switching View Modes",
+      "title"    : "Prototype: How to Switch View Modes (Round 1)",
       "url"      : "/forking_the_docuverse_weblog/07",
       "category" : "",
       "tags"     : "",
@@ -123,7 +167,7 @@
   
     {
 
-      "title"    : "Concept Design: Documents, Content Items, and Link Types",
+      "title"    : "Concept Design: Link Types",
       "url"      : "/forking_the_docuverse_weblog/06",
       "category" : "",
       "tags"     : "",
@@ -134,7 +178,7 @@
   
     {
 
-      "title"    : "Reflection: Components and View Modes",
+      "title"    : "Reflection: View Modes",
       "url"      : "/forking_the_docuverse_weblog/05",
       "category" : "",
       "tags"     : "",
@@ -145,7 +189,7 @@
   
     {
 
-      "title"    : "Concept Design: Components and View Modes",
+      "title"    : "Concept Design: View Modes",
       "url"      : "/forking_the_docuverse_weblog/04",
       "category" : "",
       "tags"     : "",
@@ -156,7 +200,7 @@
   
     {
 
-      "title"    : "Background: On Interconnection and the Boundary of Documents",
+      "title"    : "Background: Documents and Interconnection",
       "url"      : "/forking_the_docuverse_weblog/03",
       "category" : "",
       "tags"     : "",
@@ -167,7 +211,7 @@
   
     {
 
-      "title"    : "Terms: Questions That Follow",
+      "title"    : "Background: Terms",
       "url"      : "/forking_the_docuverse_weblog/02",
       "category" : "",
       "tags"     : "",
@@ -178,7 +222,7 @@
   
     {
 
-      "title"    : "Outline: Introducing the Project and Detailing the Method",
+      "title"    : "Project Outline",
       "url"      : "/forking_the_docuverse_weblog/01",
       "category" : "",
       "tags"     : "",

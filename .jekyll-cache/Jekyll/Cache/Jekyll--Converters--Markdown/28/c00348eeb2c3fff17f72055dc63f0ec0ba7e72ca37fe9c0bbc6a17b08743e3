@@ -1,0 +1,16 @@
+I"<p>Alterations and additions:</p>
+<ul>
+  <li>Redesign of links to distinguish:
+    <ul>
+      <li>Link direction.</li>
+      <li>Link endpoint (by improving the design of the brackets).</li>
+    </ul>
+  </li>
+  <li>Added a legend (a list of the icons and symbols).</li>
+  <li>Color coding:
+    <ul>
+      <li>Title underline is replaced by border color.</li>
+    </ul>
+  </li>
+</ul>
+:ET

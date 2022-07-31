@@ -1,0 +1,11 @@
+I"s<p>Alterations and additions:</p>
+<ul>
+  <li>The possibility for filtering taglinks and documents for opening documents is added.</li>
+  <li>The representation of linked documents in versions 1 and 2 demonstrated in the <a href="07">previous entry</a> are discarded.
+    <ul>
+      <li>Linked documents are no longer represented as nodes in Vertical and Lateral Mode, but rather as icons, of which there are two versions: preview icon and expand icon.</li>
+    </ul>
+  </li>
+  <li>Transition animations are divided into steps to indicate that the links in Inventory View split into individual links in Lateral Mode.</li>
+</ul>
+:ET

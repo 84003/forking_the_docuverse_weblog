@@ -1,0 +1,7 @@
+I"y<p>Alterations and additions:</p>
+<ul>
+  <li>Added a location frame, showing Inventory View while in Lateral View.</li>
+  <li>Minimize icon is replaced by a node-link icon, triggering the movement from Lateral View to Inventory View.</li>
+  <li>Aliases no longer have expand icons but use brightness to indicate that it can be triggered to open the linked document.</li>
+</ul>
+:ET
