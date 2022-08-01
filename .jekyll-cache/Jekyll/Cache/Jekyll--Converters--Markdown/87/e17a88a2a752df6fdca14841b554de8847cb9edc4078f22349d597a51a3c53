@@ -1,4 +1,4 @@
-I"<p>An interactive prototype of a digital document system has been developed by taking new approaches to representational concepts for mapping and accessing the interconnective structure of documents. The concepts have been derived through examining prominent document systems considered influential in the evolution of information technologies. The method is based on an iterative process of content creation, concept design, and creating interactive prototypes of a digital document system. Through examination, the prototype was created based on the following:</p>
+I"¬<p>An interactive prototype of a digital document system has been developed by taking new approaches to representational concepts for mapping and accessing the interconnective structure of documents. The concepts have been derived through examining prominent document systems considered influential in the evolution of information technologies. The method is based on an iterative process of content creation, concept design, and creating interactive prototypes of a digital document system. Through examination, the prototype was created based on the following:</p>
 
 <ol>
   <li>Documents are modular.</li>
@@ -15,7 +15,7 @@
   <li>Seqlink â†“</li>
 </ul>
 
-<p><img src="assets/three_link_types.png" alt="" /></p>
+<p>![[three_link_types.png]]</p>
 
 <p>All links are bidirectional. The link types, link direction, and link endpoints are visually distinguished and implemented through a diagrammatical visual language. Transclusions are the connections made when a content item in a document is included in another. The visual form of transclusions is implemented as a dashed line with an arrow pointing to (and can be accessed by selecting) the alias of the source document.</p>
 
@@ -42,12 +42,4 @@
 <p>Switching view modes involves transition animations suggesting the movement of zooming in and out on documents. While in zoomed-in view, opening a linked document by selecting one of its aliases also brings about a transition animation, moving laterally. Additionally, a location frame shows the open document as an active node seen from the zoomed-out perspective, which supports orientation. Document metadata and taglinks enable a grouping mechanism and the capability to filter to view a subset of the document collection based on any taxonomy.</p>
 
 <p>Currently in the proof of concept stage, the proposed next steps are to determine the technical implementation of the digital document system, develop features such as an edit mode, a time dimension, overlapping links, and extend the current filtering capabilities.</p>
-
-<p>This research project is a small step toward enabling new ways of mapping and accessing the interconnective structure of documents in the context of an online digital document system. The proposed next steps involve determining the technical implementation and:</p>
-<ul>
-  <li>developing an edit mode with a time dimension;</li>
-  <li>extending the filtering technique;</li>
-  <li>extending the grouping mechanism for allowing the arrangement of documents to produce different renditions based on metadata;</li>
-  <li>developing a feature for overlapping links;</li>
-</ul>
 :ET
