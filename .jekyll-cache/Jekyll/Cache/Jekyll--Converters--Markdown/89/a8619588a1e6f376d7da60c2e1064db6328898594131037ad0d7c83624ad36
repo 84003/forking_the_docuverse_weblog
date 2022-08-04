@@ -1,0 +1,44 @@
+I"�<p>Alterations and additions:</p>
+<ul>
+  <li>Metadata of documents accessible through the ellipsis icon.</li>
+  <li>Title underline is chosen over border color.</li>
+</ul>
+
+<p>This entry is a continuation of <a href="11">entry 11</a>, showcasing an interactive prototype allowing traversing documents in Zoomed-Out View and Zoomed-In View.</p>
+
+<h2 id="interactive-prototype">Interactive Prototype</h2>
+
+<iframe style="border: 2px solid rgba(0, 0, 0, 0.1)" width="640" height="480" src="https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/F_MbbVHe7?highlights=0" allowfullscreen=""></iframe>
+
+<h2 id="reflection">Reflection</h2>
+
+<ul>
+  <li>The title underline is deemed too subtle to indicate multiple aliases of the same document.
+    <ul>
+      <li>Color-coded borders might be better suited.<sup id="fnref:color_code_problem" role="doc-noteref"><a href="#fn:color_code_problem" class="footnote" rel="footnote">1</a></sup></li>
+      <li>The color-coded borders should also appear upon hovering a document in Zoomed-Out View for coherency.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="improvements-due">Improvements Due</h2>
+
+<ul>
+  <li>Apply color-coded borders.</li>
+  <li>While in Zoomed-In View, create a frame showing an overview of the current location in Zoomed-Out View to facilitate orientation.</li>
+  <li>Apply <em>seqlinks</em> at the top and bottom of open documents.</li>
+  <li>Visually distinguish link direction.</li>
+  <li>Improve visualization of link endpoints.</li>
+</ul>
+
+<p>The <a href="15">next entry</a> involves redesigning the visual distinction of links — the link type, direction, and endpoint.</p>
+
+<h2 id="endnotes">Endnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:color_code_problem" role="doc-endnote">
+      <p>…though once there are more documents, there will be too many indistinguishable colors. <a href="#fnref:color_code_problem" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

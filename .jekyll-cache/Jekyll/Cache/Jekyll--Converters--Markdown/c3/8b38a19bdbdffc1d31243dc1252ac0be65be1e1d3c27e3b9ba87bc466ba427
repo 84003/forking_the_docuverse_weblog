@@ -1,0 +1,43 @@
+I"0<p>Alterations and additions:</p>
+<ul>
+  <li>The possibility for filtering taglinks and documents for opening documents is added.</li>
+  <li>The representation of linked documents in versions 1 and 2 demonstrated in the <a href="07">previous entry</a> are discarded.
+    <ul>
+      <li>Linked documents are no longer represented as nodes in Vertical and Lateral Mode, but rather as icons, of which there are two versions: preview icon and expand icon.</li>
+    </ul>
+  </li>
+  <li>Transition animations are divided into steps to indicate that the links in Inventory View split into individual links in Lateral Mode.</li>
+</ul>
+
+<h2 id="ways-of-opening-documents">Ways of Opening Documents</h2>
+
+<p>Inventory View functions as an infographic-like overview of all the documents by conveying information about the size and number of links. From this overview perspective, people should somehow be able to select one or more documents to view in more detail, essentially entering a subset of the docuverse. To that end, a filtering technique is explored. It is possible to filter documents based on their metadata and taglinks based on their labels. In addition, besides selecting a node in Inventory View to open documents, it is also possible to select links to open documents and enter Lateral View.</p>
+
+<h2 id="selecting-links-to-enter-lateral-view">Selecting Links to Enter Lateral View</h2>
+
+<p>As seen in the <a href="07">previous entry</a>, selecting a node in Inventory View opens a single document. It is also possible to open two documents by selecting the links between them. There are two ways of opening documents by selecting links:</p>
+<ol>
+  <li><strong>Double-click</strong> on links between two nodes opens the two linked documents, and all links are visible between documents.</li>
+  <li><strong>Single-click</strong> on links between two nodes reveals a menu of the taglinks. Selecting a taglink will open the two linked documents, and only the selected taglinks are visible.</li>
+</ol>
+
+<p><img src="assets/selecting_links.png" alt="" /></p>
+
+<h2 id="icons-for-representing-linked-documents-in-lateral-mode">Icons for Representing Linked Documents in Lateral Mode</h2>
+
+<p>Hovering on a link in an open document reveals the linked document. There are two versions of how to represent a linked document: an expand icon and a preview icon.</p>
+
+<p><img src="assets/preview_expand_icons.png" alt="" /></p>
+
+<h2 id="demo-video">Demo Video</h2>
+
+<p>The video below shows how to filter links by selecting #Labels and selecting links to open documents.</p>
+
+<p><img src="assets/filter_in_menu.gif" alt="" />
+<em>Filtering from side menu</em></p>
+
+<p><img src="assets/filter_click_link.gif" alt="" />
+<em>Filtering by selecting taglink</em></p>
+
+<p>The <a href="09">next entry</a> reflects on the representation of linked documents in Lateral View.</p>
+:ET

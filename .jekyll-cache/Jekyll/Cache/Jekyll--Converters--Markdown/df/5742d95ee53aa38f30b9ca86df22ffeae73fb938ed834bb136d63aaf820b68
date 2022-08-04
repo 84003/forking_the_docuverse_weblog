@@ -1,0 +1,64 @@
+I"@
+<p>Alterations and additions:</p>
+<ul>
+  <li>Lateral Mode renamed Lateral View</li>
+  <li>Redesign of Lateral View
+    <ul>
+      <li>The preview icons (seen in a <a href="08">previous entry</a>) are now aliases positioned on the sides of the open document.</li>
+      <li>Only one document can be open, positioned in the middle.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>In this entry, one document is the main document, and its linked documents are represented as aliases.</p>
+
+<h2 id="opening-documents">Opening Documents</h2>
+
+<p><strong>Inventory View</strong></p>
+
+<p>The image below shows how to open a document in Inventory View to enter Lateral View.</p>
+
+<p><img src="assets/inventory_to_lateral.png" alt="" /></p>
+
+<p><strong>Lateral View</strong></p>
+
+<p>While in Lateral View, it is possible to open the linked documents. Note that each linked content item can be of the same document, in which case there are multiple aliases of the same document (in the example below, document 1).</p>
+
+<p><img src="assets/lateral_view_opening_documents.png" alt="" /></p>
+
+<h2 id="aliases">Aliases</h2>
+
+<p>The aliases show the particular linked content item (i.e., inactive) on the side of the open document. In the example below, there are two taglinks and one transclusion.</p>
+
+<p><img src="assets/lateral_mode_01.png" alt="" /></p>
+
+<p>Upon hovering on a link, the alias comes into view (i.e., active) together with the #Label of the taglink.</p>
+
+<p><img src="assets/lateral_mode_02.png" alt="" /></p>
+
+<h2 id="interactive-prototype">Interactive Prototype</h2>
+
+<p>The interactive prototypes below explore how to indicate active and inactive states and how to animate multiple aliases of the same document.</p>
+
+<h3 id="activeinactive-aliases">Active/Inactive Aliases</h3>
+
+<p>Two versions of aliases are shown below.</p>
+
+<p><strong>Color Code Version</strong></p>
+
+<p><img src="assets/test_03_color.gif" alt="" /></p>
+
+<p><strong>Opacity Version</strong></p>
+
+<p><img src="assets/test_03_opacity.gif" alt="" /></p>
+
+<h3 id="animating-multiple-aliases-of-the-same-document">Animating Multiple Aliases of the Same Document</h3>
+
+<p>If the open document has several links to the same document, then that document has multiple aliases. In the first image below, multiple aliases appear before a document is open, and in the second image, aliases appear after the middle document is open.</p>
+
+<p><img src="assets/test_03_split_before.gif" alt="" /></p>
+
+<p><img src="assets/test_03_split_after.gif" alt="" /></p>
+
+<p>In the <a href="11">next entry</a> the view modes (and the visual form of the links) are further developed.</p>
+:ET

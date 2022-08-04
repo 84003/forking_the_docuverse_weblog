@@ -4,7 +4,7 @@
  <title>Forking the Docuverse Weblog</title>
  <link href="/forking_the_docuverse_weblog/atom.xml" rel="self"/>
  <link href="/forking_the_docuverse_weblog/"/>
- <updated>2022-08-01T20:30:27+02:00</updated>
+ <updated>2022-08-04T11:21:11+02:00</updated>
  <id></id>
  <author>
    <name></name>
@@ -160,7 +160,7 @@
 
 &lt;p&gt;Once a document is made public, it should be possible to configure the edit settings. For example, granting &lt;em&gt;full edit mode&lt;/em&gt; would allow people to edit the contents and links. Granting &lt;em&gt;limited edit mode&lt;/em&gt; would allow people to only create links to that document. In both cases, granting open access or access to a select number of people should be possible.&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href=&quot;21&quot;&gt;next entry&lt;/a&gt; is the conclusion of this research project.&lt;/p&gt;
+&lt;p&gt;This research project is concluded in the &lt;a href=&quot;21&quot;&gt;next entry&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -460,7 +460,7 @@
 &lt;p&gt;&lt;img src=&quot;assets/nexae_closed_system.png&quot; alt=&quot;&quot; /&gt;
 &lt;em&gt;Model of internal links (that can be private or public) in Nexae&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;In the &lt;a href=&quot;20&quot;&gt;next entry&lt;/a&gt;, further developments are proposed.&lt;/p&gt;
+&lt;p&gt;Further developments are proposed in the &lt;a href=&quot;20&quot;&gt;next entry&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
@@ -490,6 +490,8 @@
 &lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
 
 &lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-06--hDt0qsaq8QlB3oLigjRr/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The &lt;a href=&quot;19&quot;&gt;next entry&lt;/a&gt; reflects on the process and result of this research project.&lt;/p&gt;
 
 &lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
@@ -547,6 +549,8 @@
 
 &lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-06--hiw1G3EWg9PAMWVgCcWf/F_MbbVHe7?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
+&lt;p&gt;The &lt;a href=&quot;18&quot;&gt;next entry&lt;/a&gt; explores the utilization of metadata to filter documents and links.&lt;/p&gt;
+
 &lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
 &lt;h3 id=&quot;visual-distinction-of-links&quot;&gt;Visual Distinction of Links&lt;/h3&gt;
@@ -603,14 +607,14 @@ In the image below, in addition to the left-bracket link, the title, the link, t
    <id>/16</id>
    <content type="html">&lt;p&gt;Alterations and additions:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Added a location frame, showing Inventory View while in Lateral View.&lt;/li&gt;
-  &lt;li&gt;Minimize icon is replaced by a node-link icon, triggering the movement from Lateral View to Inventory View.&lt;/li&gt;
+  &lt;li&gt;Added a location frame, showing Zoomed-Out View while in Zoomed-In View.&lt;/li&gt;
+  &lt;li&gt;Minimize icon is replaced by a node-link icon, triggering the movement from Zoomed-In View to Zoomed-Out View.&lt;/li&gt;
   &lt;li&gt;Aliases no longer have expand icons but use brightness to indicate that it can be triggered to open the linked document.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;switching-view-modes&quot;&gt;Switching View Modes&lt;/h2&gt;
 
-&lt;p&gt;The expand icon is replaced with a node-link icon, which triggers the movement from Lateral View to Inventory View.&lt;/p&gt;
+&lt;p&gt;The expand icon is replaced with a node-link icon, which triggers the movement from Zoomed-In View to Zoomed-Out View.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/round_5_expand_icon 1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -618,7 +622,7 @@ In the image below, in addition to the left-bracket link, the title, the link, t
 
 &lt;p&gt;&lt;img src=&quot;assets/round_05_icon.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;traversing-documents-in-lateral-view-using-the-location-frame&quot;&gt;Traversing Documents in Lateral View Using the Location Frame&lt;/h2&gt;
+&lt;h2 id=&quot;traversing-documents-in-zoomed-in-view-using-the-location-frame&quot;&gt;Traversing Documents in Zoomed-In View Using the Location Frame&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/test_5_jump_transition_3.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -637,7 +641,7 @@ In the image below, in addition to the left-bracket link, the title, the link, t
 &lt;h2 id=&quot;improvements-due&quot;&gt;Improvements Due&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;In Lateral View:
+  &lt;li&gt;In Zoomed-In View:
     &lt;ul&gt;
       &lt;li&gt;Hovering a preview should bring that preview to the front.&lt;/li&gt;
       &lt;li&gt;Hovering linked text (or preview) should result in active-color linked text.&lt;/li&gt;
@@ -646,6 +650,8 @@ In the image below, in addition to the left-bracket link, the title, the link, t
   &lt;/li&gt;
   &lt;li&gt;Filter menu&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;The &lt;a href=&quot;17&quot;&gt;next entry&lt;/a&gt; further explores the design of the view modes and links.&lt;/p&gt;
 
 &lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
@@ -707,6 +713,8 @@ In the image below, in addition to the left-bracket link, the title, the link, t
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;The &lt;a href=&quot;16&quot;&gt;next entry&lt;/a&gt; explores the implementation of these alterations in the concept design.&lt;/p&gt;
 </content>
  </entry>
  
@@ -721,7 +729,7 @@ In the image below, in addition to the left-bracket link, the title, the link, t
   &lt;li&gt;Title underline is chosen over border color.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;This entry is a continuation of &lt;a href=&quot;11&quot;&gt;entry 11&lt;/a&gt;, showcasing an interactive prototype allowing traversing documents in Inventory View and Lateral View.&lt;/p&gt;
+&lt;p&gt;This entry is a continuation of &lt;a href=&quot;11&quot;&gt;entry 11&lt;/a&gt;, showcasing an interactive prototype allowing traversing documents in Zoomed-Out View and Zoomed-In View.&lt;/p&gt;
 
 &lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
 
@@ -733,7 +741,7 @@ In the image below, in addition to the left-bracket link, the title, the link, t
   &lt;li&gt;The title underline is deemed too subtle to indicate multiple aliases of the same document.
     &lt;ul&gt;
       &lt;li&gt;Color-coded borders might be better suited.&lt;sup id=&quot;fnref:color_code_problem&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:color_code_problem&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-      &lt;li&gt;The color-coded borders should also appear upon hovering a document in Inventory View for coherency.&lt;/li&gt;
+      &lt;li&gt;The color-coded borders should also appear upon hovering a document in Zoomed-Out View for coherency.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -742,11 +750,13 @@ In the image below, in addition to the left-bracket link, the title, the link, t
 
 &lt;ul&gt;
   &lt;li&gt;Apply color-coded borders.&lt;/li&gt;
-  &lt;li&gt;While in Lateral View, create a frame showing an overview of the current location in Inventory View.&lt;/li&gt;
+  &lt;li&gt;While in Zoomed-In View, create a frame showing an overview of the current location in Zoomed-Out View to facilitate orientation.&lt;/li&gt;
   &lt;li&gt;Apply &lt;em&gt;seqlinks&lt;/em&gt; at the top and bottom of open documents.&lt;/li&gt;
   &lt;li&gt;Visually distinguish link direction.&lt;/li&gt;
   &lt;li&gt;Improve visualization of link endpoints.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;The &lt;a href=&quot;15&quot;&gt;next entry&lt;/a&gt; involves redesigning the visual distinction of links — the link type, direction, and endpoint.&lt;/p&gt;
 
 &lt;h2 id=&quot;endnotes&quot;&gt;Endnotes&lt;/h2&gt;
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
@@ -776,7 +786,7 @@ In the image below, in addition to the left-bracket link, the title, the link, t
 
 &lt;p&gt;The digital document system should allow arranging not only content items but also documents in sequential order, with the possibility of showing and hiding sequences. To that end, a third link type called &lt;em&gt;seqlinks&lt;/em&gt; will be developed.&lt;sup id=&quot;fnref:seqlink&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:seqlink&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href=&quot;14&quot;&gt;next entry&lt;/a&gt; further explores traversing documents in Inventory View and Lateral View.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;14&quot;&gt;next entry&lt;/a&gt; further explores traversing documents in Zoomed-Out View and Zoomed-In View.&lt;/p&gt;
 
 &lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
 
@@ -801,7 +811,7 @@ In the image below, in addition to the left-bracket link, the title, the link, t
    <link href="/forking_the_docuverse_weblog/12"/>
    <updated>2021-12-12T00:00:00+01:00</updated>
    <id>/12</id>
-   <content type="html">&lt;p&gt;In designing Lateral View, one of the challenges is indicating that there are multiple aliases of the same document. Below are variations of applying a color code.&lt;/p&gt;
+   <content type="html">&lt;p&gt;In designing Zoomed-In View, one of the challenges is indicating that there are multiple aliases of the same document. Below are variations of applying a color code.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Verison 1&lt;/strong&gt;&lt;/p&gt;
 
@@ -826,6 +836,8 @@ In the image below, in addition to the left-bracket link, the title, the link, t
 &lt;h2 id=&quot;interactive-prototype&quot;&gt;Interactive Prototype&lt;/h2&gt;
 
 &lt;iframe style=&quot;border: 2px solid rgba(0, 0, 0, 0.1)&quot; width=&quot;640&quot; height=&quot;480&quot; src=&quot;https://framer.com/embed/Round-04--dHgNWv9LinqxHeYEk1er/wPcAT4up3?highlights=0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The &lt;a href=&quot;13&quot;&gt;next entry&lt;/a&gt; reflects on the potential of the link types developed so far.&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:version_1&quot; role=&quot;doc-endnote&quot;&gt;
@@ -841,7 +853,14 @@ In the image below, in addition to the left-bracket link, the title, the link, t
    <link href="/forking_the_docuverse_weblog/11"/>
    <updated>2021-12-08T00:00:00+01:00</updated>
    <id>/11</id>
-   <content type="html">&lt;p&gt;In this entry, Lateral View is redesigned. The main challenges involve color coding and how cursor events change the display states of different categories of information. Those different categories of information are:&lt;/p&gt;
+   <content type="html">&lt;p&gt;In this entry, the view modes are renamed and redesigned.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lateral View is renamed Zoomed-In View&lt;/li&gt;
+  &lt;li&gt;Inventory View is renamed Zoomed-Out View&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The main challenges in redesigning Zoomed-In View involve color coding and how cursor events change the display states of different categories of information. Those different categories of information are:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Link endpoints: whether a link points to an entire document or a content item within a document.&lt;/li&gt;
@@ -886,6 +905,8 @@ In the image below, in addition to the left-bracket link, the title, the link, t
 &lt;p&gt;&lt;img src=&quot;assets/label_position_03.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the image above, &lt;strong&gt;while not hovering&lt;/strong&gt; shows whether the link points to a particular content item within a document or the entire document, and &lt;strong&gt;while hovering&lt;/strong&gt; hides the previous information and shows the label combined with the link direction.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;12&quot;&gt;next entry&lt;/a&gt;, the design of Zoomed-In View is explored further.&lt;/p&gt;
 
 &lt;h2 id=&quot;discarded-attempts&quot;&gt;Discarded Attempts&lt;/h2&gt;
 
@@ -964,6 +985,8 @@ In the image below, in addition to the left-bracket link, the title, the link, t
 &lt;p&gt;&lt;img src=&quot;assets/test_03_split_before.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/test_03_split_after.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the &lt;a href=&quot;11&quot;&gt;next entry&lt;/a&gt; the view modes (and the visual form of the links) are further developed.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1106,6 +1129,8 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;p&gt;&lt;img src=&quot;assets/filter_click_link.gif&quot; alt=&quot;&quot; /&gt;
 &lt;em&gt;Filtering by selecting taglink&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;09&quot;&gt;next entry&lt;/a&gt; reflects on the representation of linked documents in Lateral View.&lt;/p&gt;
 </content>
  </entry>
  
@@ -1247,7 +1272,7 @@ An improvement would be landing at the particular linked part of a document:
 
 &lt;p&gt;&lt;img src=&quot;assets/link_types_03.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The link types and the view modes from &lt;a href=&quot;04&quot;&gt;entry 04&lt;/a&gt; are explored in a prototype in the &lt;a href=&quot;07&quot;&gt;next entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The link types and the view modes developed so far are explored in a prototype in the &lt;a href=&quot;07&quot;&gt;next entry&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;sources&quot;&gt;Sources&lt;/h2&gt;
 
@@ -1403,6 +1428,8 @@ An improvement would be landing at the particular linked part of a document:
 &lt;p&gt;The image below shows the option for merging the content items sequentially. If another layer were included, the order would depend on the arrangement of layers in Stack View.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;assets/BP_Z2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;05&quot;&gt;next entry&lt;/a&gt; reflects on the design presented in this entry.&lt;/p&gt;
 </content>
  </entry>
  
